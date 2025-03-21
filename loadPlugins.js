@@ -55,4 +55,4 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
 	download: pluginDownload,
 	website: website
 	}}).filter(i => i.authors && !i.id.startsWith("convertto") && i.id != "testplugin")
-await Deno.writeFile("plugins.json", JSON.stringify(data));
+await Deno.writeFile("plugins.json", JSON.stringify(plgs));
