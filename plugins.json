@@ -66,7 +66,7 @@
     "language": [
       "English"
     ],
-    "description": "DataBaseReorder\n\nThis plugin adds a command to reorder all groups alphabetically.\n\nDownload plugin:",
+    "description": "DataBaseReorder\n\nThis plugin adds a command to reorder all groups alphabetically.\n",
     "note": "Note:\nKeePass 2.15 and higher has group reordering commands built-in.\n",
     "similar": [],
     "group": "Utilities",
@@ -83,7 +83,7 @@
     "language": [
       "English"
     ],
-    "description": "DataBaseBackup\n\nCreates backups of modified databases.\n\nDownload plugin:",
+    "description": "DataBaseBackup\n\nCreates backups of modified databases.\n",
     "note": "Note:\nDataBaseBackup does not use KeePass' I/O infrastructure,\ntherefore the plugin is incompatible with most other plugins that\nare providing support for more protocols (like IOProtocolExt).\n",
     "similar": [
       "kpsimplebackup",
@@ -103,7 +103,7 @@
     "language": [
       "English"
     ],
-    "description": "KPSimpleBackup\n\nThis plugin saves a backup of your database to a backup location and\n\nkeeps a specific amount of the newest backups (that you can define)\n\nevery time you save your database or trigger the backup manually.",
+    "description": "KPSimpleBackup\n\nThis plugin saves a backup of your database to a backup location and\nkeeps a specific amount of the newest backups (that you can define)\nevery time you save your database or trigger the backup manually.",
     "similar": [
       "databasebackup",
       "simpledbbackup"
@@ -121,7 +121,7 @@
     "language": [
       "English"
     ],
-    "description": "SimpleDatabaseBackup\n\nThis plugin creates a backup every time a database is saved.\n\nThe backups are placed in the database folders.",
+    "description": "SimpleDatabaseBackup\n\nThis plugin creates a backup every time a database is saved.\nThe backups are placed in the database folders.",
     "similar": [
       "databasebackup",
       "kpsimplebackup"
@@ -154,7 +154,7 @@
     "language": [
       "English"
     ],
-    "description": "CodeWallet 3 Import\n\nThis plugin can import TXT files that were exported by CodeWallet 3.\n\nNote that this importer is specifically for CodeWallet 3 files.\n\nKeePass 2.x already includes an importer for CodeWallet 6 files.\n\nDownload plugin:",
+    "description": "CodeWallet 3 Import\n\nThis plugin can import TXT files that were exported by CodeWallet 3.\n\nNote that this importer is specifically for CodeWallet 3 files.\nKeePass 2.x already includes an importer for CodeWallet 6 files.\n",
     "similar": [],
     "group": "Import",
     "sourceCode": "extensions/v2/cw3import/CodeWallet3ImportPlugin-2.09-Src.zip",
@@ -171,7 +171,7 @@
     "language": [
       "German"
     ],
-    "description": "CodeWallet 6 Konverter\n\nThis tool converts a CodeWallet 6 TXT file to a CSV file that can\n\nbe imported into KeePass using the\n\nGeneric CSV Importer.\n\nDownload plugin:",
+    "description": "CodeWallet 6 Konverter\n\nThis tool converts a CodeWallet 6 TXT file to a CSV file that can\nbe imported into KeePass using the\nGeneric CSV Importer.\n",
     "note": "Note:\nKeePass 2.x has a built-in importer for CodeWallet 6 files.\nHowever, the Konverter additionally supports groups and field associations.\n",
     "similar": [],
     "group": "Import",
@@ -188,7 +188,7 @@
     "language": [
       "English"
     ],
-    "description": "eWallet Data Liberator\n\nExport data from eWallet to an XML file, which can then be imported into\n\nKeePass. Please read the Readme.txt file included in the download for\n\ninstructions how to install the exporter and the KeePass plugin that\n\ncan import the exported XML file.\n\nDownload plugin (including source code):",
+    "description": "eWallet Data Liberator\n\nExport data from eWallet to an XML file, which can then be imported into\nKeePass. Please read the Readme.txt file included in the download for\ninstructions how to install the exporter and the KeePass plugin that\ncan import the exported XML file.\n",
     "similar": [],
     "group": "Import",
     "download": "extensions/v2/ewalletdatalib/eWalletDataLiberator-0.15.zip"
@@ -218,7 +218,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeAnywhere\n\nKeeAnywhere is a KeePass plugin that provides access to cloud storage providers\n\n(cloud drives) like Amazon AWS S3, Box, Dropbox, Google Drive,\n\nHiDrive, hubiC or OneDrive.\n\nThe main goal is to offer a simple UI while integrating deeply into KeePass.\n\nThis covers all kind of users: novices, experienced and power users.",
+    "description": "KeeAnywhere\n\nKeeAnywhere is a KeePass plugin that provides access to cloud storage providers\n(cloud drives) like Amazon AWS S3, Box, Dropbox, Google Drive,\nHiDrive, hubiC or OneDrive.\nThe main goal is to offer a simple UI while integrating deeply into KeePass.\nThis covers all kind of users: novices, experienced and power users.",
     "note": "Note:\nKeePass 2.x already has built-in support for local files and files accessible\nvia standard protocols (FTP, HTTP, HTTPS, WebDAV, ...), see the help pages\n'Loading/Saving From/To URL' and\n'Synchronization' for details.\nThe KeeAnywhere plugin is only required when using online storage providers\nthat are not accessible via standard protocols.\n",
     "similar": [],
     "group": "I/O & Synchronization",
@@ -234,7 +234,7 @@
     "language": [
       "English"
     ],
-    "description": "ProtonDriveSync\n\nThis plugin adds support for directly accessing database files\n\nstored on ProtonDrive.",
+    "description": "ProtonDriveSync\n\nThis plugin adds support for directly accessing database files\nstored on ProtonDrive.",
     "similar": [],
     "group": "I/O & Synchronization",
     "website": "https://github.com/dhaven/ProtonDriveSync"
@@ -249,7 +249,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassSync\n\nKeePassSync is a KeePass plugin that synchronizes your database using\n\nFTP/SFTP or various S3-compatible online storage providers (including\n\nAmazon S3, Backblaze B2, Cloudflare R2, Google Cloud Services, Alibaba Cloud,\n\nDigital Ocean, Synology, Rclone, and more).\n\nThis allows two or more computers to easily keep their data in sync.",
+    "description": "KeePassSync\n\nKeePassSync is a KeePass plugin that synchronizes your database using\nFTP/SFTP or various S3-compatible online storage providers (including\nAmazon S3, Backblaze B2, Cloudflare R2, Google Cloud Services, Alibaba Cloud,\nDigital Ocean, Synology, Rclone, and more).\nThis allows two or more computers to easily keep their data in sync.",
     "note": "Note:\nKeePass 2.x already has built-in support for local files and files accessible\nvia standard protocols (FTP, HTTP, HTTPS, WebDAV, ...), see the help pages\n'Loading/Saving From/To URL' and\n'Synchronization' for details.\nThe KeePassSync plugin is only required when using online storage providers\nthat are not accessible via standard protocols.\n",
     "similar": [],
     "group": "I/O & Synchronization",
@@ -265,7 +265,7 @@
     "language": [
       "English"
     ],
-    "description": "KPGoogleSync\n\nSynchronize KeePass database with Google Drive using Google API.\n\nFeatures include: manual sync from 'Tools' menu,\n\nenable/disable sync on save,\n\nonly sync if local database is newer than remote database in Google Drive.",
+    "description": "KPGoogleSync\n\nSynchronize KeePass database with Google Drive using Google API.\n\nFeatures include: manual sync from 'Tools' menu,\nenable/disable sync on save,\nonly sync if local database is newer than remote database in Google Drive.",
     "similar": [],
     "group": "I/O & Synchronization",
     "website": "https://sourceforge.net/projects/kp-googlesync/"
@@ -280,7 +280,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassOneDriveSync\n\nThis plugin allows synchronizing multiple local databases with\n\nmultiple databases stored in OneDrive.",
+    "description": "KeePassOneDriveSync\n\nThis plugin allows synchronizing multiple local databases with\nmultiple databases stored in OneDrive.",
     "similar": [],
     "group": "I/O & Synchronization",
     "website": "https://github.com/KoenZomers/KeePassOneDriveSync"
@@ -295,7 +295,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassMasterSlaveSync\n\nThis plugin allows synchronizing specific entries only.\n\nThe entries to be synchronized can be defined by parent group names\n\nand/or by tags.",
+    "description": "KeePassMasterSlaveSync\n\nThis plugin allows synchronizing specific entries only.\nThe entries to be synchronized can be defined by parent group names\nand/or by tags.",
     "similar": [],
     "group": "I/O & Synchronization",
     "website": "https://github.com/Angelelz/KeePassMasterSlaveSync"
@@ -311,7 +311,7 @@
       "English",
       "German"
     ],
-    "description": "DoubleClueKeePassPlugin\n\nThis plugin stores and retrieves KeePass database files in/from\n\nDoubleClue CloudSafe, a cloud protecting data with multi-factor\n\nauthentication (MFA).",
+    "description": "DoubleClueKeePassPlugin\n\nThis plugin stores and retrieves KeePass database files in/from\nDoubleClue CloudSafe, a cloud protecting data with multi-factor\nauthentication (MFA).",
     "similar": [],
     "group": "I/O & Synchronization",
     "download": "https://doubleclue.com/files/DoubleClueKeePassPlugin.zip",
@@ -327,7 +327,7 @@
     "language": [
       "English"
     ],
-    "description": "KPScript\n\nThis utility allows scripting KeePass. For details, see the\n\nKeePass Scripting Documentation.\n\nDownload plugin:",
+    "description": "KPScript\n\nThis utility allows scripting KeePass. For details, see the\nKeePass Scripting Documentation.\n",
     "similar": [],
     "group": "Automation & Scripting",
     "sourceCode": "extensions/v2/kpscript/KPScript-2.58-Source.zip",
@@ -343,7 +343,7 @@
     "language": [
       "English"
     ],
-    "description": "On-Screen Keyboard 2\n\nWhen opening a database, this plugin automatically shows an on-screen keyboard\n\nfor entering the master password.\n\nThis plugin runs on Windows 2000 and higher. Unix-like systems are not\n\nsupported.\n\nDownload plugin:",
+    "description": "On-Screen Keyboard 2\n\nWhen opening a database, this plugin automatically shows an on-screen keyboard\nfor entering the master password.\n\nThis plugin runs on Windows 2000 and higher. Unix-like systems are not\nsupported.\n",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "extensions/v2/osk/OnScreenKeyboard2-1.3-Source.zip",
@@ -359,7 +359,7 @@
     "language": [
       "English"
     ],
-    "description": "PasscommImport\n\nThis plugin imports Password Commander CSV files.\n\nThe .NET Framework 3.5 is required.",
+    "description": "PasscommImport\n\nThis plugin imports Password Commander CSV files.\nThe .NET Framework 3.5 is required.",
     "similar": [],
     "group": "Import",
     "website": "https://github.com/CEPOCTb/passcmdimport"
@@ -404,7 +404,7 @@
     "language": [
       "English"
     ],
-    "description": "SpmImport\n\nThis plugin adds an import module for files created by\n\nSteganos Password Manager 16.\n\nDownload plugin:",
+    "description": "SpmImport\n\nThis plugin adds an import module for files created by\nSteganos Password Manager 16.\n",
     "note": "Note:\nThe SpmImport plugin is discontinued.\nKeePass has a built-in import module for Steganos Password Manager CSV files\n(exported by version 20.0.7 or higher), i.e. no plugin is required.\n",
     "similar": [],
     "group": "Import",
@@ -452,7 +452,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeUIExt\n\nThis plugin provides various user interface options:\n\nGeneral:\n\nWhen pressing Ctrl+Backspace,\n\ndelete the word to the left of the cursor.\n\nMain Window:\n\nForget last used database if it does not exist anymore.\n\nShow confirmation dialog when closing a database.\n\nMain Group Tree:\n\nCollapse all groups when opening a database.\n\nShow 'Duplicate Group' command in the group context menu.\n\nMain Entry List:\n\nFocus entry list when opening a database.\n\nDraw grid lines.\n\nShow 'Duplicate Entry' command in the entry context menu.\n\nShow 'Print Entry' command in the entry context menu.\n\nAdvanced:\n\nCustom user interface font.\n\nNote: if you want to change the font size, see the FAQ item\n\n'How to change\n\nthe GUI font (size)?'. Changing the font size using the KeeUIExt plugin\n\nmay result in layout issues.\n\nDownload plugin:",
+    "description": "KeeUIExt\n\nThis plugin provides various user interface options:\n\nGeneral:\n\nWhen pressing Ctrl+Backspace,\ndelete the word to the left of the cursor.\n\nMain Window:\n\nForget last used database if it does not exist anymore.\nShow confirmation dialog when closing a database.\n\nMain Group Tree:\n\nCollapse all groups when opening a database.\nShow 'Duplicate Group' command in the group context menu.\n\nMain Entry List:\n\nFocus entry list when opening a database.\nDraw grid lines.\nShow 'Duplicate Entry' command in the entry context menu.\nShow 'Print Entry' command in the entry context menu.\n\nAdvanced:\n\nCustom user interface font.\nNote: if you want to change the font size, see the FAQ item\n'How to change\nthe GUI font (size)?'. Changing the font size using the KeeUIExt plugin\nmay result in layout issues.\n",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "extensions/v2/keeuiext/KeeUIExt-1.4-Source.zip",
@@ -498,7 +498,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeForm - Form Filler Utilities\n\nKeeForm is designed to open and scan a web site for input fields and\n\nfill them accordingly with a user name and password. Please note,\n\nthis is done without any \"auto-typing\", therefore it is very\n\nsafe to use: you don't need to be worried that your data could be\n\naccidentally typed into a different window. KeeForm comes with an\n\neasy-to-use installer.\n\nKeeForm works with Mozilla Firefox, Google Chrome and Microsoft Edge.",
+    "description": "KeeForm - Form Filler Utilities\n\nKeeForm is designed to open and scan a web site for input fields and\nfill them accordingly with a user name and password. Please note,\nthis is done without any \"auto-typing\", therefore it is very\nsafe to use: you don't need to be worried that your data could be\naccidentally typed into a different window. KeeForm comes with an\neasy-to-use installer.\n\nKeeForm works with Mozilla Firefox, Google Chrome and Microsoft Edge.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://keeform.org/"
@@ -513,7 +513,7 @@
     "language": [
       "English"
     ],
-    "description": "Kee\n\nKee adds free, secure and easy to use password management features to\n\nyour web browser which save you time and keep your private data more secure.\n\nKee connects your web browser to KeePass. It requires\n\nKeePassRPC.",
+    "description": "Kee\n\nKee adds free, secure and easy to use password management features to\nyour web browser which save you time and keep your private data more secure.\n\nKee connects your web browser to KeePass. It requires\nKeePassRPC.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://www.kee.pm/"
@@ -543,7 +543,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePasser\n\nThis extension allows to execute auto-type based on the current web\n\nbrowser URL instead of the window title.\n\nFor Internet Explorer:",
+    "description": "KeePasser\n\nThis extension allows to execute auto-type based on the current web\nbrowser URL instead of the window title.\n",
     "similar": [],
     "group": "Auto-Type",
     "download": "extensions/base/keepasser/KeePasserIE_070402.zip"
@@ -573,7 +573,7 @@
     "language": [
       "English"
     ],
-    "description": "WebAutoType\n\nThis plugin allows to execute auto-type based on the current web\n\nbrowser URL instead of the window title.\n\nVarious browsers are supported (Internet Explorer, Firefox, Opera,\n\nChrome, ...).\n\nLatest version:",
+    "description": "WebAutoType\n\nThis plugin allows to execute auto-type based on the current web\nbrowser URL instead of the window title.\n\nVarious browsers are supported (Internet Explorer, Firefox, Opera,\nChrome, ...).\n",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://sourceforge.net/projects/webautotype/"
@@ -589,7 +589,7 @@
     "language": [
       "English"
     ],
-    "description": "KPFloatingPanel\n\nThis KeePass plugin shows an always on top KeePass floating panel.\n\nIt allows you to use your passwords (auto-type, copy to clipboard) without\n\nopening the KeePass window.",
+    "description": "KPFloatingPanel\n\nThis KeePass plugin shows an always on top KeePass floating panel.\nIt allows you to use your passwords (auto-type, copy to clipboard) without\nopening the KeePass window.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/mitchcapper/KPFloatingPanel"
@@ -604,7 +604,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassHelper\n\nThis browser extension retrieves credentials from KeePass.\n\nIt requires KeePassHttp.",
+    "description": "KeePassHelper\n\nThis browser extension retrieves credentials from KeePass.\nIt requires KeePassHttp.",
     "similar": [],
     "group": "Integration & Transfer"
   },
@@ -618,7 +618,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassFirefoxImporter\n\nAllows passwords from Firefox to be imported into KeePass.\n\nFor KeePass 1.x, a stand-alone converter is available. For KeePass 2.x, there is\n\na plugin that integrates the import functionality directly into KeePass.",
+    "description": "KeePassFirefoxImporter\n\nAllows passwords from Firefox to be imported into KeePass.\n\nFor KeePass 1.x, a stand-alone converter is available. For KeePass 2.x, there is\na plugin that integrates the import functionality directly into KeePass.",
     "similar": [],
     "group": "Import",
     "website": "https://websiteadvantage.com.au/Firefox-KeePass-Password-Import"
@@ -693,7 +693,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePass to Keyring\n\nKeyring is a password manager for Palm OS. For both KeePass 1.x and 2.x,\n\nthere are applications/extensions to export KeePass data to Keyring\n\nfiles (which can then be used on Palm OS using Keyring).\n\nKeePassToKeyring ",
+    "description": "KeePass to Keyring\n\nKeyring is a password manager for Palm OS. For both KeePass 1.x and 2.x,\nthere are applications/extensions to export KeePass data to Keyring\nfiles (which can then be used on Palm OS using Keyring).\n\nKeePassToKeyring ",
     "similar": [],
     "group": "Export",
     "website": null
@@ -724,7 +724,7 @@
     "language": [
       "English"
     ],
-    "description": "PartialKeePassDatabaseExport\n\nExport tagged entries to a new database. The new database can use\n\na different master password.",
+    "description": "PartialKeePassDatabaseExport\n\nExport tagged entries to a new database. The new database can use\na different master password.",
     "similar": [
       "subsetexp"
     ],
@@ -741,7 +741,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassSubsetExport\n\nExport tagged entries to a new database. The new database can use\n\na different master password.\n\nThe group structure is copied to the new database,\n\nmultiple export jobs are supported, and\n\nprotection of the new database using a key file is supported.",
+    "description": "KeePassSubsetExport\n\nExport tagged entries to a new database. The new database can use\na different master password.\n\nThe group structure is copied to the new database,\nmultiple export jobs are supported, and\nprotection of the new database using a key file is supported.",
     "similar": [
       "partexp"
     ],
@@ -758,7 +758,7 @@
     "language": [
       "English"
     ],
-    "description": "Password Counter\n\nThis plugin provides a button in the entry dialog with the number of entries\n\nthat use the password of the open entry, too.\n\nIt is possible to get the complete list of entries that use the reference\n\npassword (by clicking the button and choosing the menu item for this).",
+    "description": "Password Counter\n\nThis plugin provides a button in the entry dialog with the number of entries\nthat use the password of the open entry, too.\nIt is possible to get the complete list of entries that use the reference\npassword (by clicking the button and choosing the menu item for this).",
     "similar": [],
     "group": "Utilities",
     "website": "https://sourceforge.net/projects/keepasspasswordcounter/"
@@ -773,7 +773,7 @@
     "language": [
       "English"
     ],
-    "description": "Passphrase Generators\n\nThe following plugins add password generator algorithms that\n\ncreate passphrases.\n\nReadable Passphrase Generator\n\nThe Readable Passphrase Generator plugin generates passphrases, which are (mostly)\n\ngrammatically correct, but nonsensical. These are easy to remember (for humans),\n\nbut difficult to guess (for humans and computers).",
+    "description": "Passphrase Generators\n\nThe following plugins add password generator algorithms that\ncreate passphrases.\n\nReadable Passphrase Generator\n\nThe Readable Passphrase Generator plugin generates passphrases, which are (mostly)\ngrammatically correct, but nonsensical. These are easy to remember (for humans),\nbut difficult to guess (for humans and computers).",
     "similar": [],
     "group": "Utilities",
     "website": null
@@ -788,7 +788,7 @@
     "language": [
       "English"
     ],
-    "description": "PasswordChangeReminder\n\nThis plugin periodically reminds you to change the password of\n\ncertain entries after specific time spans.",
+    "description": "PasswordChangeReminder\n\nThis plugin periodically reminds you to change the password of\ncertain entries after specific time spans.",
     "similar": [
       "pedcalc"
     ],
@@ -805,7 +805,7 @@
     "language": [
       "English"
     ],
-    "description": "PatternPass\n\nThis plugin allows to store and view pattern-based passwords\n\n(like the Android lock-screen).",
+    "description": "PatternPass\n\nThis plugin allows to store and view pattern-based passwords\n(like the Android lock-screen).",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/zedseven/PatternPass"
@@ -820,7 +820,7 @@
     "language": [
       "English"
     ],
-    "description": "PEDCalc\n\nThis plugin allows to define a default lifetime for passwords,\n\nwhich will be used to calculate the next expiry date of an entry everytime\n\nyou change its password.\n\nThe default lifetime can be defined on both group level and entry level.",
+    "description": "PEDCalc\n\nThis plugin allows to define a default lifetime for passwords,\nwhich will be used to calculate the next expiry date of an entry everytime\nyou change its password.\nThe default lifetime can be defined on both group level and entry level.",
     "similar": [
       "pwchrem"
     ],
@@ -837,7 +837,7 @@
     "language": [
       "English"
     ],
-    "description": "PickCharsDeferred\n\nThis plugin changes the behavior of the\n\n{PICKCHARS}\n\nplaceholder. Instead of asking for characters at the very beginning of\n\nauto-type, it will postpone it to the place where it occurs in the\n\nauto-type sequence.\n\nThis is useful when a login screen consists of two parts and it is\n\nnot known in advance what characters will be needed.",
+    "description": "PickCharsDeferred\n\nThis plugin changes the behavior of the\n{PICKCHARS}\nplaceholder. Instead of asking for characters at the very beginning of\nauto-type, it will postpone it to the place where it occurs in the\nauto-type sequence.\nThis is useful when a login screen consists of two parts and it is\nnot known in advance what characters will be needed.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://github.com/xatupal/PickCharsDeferred"
@@ -852,7 +852,7 @@
     "language": [
       "English"
     ],
-    "description": "Pronounceable Password Generator\n\nThis plugin adds a custom password generation algorithm, which\n\ngenerates pronounceable passwords.",
+    "description": "Pronounceable Password Generator\n\nThis plugin adds a custom password generation algorithm, which\ngenerates pronounceable passwords.",
     "similar": [],
     "group": "Utilities",
     "website": "https://sourceforge.net/projects/pronouncepwgen/"
@@ -882,7 +882,7 @@
     "language": [
       "English"
     ],
-    "description": "QuickConnectPlugin\n\nQuickConnectPlugin allows you to connect to Windows/Linux/ESXi hosts\n\n(via Remote Desktop, vSphere Client, PuTTY, ...).",
+    "description": "QuickConnectPlugin\n\nQuickConnectPlugin allows you to connect to Windows/Linux/ESXi hosts\n(via Remote Desktop, vSphere Client, PuTTY, ...).",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/cristianst85/QuickConnectPlugin"
@@ -900,7 +900,7 @@
     "language": [
       "English"
     ],
-    "description": "QuickSearch\n\nQuickSearch is a plugin providing enhanced search capabilities.\n\nIt can be used as a replacement for the built-in QuickFind toolbar control.\n\nFeatures include:\n\nSearch as you type aka instant search or incremental search.\n\nMatch anywhere.\n\nQuick access to search settings.\n\nLatest version:",
+    "description": "QuickSearch\n\nQuickSearch is a plugin providing enhanced search capabilities.\nIt can be used as a replacement for the built-in QuickFind toolbar control.\nFeatures include:\n\nSearch as you type aka instant search or incremental search.\nMatch anywhere.\nQuick access to search settings.\n",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/CennoxX/KeePass-QuickSearch/"
@@ -915,7 +915,7 @@
     "language": [
       "English"
     ],
-    "description": "QualityColumn\n\nAdds support for a 'Password Quality' column in the main entry list.\n\nDownload plugin:",
+    "description": "QualityColumn\n\nAdds support for a 'Password Quality' column in the main entry list.\n",
     "note": "Note:\nKeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.\n",
     "similar": [],
     "group": "Utilities",
@@ -932,7 +932,7 @@
     "language": [
       "English"
     ],
-    "description": "QualityHighlighter\n\nThis plugin highlights entries based on the password quality.\n\nHighlighting can be turned on/off using a toolbar button.",
+    "description": "QualityHighlighter\n\nThis plugin highlights entries based on the password quality.\nHighlighting can be turned on/off using a toolbar button.",
     "note": "Note:\nKeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.\n",
     "similar": [],
     "group": "Utilities",
@@ -948,7 +948,7 @@
     "language": [
       "English"
     ],
-    "description": "RuleBuilder\n\nThis plugin makes it easy to tell KeePass how to generate a password\n\nfor each entry and streamlines the process of changing passwords.",
+    "description": "RuleBuilder\n\nThis plugin makes it easy to tell KeePass how to generate a password\nfor each entry and streamlines the process of changing passwords.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/ihanson/KeePass-Rule-Builder"
@@ -964,7 +964,7 @@
     "language": [
       "English"
     ],
-    "description": "StrengthReport\n\nCreate detailed password strength reports (multiple formats like PDF,\n\nCSV, ...) for all entries in a KeePass database. Various strength\n\nmeasuring methods are supported (including dictionary-based tests).\n\nReports can be customized (layout, font, size, colors, etc.).",
+    "description": "StrengthReport\n\nCreate detailed password strength reports (multiple formats like PDF,\nCSV, ...) for all entries in a KeePass database. Various strength\nmeasuring methods are supported (including dictionary-based tests).\nReports can be customized (layout, font, size, colors, etc.).",
     "note": "Note:\nKeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.\n",
     "similar": [],
     "group": "Utilities",
@@ -995,7 +995,7 @@
     "language": [
       "English"
     ],
-    "description": "TeamViewerAndAmmyy\n\nThis plugin allows you to directly run TeamViewer or Ammyy Admin\n\nwith credentials stored in the KeePass database.",
+    "description": "TeamViewerAndAmmyy\n\nThis plugin allows you to directly run TeamViewer or Ammyy Admin\nwith credentials stored in the KeePass database.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy"
@@ -1010,7 +1010,7 @@
     "language": [
       "English"
     ],
-    "description": "Title Display\n\nThis is a plugin for KeePass that allows the management of the main\n\nwindow title display.",
+    "description": "Title Display\n\nThis is a plugin for KeePass that allows the management of the main\nwindow title display.",
     "similar": [],
     "group": "Utilities",
     "website": "http://gogogadgetscott.info/keepass/titledisplay/"
@@ -1040,7 +1040,7 @@
     "language": [
       "English"
     ],
-    "description": "TrueCrypt/VeraCrypt Mount\n\nPlugins to mount TrueCrypt/VeraCrypt volumes conveniently.\n\nFor TrueCrypt:",
+    "description": "TrueCrypt/VeraCrypt Mount\n\nPlugins to mount TrueCrypt/VeraCrypt volumes conveniently.\n",
     "similar": [],
     "group": "Utilities"
   },
@@ -1054,7 +1054,7 @@
     "language": [
       "English"
     ],
-    "description": "TrueCrypt/VeraCrypt AutoDismount\n\nPlugins to automatically dismount selected or all TrueCrypt/VeraCrypt mounted volumes\n\nwhen all KeePass databases are locked/closed or when KeePass is exited.\n\nThe plugins dismount TrueCrypt/VeraCrypt volumes after a file is locked/closed but make\n\nsure it's the last file that was unlocked/opened.\n\nFor TrueCrypt:",
+    "description": "TrueCrypt/VeraCrypt AutoDismount\n\nPlugins to automatically dismount selected or all TrueCrypt/VeraCrypt mounted volumes\nwhen all KeePass databases are locked/closed or when KeePass is exited.\nThe plugins dismount TrueCrypt/VeraCrypt volumes after a file is locked/closed but make\nsure it's the last file that was unlocked/opened.\n",
     "similar": [],
     "group": "Utilities"
   },
@@ -1068,7 +1068,7 @@
     "language": [
       "English"
     ],
-    "description": "CertKeyProvider\n\nAllows KeePass to use certificates from the Windows certificate store\n\nas master key source.\n\nThis advanced plugin creates a random key, which is used to encrypt the KeePass\n\ndatabase. This random key is encrypted using one or more certificates\n\nand stored in a key file.",
+    "description": "CertKeyProvider\n\nAllows KeePass to use certificates from the Windows certificate store\nas master key source.\n\nThis advanced plugin creates a random key, which is used to encrypt the KeePass\ndatabase. This random key is encrypted using one or more certificates\nand stored in a key file.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://github.com/markbott/CertKeyProvider"
@@ -1083,7 +1083,7 @@
     "language": [
       "English"
     ],
-    "description": "Multi Cert Key Provider\n\nThis plugin allows KeePass to use a random key, which is encrypted with the RSA\n\ncertificate of one or more users and is stored in a *.kmx file,\n\nas a master key source.",
+    "description": "Multi Cert Key Provider\n\nThis plugin allows KeePass to use a random key, which is encrypted with the RSA\ncertificate of one or more users and is stored in a *.kmx file,\nas a master key source.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://www.creative-webdesign.de/en/software/keepass-plugins/multi-cert-keyprovider"
@@ -1098,7 +1098,7 @@
     "language": [
       "English"
     ],
-    "description": "RSA Cert Key Provider\n\nAllows KeePass to use RSA certificates from the Windows certificate store\n\nas master key source.\n\nFrom a selected RSA certificate, this simple plugin passes a part from the\n\nprivate key (for cryptographers: the d value) to KeePass as key.\n\nThe private key must have been marked as 'Exportable' during the import into\n\nthe certificate store.",
+    "description": "RSA Cert Key Provider\n\nAllows KeePass to use RSA certificates from the Windows certificate store\nas master key source.\n\nFrom a selected RSA certificate, this simple plugin passes a part from the\nprivate key (for cryptographers: the d value) to KeePass as key.\nThe private key must have been marked as 'Exportable' during the import into\nthe certificate store.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://www.creative-webdesign.de/en/software/keepass-plugins/rsa-cert-keyprovider"
@@ -1113,7 +1113,7 @@
     "language": [
       "English"
     ],
-    "description": "KeyManager\n\nBased on X.509 certificates, this key provider plugin allows a database to\n\nbe encrypted for multiple users. It has a graphical user interface for\n\nmanaging certificates and keys.",
+    "description": "KeyManager\n\nBased on X.509 certificates, this key provider plugin allows a database to\nbe encrypted for multiple users. It has a graphical user interface for\nmanaging certificates and keys.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://github.com/sbidy/KeePass-KeyManager"
@@ -1128,7 +1128,7 @@
     "language": [
       "English"
     ],
-    "description": "Smart Certificate Key Provider\n\nEncrypt and decrypt your database using an X.509 certificate\n\nstored on a smart card or in the Windows Certificate Store.",
+    "description": "Smart Certificate Key Provider\n\nEncrypt and decrypt your database using an X.509 certificate\nstored on a smart card or in the Windows Certificate Store.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://github.com/BodnarSoft/KeePass-Smart-Certificate-Key-Provider"
@@ -1143,7 +1143,7 @@
     "language": [
       "English"
     ],
-    "description": "OtpKeyProv\n\nOtpKeyProv is a key provider based on one-time passwords.\n\nAfter protecting your database using this plugin, you need to generate and\n\nenter one-time passwords in order to open your database.\n\nAll generator tokens that follow the OATH HOTP standard (RFC 4226) are supported.\n\nDownload plugin:",
+    "description": "OtpKeyProv\n\nOtpKeyProv is a key provider based on one-time passwords.\nAfter protecting your database using this plugin, you need to generate and\nenter one-time passwords in order to open your database.\n\nAll generator tokens that follow the OATH HOTP standard (RFC 4226) are supported.\n",
     "note": "Note:\nIf you instead want KeePass to generate one-time passwords, see the built-in\none-time password placeholders\nand the KeePassOTP, KeeOtp2,\nKeeTrayTOTP\nand TwoFactorQRCodeReader plugins.\n",
     "similar": [],
     "group": "Cryptography & Key Providers",
@@ -1177,7 +1177,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassOTP\n\nThis plugin adds advanced support for generating one-time passwords (TOTP and HOTP).\n\nFeatures: auto-type placeholder {KPOTP},\n\ncolumn in the main entry list for displaying and using OTPs,\n\nmultiple storage approaches for OTP secrets/states (as part of an entry or\n\nin a separate database), and more.\n\nIt is compatible with various apps (Google Authenticator, Microsoft Authenticator,\n\nandOTP, etc.).",
+    "description": "KeePassOTP\n\nThis plugin adds advanced support for generating one-time passwords (TOTP and HOTP).\n\nFeatures: auto-type placeholder {KPOTP},\ncolumn in the main entry list for displaying and using OTPs,\nmultiple storage approaches for OTP secrets/states (as part of an entry or\nin a separate database), and more.\nIt is compatible with various apps (Google Authenticator, Microsoft Authenticator,\nandOTP, etc.).",
     "note": "Note:\nKeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.\n",
     "similar": [
       "keeotp",
@@ -1197,7 +1197,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeOtp2\n\nKeeOtp2 provides a form to display one-time passwords.\n\nThe TOTP secret keys are stored in a normalized format, so this plugin\n\nis fully compatible with the built-in OTP function (see the note below).\n\nIt also can be used as a GUI for the built-in OTP function.",
+    "description": "KeeOtp2\n\nKeeOtp2 provides a form to display one-time passwords.\nThe TOTP secret keys are stored in a normalized format, so this plugin\nis fully compatible with the built-in OTP function (see the note below).\nIt also can be used as a GUI for the built-in OTP function.",
     "note": "Note:\nKeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.\n",
     "similar": [
       "kpotp",
@@ -1218,7 +1218,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeTrayTOTP\n\nThis plugin adds advanced support for generating Time-based One-Time\n\nPasswords (TOTPs) from the KeePass tray icon.\n\nIt also provides a column in the main entry list to display and/or use TOTPs.\n\nTOTPs can also be sent by auto-type.\n\nThe plugin is compatible with Google, Dropbox, Steam, and many more services.",
+    "description": "KeeTrayTOTP\n\nThis plugin adds advanced support for generating Time-based One-Time\nPasswords (TOTPs) from the KeePass tray icon.\nIt also provides a column in the main entry list to display and/or use TOTPs.\nTOTPs can also be sent by auto-type.\nThe plugin is compatible with Google, Dropbox, Steam, and many more services.",
     "note": "Note:\nKeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.\n",
     "similar": [
       "kpotp",
@@ -1238,7 +1238,7 @@
     "language": [
       "English"
     ],
-    "description": "TwoFactorQRCodeReader\n\nThis plugin creates two-factor authentication parameters used by the\n\nplaceholders {HMACOTP}\n\nand {TIMEOTP} from a QR code (displayed on the screen or\n\nin the clipboard) or from an OTP URL.",
+    "description": "TwoFactorQRCodeReader\n\nThis plugin creates two-factor authentication parameters used by the\nplaceholders {HMACOTP}\nand {TIMEOTP} from a QR code (displayed on the screen or\nin the clipboard) or from an OTP URL.",
     "similar": [
       "kpotp",
       "keeotp",
@@ -1257,7 +1257,7 @@
     "language": [
       "English"
     ],
-    "description": "Key Xchanger\n\nA bluetooth key provider plugin that allows you to\n\nsave keys on your phone and then send them via bluetooth to\n\nunlock your KeePass database.",
+    "description": "Key Xchanger\n\nA bluetooth key provider plugin that allows you to\nsave keys on your phone and then send them via bluetooth to\nunlock your KeePass database.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://sourceforge.net/projects/kxch/"
@@ -1287,7 +1287,7 @@
     "language": [
       "German"
     ],
-    "description": "KeePerso\n\nEncrypt and decrypt your database using Personalausweis eID\n\n(via AusweisApp2).",
+    "description": "KeePerso\n\nEncrypt and decrypt your database using Personalausweis eID\n(via AusweisApp2).",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://www.buergerservice.org/aktuell/20210222keeperso/"
@@ -1333,7 +1333,7 @@
       "English",
       "German"
     ],
-    "description": "Token Engine Key Provider\n\nThis plugin provides two-factor authentication to a KeePass database\n\nwith a token (possession) and the token PIN (knowledge).\n\nThe token is accessed using the digitronic Token Engine.\n\nIt is possible to bind additional tokens to a database in order\n\nto allow multiple users to access the data.",
+    "description": "Token Engine Key Provider\n\nThis plugin provides two-factor authentication to a KeePass database\nwith a token (possession) and the token PIN (knowledge).\n\nThe token is accessed using the digitronic Token Engine.\nIt is possible to bind additional tokens to a database in order\nto allow multiple users to access the data.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": "https://github.com/digitronicnet/keepass-tokenengine-plugin",
@@ -1349,7 +1349,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassKeyServer\n\nThis plugin is a key provider that retrieves a key (as part of the\n\ndatabase master key) from a key server.\n\nThe key server supplies the key only if certain conditions are met\n\n(computer hardware ID, user name, IP address, etc.).",
+    "description": "KeePassKeyServer\n\nThis plugin is a key provider that retrieves a key (as part of the\ndatabase master key) from a key server.\nThe key server supplies the key only if certain conditions are met\n(computer hardware ID, user name, IP address, etc.).",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://github.com/pletexier/KeePassKeyServer"
@@ -1424,7 +1424,7 @@
     "language": [
       "English"
     ],
-    "description": "MultiCipher\n\nThis plugin allows to use two ciphers for encrypting a database file.\n\nSupported ciphers are AES-256, 3DES-192, ChaCha20 and Salsa20.\n\nFurthermore, YubiKey challenge-response authentication is supported.",
+    "description": "MultiCipher\n\nThis plugin allows to use two ciphers for encrypting a database file.\nSupported ciphers are AES-256, 3DES-192, ChaCha20 and Salsa20.\nFurthermore, YubiKey challenge-response authentication is supported.",
     "note": "Note:\nKeePass has built-in support for AES-256 and ChaCha20 as single algorithms.\nSupport for YubiKey challenge-response authentication is alternatively\nprovided by the KeeChallenge plugin.\n",
     "similar": [],
     "group": "Cryptography & Key Providers",
@@ -1440,7 +1440,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassQuickUnlock\n\nKeePassQuickUnlock is a plugin which lets you re-open your database without\n\nyour full password. If you want to re-open your database, you can type\n\njust a few characters (by default, the first 3 characters of your password)\n\nto unlock quickly and easily. If the wrong QuickUnlock key is entered,\n\nthe database keeps locked and the full password is required to re-open.",
+    "description": "KeePassQuickUnlock\n\nKeePassQuickUnlock is a plugin which lets you re-open your database without\nyour full password. If you want to re-open your database, you can type\njust a few characters (by default, the first 3 characters of your password)\nto unlock quickly and easily. If the wrong QuickUnlock key is entered,\nthe database keeps locked and the full password is required to re-open.",
     "similar": [
       "lockassist"
     ],
@@ -1457,7 +1457,7 @@
     "language": [
       "English"
     ],
-    "description": "LockAssist\n\nLockAssist extends KeePass' lock/unlock mechanism in multiple ways:\n\nquick unlock (using a short PIN, optional expiry time), soft lock,\n\nall locked databases can be unlocked at once, and more.",
+    "description": "LockAssist\n\nLockAssist extends KeePass' lock/unlock mechanism in multiple ways:\nquick unlock (using a short PIN, optional expiry time), soft lock,\nall locked databases can be unlocked at once, and more.",
     "similar": [
       "quickunlock"
     ],
@@ -1475,7 +1475,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassWinHello\n\nThis plugin is intended for fast authorization to a database (after\n\nits first unlock) using Windows Hello.\n\nWindows Hello supports fingerprint recognition, facial recognition and more.",
+    "description": "KeePassWinHello\n\nThis plugin is intended for fast authorization to a database (after\nits first unlock) using Windows Hello.\n\nWindows Hello supports fingerprint recognition, facial recognition and more.",
     "similar": [
       "winhellou",
       "kpprotkeystore"
@@ -1493,7 +1493,7 @@
     "language": [
       "English"
     ],
-    "description": "WinHelloUnlock\n\nThis plugin allows you to unlock your database conveniently using\n\nbiometrics via Windows Hello.\n\nWindows Hello supports fingerprint recognition, facial recognition and more.",
+    "description": "WinHelloUnlock\n\nThis plugin allows you to unlock your database conveniently using\nbiometrics via Windows Hello.\n\nWindows Hello supports fingerprint recognition, facial recognition and more.",
     "similar": [
       "winhello",
       "kpprotkeystore"
@@ -1511,7 +1511,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassProtectedKeyStore\n\nThis plugin creates and uses protected key stores (using Windows Hello or the\n\nWindows Data Protection API (DPAPI)). Features:\n\nCreate a random protected key store or convert one or more existing\n\nmaster key components (master password, key file, key provided by another\n\nkey provider plugin, Windows user account) to a protected key store.\n\nCreate/import an emergency key recovery file.\n\nAutomatically open a database where a protected key store is the only\n\nmaster key component.",
+    "description": "KeePassProtectedKeyStore\n\nThis plugin creates and uses protected key stores (using Windows Hello or the\nWindows Data Protection API (DPAPI)). Features:\n\nCreate a random protected key store or convert one or more existing\nmaster key components (master password, key file, key provided by another\nkey provider plugin, Windows user account) to a protected key store.\nCreate/import an emergency key recovery file.\nAutomatically open a database where a protected key store is the only\nmaster key component.",
     "similar": [
       "winhello",
       "winhellou",
@@ -1531,7 +1531,7 @@
     "language": [
       "English"
     ],
-    "description": "WinKee\n\nWinKee helps to securely automate KeePass startup. WinKee separately encrypts,\n\nstores and retrieves KeePass database access credentials in the KeePass\n\nconfiguration file (KeePass.config.xml).\n\nPassword and key file path will be encrypted based on Windows account credentials\n\n(using the\n\nWindows Data Protection API (DPAPI)) - so anybody\n\nhaving access to the specific user account and the WinKee database keyfile will be granted\n\nKeePass database access. KeePass and WinKee can be configured to automatically open a specified\n\ndatabase via command line argument options -keyfile: during a user's Windows session logon or at\n\nany time by e.g. using a batch file.\n\nDownload plugin:",
+    "description": "WinKee\n\nWinKee helps to securely automate KeePass startup. WinKee separately encrypts,\nstores and retrieves KeePass database access credentials in the KeePass\nconfiguration file (KeePass.config.xml).\n\nPassword and key file path will be encrypted based on Windows account credentials\n(using the\nWindows Data Protection API (DPAPI)) - so anybody\nhaving access to the specific user account and the WinKee database keyfile will be granted\nKeePass database access. KeePass and WinKee can be configured to automatically open a specified\ndatabase via command line argument options -keyfile: during a user's Windows session logon or at\nany time by e.g. using a batch file.\n",
     "similar": [
       "kpprotkeystore",
       "kpautounlock"
@@ -1550,7 +1550,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassAutoUnlock\n\nWhen starting KeePass, this plugin automatically opens a specific\n\ndatabase. The master key for the database is stored in the KeePass\n\nconfiguration file, encrypted based on the Windows user account credentials\n\n(using the\n\nWindows Data Protection API (DPAPI)).",
+    "description": "KeePassAutoUnlock\n\nWhen starting KeePass, this plugin automatically opens a specific\ndatabase. The master key for the database is stored in the KeePass\nconfiguration file, encrypted based on the Windows user account credentials\n(using the\nWindows Data Protection API (DPAPI)).",
     "similar": [
       "kpprotkeystore",
       "winkee"
@@ -1568,7 +1568,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassCPEO\n\nThis plugin allows adding custom commands in the expiry drop-down\n\nmenu of the entry dialog.",
+    "description": "KeePassCPEO\n\nThis plugin allows adding custom commands in the expiry drop-down\nmenu of the entry dialog.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/quinterojose/KeePassCPEO"
@@ -1583,7 +1583,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeModifiedBy\n\nThis plugin remembers who has modified an entry\n\n(operating system user name and machine name).\n\nDownload plugin:",
+    "description": "KeeModifiedBy\n\nThis plugin remembers who has modified an entry\n(operating system user name and machine name).\n",
     "similar": [
       "audit"
     ],
@@ -1601,7 +1601,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassOpenId\n\nThis plugin allows you to save an OpenID provider used to register/login\n\nto websites instead of a user name and password. You can link the OpenID\n\nprovider (e.g. Facebook) with an existing KeePass entry to create a\n\nreference to the provider user name/password.",
+    "description": "KeePassOpenId\n\nThis plugin allows you to save an OpenID provider used to register/login\nto websites instead of a user name and password. You can link the OpenID\nprovider (e.g. Facebook) with an existing KeePass entry to create a\nreference to the provider user name/password.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/khelmar/KeePassOpenId"
@@ -1631,7 +1631,7 @@
     "language": [
       "English"
     ],
-    "description": "EditEntryGroup\n\nThis plugin allows changing the group that an entry belongs to by using\n\na drop-down selector within the entry editing dialog.",
+    "description": "EditEntryGroup\n\nThis plugin allows changing the group that an entry belongs to by using\na drop-down selector within the entry editing dialog.",
     "similar": [],
     "group": "Utilities",
     "website": "https://sourceforge.net/projects/editentrygroup/"
@@ -1646,7 +1646,7 @@
     "language": [
       "English"
     ],
-    "description": "ExtendSelection\n\nWhen double-clicking in the details view of the main window, this plugin\n\nextends the selection to the left and to the right until reaching white-space\n\ncharacters.",
+    "description": "ExtendSelection\n\nWhen double-clicking in the details view of the main window, this plugin\nextends the selection to the left and to the right until reaching white-space\ncharacters.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/georgoswonkos/ExtendSelectionPlugin"
@@ -1662,7 +1662,7 @@
       "English",
       "German"
     ],
-    "description": "GlobalSearch\n\nThis plugin allows you to use KeePass' built-in search functions\n\n('Find', 'Last Modified Entries', 'Large Entries', 'Password Quality',\n\netc.) for searching in all open databases at once.",
+    "description": "GlobalSearch\n\nThis plugin allows you to use KeePass' built-in search functions\n('Find', 'Last Modified Entries', 'Large Entries', 'Password Quality',\netc.) for searching in all open databases at once.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/Rookiestyle/GlobalSearch"
@@ -1677,7 +1677,7 @@
     "language": [
       "English"
     ],
-    "description": "GroupColumn\n\nThis plugin provides a column in the main entry list that shows the\n\ngroup an entry is in (and the number of entries in that group).",
+    "description": "GroupColumn\n\nThis plugin provides a column in the main entry list that shows the\ngroup an entry is in (and the number of entries in that group).",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/jnash67/KeePassGroupColumn"
@@ -1692,7 +1692,7 @@
     "language": [
       "English"
     ],
-    "description": "iTanMaster\n\niTans or 'indexed security tokens' are becoming standard to improve access\n\nsecurity in online banking and similar applications.\n\niTanMaster provides easy and fast access to the encrypted storage of such\n\nindexed security tokens.\n\niTanMaster supports single, dual (e.g. Interactive Brokers) and triple token\n\nsystems (e.g. Flatex AG) where the final access TAN is constructed from\n\nmultiple separately indexed and then concatenated token parts.\n\nDownload plugin:",
+    "description": "iTanMaster\n\niTans or 'indexed security tokens' are becoming standard to improve access\nsecurity in online banking and similar applications.\n\niTanMaster provides easy and fast access to the encrypted storage of such\nindexed security tokens.\n\niTanMaster supports single, dual (e.g. Interactive Brokers) and triple token\nsystems (e.g. Flatex AG) where the final access TAN is constructed from\nmultiple separately indexed and then concatenated token parts.\n",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "extensions/v2/itanmaster/iTanMaster-2.28.0.2-Source.zip",
@@ -1708,7 +1708,7 @@
     "language": [
       "English"
     ],
-    "description": "RDCAutoTypeAndTCATO\n\nThis plugin adds support for auto-typing into Remote Desktop Connection (RDC)\n\nwindows. Additionally, it allows enabling\n\nTwo-Channel Auto-Type Obfuscation\n\n(TCATO) for entries based on target applications (for example always\n\nenabling TCATO for browser windows).",
+    "description": "RDCAutoTypeAndTCATO\n\nThis plugin adds support for auto-typing into Remote Desktop Connection (RDC)\nwindows. Additionally, it allows enabling\nTwo-Channel Auto-Type Obfuscation\n(TCATO) for entries based on target applications (for example always\nenabling TCATO for browser windows).",
     "note": "Note:\nKeePass 2.25 and higher can auto-type into RDC windows without any plugin,\ni.e. the RDCAutoTypeAndTCATO plugin is not required for this anymore,\nbut still for enabling TCATO based on target applications.\n",
     "similar": [],
     "group": "Auto-Type",
@@ -1724,7 +1724,7 @@
     "language": [
       "English"
     ],
-    "description": "RDPPlugin\n\nThis plugin allows to conveniently connect to a server via RDP.\n\nDownload plugin:",
+    "description": "RDPPlugin\n\nThis plugin allows to conveniently connect to a server via RDP.\n",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "extensions/v2/rdpplugin/RDPPlugin-7.0-Source.zip",
@@ -1740,7 +1740,7 @@
     "language": [
       "English"
     ],
-    "description": "TCATO Placeholder\n\nThis plugin adds support for a placeholder that\n\nallows to enable/disable TCATO, i.e. TCATO can be enabled/disabled\n\nper auto-type sequence.",
+    "description": "TCATO Placeholder\n\nThis plugin adds support for a placeholder that\nallows to enable/disable TCATO, i.e. TCATO can be enabled/disabled\nper auto-type sequence.",
     "similar": [],
     "group": "Auto-Type",
     "website": "http://niki.hammler.net/wiki/KeePass#TCATO_Placeholder"
@@ -1755,7 +1755,7 @@
     "language": [
       "English"
     ],
-    "description": "AdvancedAutoType\n\nThis plugin provides various enhancements for the auto-type feature of\n\nKeePass, e.g.\n\nsupport for additional global hot keys to auto-type alternative sequences,\n\nadditional features for the auto-type entry selection dialog\n\n(entry filtering, sortable columns, database name, auto-type certain fields\n\nonly, ...), and more.",
+    "description": "AdvancedAutoType\n\nThis plugin provides various enhancements for the auto-type feature of\nKeePass, e.g.\nsupport for additional global hot keys to auto-type alternative sequences,\nadditional features for the auto-type entry selection dialog\n(entry filtering, sortable columns, database name, auto-type certain fields\nonly, ...), and more.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://github.com/Rookiestyle/AdvancedAutoType"
@@ -1770,7 +1770,7 @@
     "language": [
       "English"
     ],
-    "description": "AutoTypeCustomFieldPicker\n\nThis plugin provides support for a placeholder {PICKCUSTOMFIELD}.\n\nWhen auto-typing a sequence containing this placeholder, a window is displayed\n\nthat allows to pick a custom string field\n\n(whose value is then inserted at the placeholder's position).",
+    "description": "AutoTypeCustomFieldPicker\n\nThis plugin provides support for a placeholder {PICKCUSTOMFIELD}.\nWhen auto-typing a sequence containing this placeholder, a window is displayed\nthat allows to pick a custom string field\n(whose value is then inserted at the placeholder's position).",
     "note": "Note:\nKeePass 2.35 and higher has a built-in placeholder\n{PICKFIELD}\nthat provides the same functionality as the plugin.\n",
     "similar": [],
     "group": "Auto-Type",
@@ -1786,7 +1786,7 @@
     "language": [
       "English"
     ],
-    "description": "AutoTypeSearch\n\nThis plugin provides a quick searching capability as an enhancement to the\n\nglobal auto-type system. If a global auto-type is requested, but no matching\n\nentry for the active window is found, this plugin will show a quick as-you-type\n\nsearch window which lets you easily pick the entry to auto-type.",
+    "description": "AutoTypeSearch\n\nThis plugin provides a quick searching capability as an enhancement to the\nglobal auto-type system. If a global auto-type is requested, but no matching\nentry for the active window is found, this plugin will show a quick as-you-type\nsearch window which lets you easily pick the entry to auto-type.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://sourceforge.net/projects/autotypesearch/"
@@ -1801,7 +1801,7 @@
     "language": [
       "English"
     ],
-    "description": "AutoTypeShow\n\nThis plugin provides a {SHOWENTRY} auto-type placeholder.\n\nIf you include this placeholder in your auto-type sequence for an entry, then after\n\nthe auto-typing is done, the KeePass window will be shown with the entry selected.\n\nFurthermore, the plugin has an option to set up a global hot-key\n\nto trigger a show-only auto-type\n\n(where it will act just like an ordinary auto-type, except it won't actually\n\ntype anything).",
+    "description": "AutoTypeShow\n\nThis plugin provides a {SHOWENTRY} auto-type placeholder.\nIf you include this placeholder in your auto-type sequence for an entry, then after\nthe auto-typing is done, the KeePass window will be shown with the entry selected.\n\nFurthermore, the plugin has an option to set up a global hot-key\nto trigger a show-only auto-type\n(where it will act just like an ordinary auto-type, except it won't actually\ntype anything).",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://sourceforge.net/projects/autotypeshow/"
@@ -1816,7 +1816,7 @@
     "language": [
       "English"
     ],
-    "description": "AutoTypeSplitter\n\nThis plugin splits auto-typing into distinct parts.\n\nIt is useful when a login screen consists of multiple parts and it\n\nis not known in advance when or what characters will be needed.\n\nAlso, the plugin can be used as a delay method until the next page of a\n\nmulti-page login loads and when a particular entry is to be entered in\n\nmultiple places with varying arrangements/designs of input fields.",
+    "description": "AutoTypeSplitter\n\nThis plugin splits auto-typing into distinct parts.\nIt is useful when a login screen consists of multiple parts and it\nis not known in advance when or what characters will be needed.\nAlso, the plugin can be used as a delay method until the next page of a\nmulti-page login loads and when a particular entry is to be entered in\nmultiple places with varying arrangements/designs of input fields.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://github.com/xatupal/AutoTypeSplitter"
@@ -1846,7 +1846,7 @@
     "language": [
       "English"
     ],
-    "description": "CheckPasswordBox\n\nThis plugin adds a protection against accidentally auto-typing into the\n\nwrong place. It allows a check to be performed that the box that is about\n\nto be auto-typed into is a password box and not, for example, a user name box,\n\nsearch box, IM chat window, or similar.",
+    "description": "CheckPasswordBox\n\nThis plugin adds a protection against accidentally auto-typing into the\nwrong place. It allows a check to be performed that the box that is about\nto be auto-typed into is a password box and not, for example, a user name box,\nsearch box, IM chat window, or similar.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://sourceforge.net/projects/checkpasswordbox/"
@@ -1862,7 +1862,7 @@
       "English",
       "German"
     ],
-    "description": "Cycle Input Focus Plus\n\nCycle Input Focus Plus is a browser extension that provides customizable\n\nkeyboard shortcuts for navigating to user name and password fields on\n\nlogin pages. It was developed to improve auto-type comfort with KeePass,\n\nfreeing the user of the task of manually selecting the login field before\n\nperforming auto-type, and also makes the auto-type procedure more robust\n\nagainst changes in the login page structure and layout.",
+    "description": "Cycle Input Focus Plus\n\nCycle Input Focus Plus is a browser extension that provides customizable\nkeyboard shortcuts for navigating to user name and password fields on\nlogin pages. It was developed to improve auto-type comfort with KeePass,\nfreeing the user of the task of manually selecting the login field before\nperforming auto-type, and also makes the auto-type procedure more robust\nagainst changes in the login page structure and layout.",
     "similar": [],
     "group": "Auto-Type"
   },
@@ -1876,7 +1876,7 @@
     "language": [
       "English"
     ],
-    "description": "Disambiguator\n\nFor each auto-type association, this plugin allows to specify the target\n\napplication (executable file name/path) and control properties (name,\n\nclass, automation ID, ...) that are required for a match.",
+    "description": "Disambiguator\n\nFor each auto-type association, this plugin allows to specify the target\napplication (executable file name/path) and control properties (name,\nclass, automation ID, ...) that are required for a match.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://github.com/drventure/Disambiguator"
@@ -1891,7 +1891,7 @@
     "language": [
       "English"
     ],
-    "description": "ColoredPassword\n\nThis plugin allows to define different text and background colors for\n\ndigits and special characters in passwords.",
+    "description": "ColoredPassword\n\nThis plugin allows to define different text and background colors for\ndigits and special characters in passwords.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/Rookiestyle/ColoredPassword"
@@ -1906,7 +1906,7 @@
     "language": [
       "English"
     ],
-    "description": "HotKeyEnabler\n\nFor each entry, this plugin allows to define a system-wide hot key\n\nthat auto-types a specific sequence.",
+    "description": "HotKeyEnabler\n\nFor each entry, this plugin allows to define a system-wide hot key\nthat auto-types a specific sequence.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://sourceforge.net/projects/hotkeyenabler/"
@@ -1921,7 +1921,7 @@
     "language": [
       "English"
     ],
-    "description": "Character Copy\n\nCharacter Copy is a lightweight KeePass plugin that integrates into KeePass'\n\nentry menu and allows users to securely copy individual characters from an\n\nentry's protected string fields, such as the password field.",
+    "description": "Character Copy\n\nCharacter Copy is a lightweight KeePass plugin that integrates into KeePass'\nentry menu and allows users to securely copy individual characters from an\nentry's protected string fields, such as the password field.",
     "note": "Note:\nIn conjunction with auto-type, the built-in\n{PICKCHARS}\nplaceholder is more powerful and convenient.\nThe Character Copy plugin is useful for users who are not using auto-type\nor do not want to customize the auto-type sequence.\n",
     "similar": [],
     "group": "Integration & Transfer",
@@ -1937,7 +1937,7 @@
     "language": [
       "English"
     ],
-    "description": "Password Change Assistant\n\nThis plugin helps you with changing your passwords stored in KeePass.\n\nIt integrates itself into the existing form for editing entries and\n\nprovides a standalone form that can be accessed by the entry's context\n\nmenu in addition. It does not automatically fill in and submit\n\nall the various forms for changing a password.",
+    "description": "Password Change Assistant\n\nThis plugin helps you with changing your passwords stored in KeePass.\nIt integrates itself into the existing form for editing entries and\nprovides a standalone form that can be accessed by the entry's context\nmenu in addition. It does not automatically fill in and submit\nall the various forms for changing a password.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/Rookiestyle/PasswordChangeAssistant"
@@ -1952,7 +1952,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassRest\n\nThis plugin for KeePass provides a secure HTTPS RESTful interface for clients\n\nto manage entries in KeePass.\n\nFor example, SmartFTP can then use KeePass as a credentials store.",
+    "description": "KeePassRest\n\nThis plugin for KeePass provides a secure HTTPS RESTful interface for clients\nto manage entries in KeePass.\nFor example, SmartFTP can then use KeePass as a credentials store.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://www.smartftp.com/keepassrest"
@@ -1967,7 +1967,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassRPC\n\nKeePassRPC enables secure, encrypted and bi-directional\n\ncommunication between KeePass and other applications via RPC.\n\nKee requires KeePassRPC. Upgrade instructions can be found at\n\nhttps://forum.kee.pm/t/upgrading-keepassrpc/22.",
+    "description": "KeePassRPC\n\nKeePassRPC enables secure, encrypted and bi-directional\ncommunication between KeePass and other applications via RPC.\n\nKee requires KeePassRPC. Upgrade instructions can be found at\n\nhttps://forum.kee.pm/t/upgrading-keepassrpc/22.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/kee-org/keepassrpc/wiki"
@@ -1982,7 +1982,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassHttp\n\nKeePassHttp provides a secure means of exposing KeePass entries via HTTP\n\nfor clients to consume.\n\nFor example,\n\nKeePassHelper,\n\nDash\n\nand\n\nNotesIPass\n\nare using KeePassHttp.",
+    "description": "KeePassHttp\n\nKeePassHttp provides a secure means of exposing KeePass entries via HTTP\nfor clients to consume.\n\nFor example,\nKeePassHelper,\n\nDash\nand\nNotesIPass\nare using KeePassHttp.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/pfn/keepasshttp/"
@@ -1997,7 +1997,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassCommander\n\nThe KeePassCommander plugin provides a communication channel between\n\nKeePass and other applications via named pipes.\n\nThere exists a command line tool that uses this for querying data\n\nfrom KeePass.",
+    "description": "KeePassCommander\n\nThe KeePassCommander plugin provides a communication channel between\nKeePass and other applications via named pipes.\nThere exists a command line tool that uses this for querying data\nfrom KeePass.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/MircoBabin/KeePassCommander"
@@ -2012,7 +2012,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassNatMsg\n\nThe KeePassNatMsg plugin provides a communication channel between\n\nKeePass and other applications via\n\nNative Messaging.",
+    "description": "KeePassNatMsg\n\nThe KeePassNatMsg plugin provides a communication channel between\nKeePass and other applications via\nNative Messaging.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/smorks/keepassnatmsg"
@@ -2027,7 +2027,7 @@
     "language": [
       "English"
     ],
-    "description": "Remote Desktop Manager Plugin\n\nThis plugin allows KeePass being used as credential repository for\n\nRemote Desktop Manager.",
+    "description": "Remote Desktop Manager Plugin\n\nThis plugin allows KeePass being used as credential repository for\nRemote Desktop Manager.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://docs.devolutions.net/rdm/commands/edit/entries/dynamic-credential-linking/"
@@ -2060,7 +2060,7 @@
     "language": [
       "English"
     ],
-    "description": "KPSAPLaunch\n\nThis plugin provides an integration with SAP GUI and\n\nNetWeaver Business Client (NWBC).",
+    "description": "KPSAPLaunch\n\nThis plugin provides an integration with SAP GUI and\nNetWeaver Business Client (NWBC).",
     "similar": [
       "keesaplogon"
     ],
@@ -2077,7 +2077,7 @@
     "language": [
       "English"
     ],
-    "description": "SalesforcePlugin\n\nLogin to your Salesforce environments using this KeePass plugin.\n\nInstead of auto-type, your credentials will be passed through in a link.",
+    "description": "SalesforcePlugin\n\nLogin to your Salesforce environments using this KeePass plugin.\nInstead of auto-type, your credentials will be passed through in a link.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://sourceforge.net/projects/salesforce-keepass/"
@@ -2092,7 +2092,7 @@
     "language": [
       "English"
     ],
-    "description": "Ubuntu Integration Plugins\n\nVarious plugins to help KeePass 2.x integrate better with the Ubuntu Unity\n\ndesktop (top application menu, application indicator, ...).",
+    "description": "Ubuntu Integration Plugins\n\nVarious plugins to help KeePass 2.x integrate better with the Ubuntu Unity\ndesktop (top application menu, application indicator, ...).",
     "similar": [],
     "group": "Integration & Transfer"
   },
@@ -2106,7 +2106,7 @@
     "language": [
       "English"
     ],
-    "description": "Favicon Downloader\n\nThis plugin downloads and stores favicons. A favicon is the little icon/logo\n\nused to identify many websites, typically displayed in the browser's address\n\nbar, bookmark list and on tabs.",
+    "description": "Favicon Downloader\n\nThis plugin downloads and stores favicons. A favicon is the little icon/logo\nused to identify many websites, typically displayed in the browser's address\nbar, bookmark list and on tabs.",
     "similar": [
       "yafd"
     ],
@@ -2123,7 +2123,7 @@
     "language": [
       "English"
     ],
-    "description": "Yet Another Favicon Downloader\n\nYet Another Favicon Downloader (YAFD for short) is a plugin for\n\nKeePass 2.x that allows you to quickly download favicons\n\nfor your password entries.",
+    "description": "Yet Another Favicon Downloader\n\nYet Another Favicon Downloader (YAFD for short) is a plugin for\nKeePass 2.x that allows you to quickly download favicons\nfor your password entries.",
     "similar": [
       "faviconimp"
     ],
@@ -2140,7 +2140,7 @@
     "language": [
       "English"
     ],
-    "description": "ExeIconPicker\n\nExeIconPicker lets you grab an icon from a Windows executable file (.exe),\n\na library (.dll) or an icon file (.ico) and use it as an entry or group icon.",
+    "description": "ExeIconPicker\n\nExeIconPicker lets you grab an icon from a Windows executable file (.exe),\na library (.dll) or an icon file (.ico) and use it as an entry or group icon.",
     "similar": [],
     "group": "Import",
     "website": "https://github.com/Eveldee/KeePass-ExeIconPicker"
@@ -2155,7 +2155,7 @@
     "language": [
       "English"
     ],
-    "description": "Custom Icon Dashboarder\n\nThis plugin provides statistics (e.g. numbers and lists of entries and\n\ngroups that use a specific custom icon) and advanced management features\n\n(e.g. download favicon for a URL) for custom icons.",
+    "description": "Custom Icon Dashboarder\n\nThis plugin provides statistics (e.g. numbers and lists of entries and\ngroups that use a specific custom icon) and advanced management features\n(e.g. download favicon for a URL) for custom icons.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder"
@@ -2170,7 +2170,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeOldFormatExport\n\nThis plugin adds support for exporting data to old KeePass file formats.\n\nSupported formats are KeePass KDB (1.23) and KeePass KDBX (2.19).\n\nDownload plugin:",
+    "description": "KeeOldFormatExport\n\nThis plugin adds support for exporting data to old KeePass file formats.\nSupported formats are KeePass KDB (1.23) and KeePass KDBX (2.19).\n",
     "note": "Note:\nFor opening/importing old files, no plugin is required.\nKeePass is fully backward compatible.\n",
     "similar": [],
     "group": "Export",
@@ -2187,7 +2187,7 @@
     "language": [
       "English"
     ],
-    "description": "KdbxLite\n\nThis plugin creates lite database files.\n\nEvery time you save a '*.kdbx' file, the plugin creates a\n\n'*.lite.kdbx' file (in the same directory)\n\nthat contains everything except entry attachments.\n\nDownload plugin:",
+    "description": "KdbxLite\n\nThis plugin creates lite database files.\nEvery time you save a '*.kdbx' file, the plugin creates a\n'*.lite.kdbx' file (in the same directory)\nthat contains everything except entry attachments.\n",
     "similar": [],
     "group": "Export",
     "sourceCode": "extensions/v2/kdbxlite/KdbxLite-1.2-Source.zip",
@@ -2203,7 +2203,7 @@
     "language": [
       "English"
     ],
-    "description": "SecExchange\n\nThis plugin allows to conveniently send KeePass entries via\n\nSecure Exchanges.",
+    "description": "SecExchange\n\nThis plugin allows to conveniently send KeePass entries via\nSecure Exchanges.",
     "similar": [],
     "group": "Export",
     "website": "https://www.secure-exchanges.com/Cybersecurity-technology.aspx#download"
@@ -2218,7 +2218,7 @@
     "language": [
       "English"
     ],
-    "description": "Seclave Plugin\n\nThis plugin adds functionality for exporting KeePass entries to a Seclave Password\n\nManager. It supports both export of all entries or a selected group of entries.\n\nSeclave Password Manager is a key ring size device for secure and convenient\n\nstoring of passwords and crypto keys.",
+    "description": "Seclave Plugin\n\nThis plugin adds functionality for exporting KeePass entries to a Seclave Password\nManager. It supports both export of all entries or a selected group of entries.\n\nSeclave Password Manager is a key ring size device for secure and convenient\nstoring of passwords and crypto keys.",
     "similar": [],
     "group": "Export",
     "sourceCode": "https://github.com/seclave/seclave_keepassplugin",
@@ -2234,7 +2234,7 @@
     "language": [
       "English"
     ],
-    "description": "SimpleSelectionExport\n\nThis plugin allows you to export basic entry information to flat text files\n\n(for instance TXT and CSV). It is useful when you want to send a quick overview\n\nof an arbitrary set of entries to parties who are not using KeePass.",
+    "description": "SimpleSelectionExport\n\nThis plugin allows you to export basic entry information to flat text files\n(for instance TXT and CSV). It is useful when you want to send a quick overview\nof an arbitrary set of entries to parties who are not using KeePass.",
     "note": "Note:\nKeePass has a built-in command for exporting selected entries to\ncertain formats (e.g. CSV): after selecting the entries, click on\nthe menu item 'Entry' → 'Data Exchange' → 'Export Entry'.\nThe plugin provides support for additional formats.\n",
     "similar": [],
     "group": "Export",
@@ -2250,7 +2250,7 @@
     "language": [
       "English"
     ],
-    "description": "TheVaultExport\n\nThis plugin adds support for exporting KeePass entries to a\n\nCSV file readable by The Vault.\n\nDownload plugin:",
+    "description": "TheVaultExport\n\nThis plugin adds support for exporting KeePass entries to a\nCSV file readable by The Vault.\n",
     "similar": [],
     "group": "Export",
     "sourceCode": "extensions/v2/thevault/TheVaultExport-2.0.2-Source.zip",
@@ -2266,7 +2266,7 @@
     "language": [
       "English"
     ],
-    "description": "MSWifiPlugin\n\nThis plugin allows to import wireless connection information saved in Windows\n\ninto KeePass and afterwards to export this information back to Windows.\n\nThis can be used to back up existing wireless connections or to transfer them\n\nfrom one system to another.",
+    "description": "MSWifiPlugin\n\nThis plugin allows to import wireless connection information saved in Windows\ninto KeePass and afterwards to export this information back to Windows.\nThis can be used to back up existing wireless connections or to transfer them\nfrom one system to another.",
     "similar": [],
     "group": "Import & Export",
     "website": "https://elgesl.github.io/keepass-mswifiimport/"
@@ -2281,7 +2281,7 @@
     "language": [
       "English"
     ],
-    "description": "KeeAutoExec\n\nThis plugin allows to automatically open additional databases when\n\nopening a database.\n\nDownload plugin:",
+    "description": "KeeAutoExec\n\nThis plugin allows to automatically open additional databases when\nopening a database.\n",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "extensions/v2/keeautoexec/KeeAutoExec-2.6-Source.zip",
@@ -2312,7 +2312,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassTimestampChanger\n\nThis plugin provides a dialog that allows to change the timestamps\n\nof an entry.",
+    "description": "KeePassTimestampChanger\n\nThis plugin provides a dialog that allows to change the timestamps\nof an entry.",
     "note": "\nWarning:\nKeePass' synchronization depends on correct timestamps.\nWhen changing timestamps using the plugin, synchronization may not work\nas expected anymore (e.g. entries may be overwritten by older copies).\n",
     "similar": [],
     "group": "Utilities",
@@ -2328,7 +2328,7 @@
     "language": [
       "English"
     ],
-    "description": "IOProtocolExt\n\nThis plugin adds support for loading/saving files from/to servers via\n\nSCP, SFTP and FTPS.\n\nKeePass can handle FTP by default (using classes of the .NET\n\nframework). However, this plugin replaces the FTP handler to\n\nuse WinSCP instead. So, if you have problems with the .NET FTP\n\nclasses, installing IOProtocolExt might solve them.\n\nDue to its usage of WinSCP, the IOProtocolExt plugin only works\n\non Windows. If you are using Linux, consider other plugins\n\n(like SftpSync) instead.\n\nDownload plugin:",
+    "description": "IOProtocolExt\n\nThis plugin adds support for loading/saving files from/to servers via\nSCP, SFTP and FTPS.\n\nKeePass can handle FTP by default (using classes of the .NET\nframework). However, this plugin replaces the FTP handler to\nuse WinSCP instead. So, if you have problems with the .NET FTP\nclasses, installing IOProtocolExt might solve them.\n\nDue to its usage of WinSCP, the IOProtocolExt plugin only works\non Windows. If you are using Linux, consider other plugins\n(like SftpSync) instead.\n",
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": "extensions/v2/ioprotocolext/IOProtocolExt-1.17-Source.zip",
@@ -2344,7 +2344,7 @@
     "language": [
       "English"
     ],
-    "description": "SftpSync\n\nThis plugin adds support for loading/saving files from/to servers via\n\nSFTP and SCP.",
+    "description": "SftpSync\n\nThis plugin adds support for loading/saving files from/to servers via\nSFTP and SCP.",
     "note": "Note:\nThe IOProtocolExt plugin also adds\nsupport for SFTP/SCP and additionally supports FTPS, but it only works\non Windows (in contrast to the SftpSync plugin).\n",
     "similar": [],
     "group": "I/O & Synchronization",
@@ -2360,7 +2360,7 @@
     "language": [
       "English"
     ],
-    "description": "KP2faChecker\n\nThis plugin provides a column in the main entry list and a form\n\nthat display whether a website supports two-factor authentication (2FA).",
+    "description": "KP2faChecker\n\nThis plugin provides a column in the main entry list and a form\nthat display whether a website supports two-factor authentication (2FA).",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/tiuub/KP2faChecker"
@@ -2375,7 +2375,7 @@
     "language": [
       "English"
     ],
-    "description": "KPEntryTemplates\n\nKPEntryTemplates is a plugin that is supposed to make it easier for KeePass to\n\nbe used for storing additional things than web logins and extend the\n\ntemplating system.\n\nThe primary interface for the plugin is an extra tab that shows up in the\n\n'Add Entry' form.\n\nBy default going to the tab on a new entry will present you with one of two\n\nbuttons, 'Init As Template' or 'Set Template Parent'.\n\n'Init As Template' marks the entry as a template, and shows the GUI builder\n\ninterface on the tab.\n\nOnce you have a template set up, you can create entries based on it.",
+    "description": "KPEntryTemplates\n\nKPEntryTemplates is a plugin that is supposed to make it easier for KeePass to\nbe used for storing additional things than web logins and extend the\ntemplating system.\n\nThe primary interface for the plugin is an extra tab that shows up in the\n'Add Entry' form.\nBy default going to the tab on a new entry will present you with one of two\nbuttons, 'Init As Template' or 'Set Template Parent'.\n'Init As Template' marks the entry as a template, and shows the GUI builder\ninterface on the tab.\nOnce you have a template set up, you can create entries based on it.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/mitchcapper/KPEntryTemplates"
@@ -2390,7 +2390,7 @@
     "language": [
       "English"
     ],
-    "description": "KPEnhancedListView\n\nKPEnhancedListView extends the entry list in the KeePass main window.\n\nIt adds inline editing and the ability to double-click the empty\n\nlist view area to add a new entry.",
+    "description": "KPEnhancedListView\n\nKPEnhancedListView extends the entry list in the KeePass main window.\nIt adds inline editing and the ability to double-click the empty\nlist view area to add a new entry.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/betonme/kpenhancedlistview"
@@ -2405,7 +2405,7 @@
     "language": [
       "English"
     ],
-    "description": "KPEnhancedEntryView\n\nKPEnhancedEntryView extends the details view in the KeePass main window.\n\nAll fields (standard and custom strings) are shown in a grid view,\n\nfield values (and names for custom strings) are in-place editable,\n\nattachments can be dragged and dropped to and from files in Windows Explorer,\n\nmetadata properties are shown on a separate tab,\n\nand the original textual details view is still available on another tab.",
+    "description": "KPEnhancedEntryView\n\nKPEnhancedEntryView extends the details view in the KeePass main window.\nAll fields (standard and custom strings) are shown in a grid view,\nfield values (and names for custom strings) are in-place editable,\nattachments can be dragged and dropped to and from files in Windows Explorer,\nmetadata properties are shown on a separate tab,\nand the original textual details view is still available on another tab.",
     "similar": [],
     "group": "Utilities",
     "website": "https://sourceforge.net/projects/kpenhentryview/"
@@ -2420,7 +2420,7 @@
     "language": [
       "English"
     ],
-    "description": "KPFieldsAdminConsole\n\nKPFieldsAdminConsole is a KeePass plugin to get some statistics and perform bulk\n\noperations on fields.",
+    "description": "KPFieldsAdminConsole\n\nKPFieldsAdminConsole is a KeePass plugin to get some statistics and perform bulk\noperations on fields.",
     "similar": [],
     "group": "Utilities",
     "website": "https://sourceforge.net/projects/kpfieldsadminconsole/"
@@ -2435,7 +2435,7 @@
     "language": [
       "English"
     ],
-    "description": "MinLock\n\nMinLock keeps a minimized KeePass locked (re-locks almost immediately after it becomes\n\nunlocked, as long as it is still minimized).\n\nThis happens to be the case when KeePass is locked and minimized and then its global auto-type\n\nfeature is used, which can unlock KeePass and leave it unlocked.",
+    "description": "MinLock\n\nMinLock keeps a minimized KeePass locked (re-locks almost immediately after it becomes\nunlocked, as long as it is still minimized).\n\nThis happens to be the case when KeePass is locked and minimized and then its global auto-type\nfeature is used, which can unlock KeePass and leave it unlocked.",
     "similar": [],
     "group": "Utilities",
     "website": "https://www.codeproject.com/articles/404071/minlock-a-keepass-2-x-plugin-to-keep-minimized-kee"
@@ -2481,7 +2481,7 @@
     "language": [
       "English"
     ],
-    "description": "QrCodeGenerator\n\nThis plugin can display passwords as QR codes.\n\nDownload plugin:",
+    "description": "QrCodeGenerator\n\nThis plugin can display passwords as QR codes.\n",
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": "extensions/v2/qrcodegen/QrCodeGenerator-2.0.12-Source.rar",
@@ -2497,7 +2497,7 @@
     "language": [
       "English"
     ],
-    "description": "KeePassQRCodeView\n\nKeePassQRCodeView is a plugin for KeePass 2.x which shows QR codes for entry fields.\n\nThese codes can be scanned to copy the encoded data to the scanner (smartphone, ...).",
+    "description": "KeePassQRCodeView\n\nKeePassQRCodeView is a plugin for KeePass 2.x which shows QR codes for entry fields.\nThese codes can be scanned to copy the encoded data to the scanner (smartphone, ...).",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/JanisEst/KeePassQRCodeView"
