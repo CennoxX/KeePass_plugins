@@ -24,11 +24,16 @@ jobs:
 
       - name: commit and push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
-          echo $GITHUB_TOKEN
-          git config --global user.name 'CennoxX'
-          git config --global user.email 'cennoxx@users.noreply.github.com'
-          git commit -m "plugins.json updated" || echo "no changes"
-          git remote set-url --push origin https://cennoxx:$GITHUB_TOKEN@github.com/cennoxx/plugin_test
+          echo testing...
+          echo ${{secrets.ACCESS_TOKEN}}
+          echo $ACCESS_TOKEN
+          git config --global user.email "cesar.bernard@gmx.de"
+          git config --global user.name "CennoxX"
+          git config --global credential.helper cache
+          git clone https://${{secrets.ACCESS_TOKEN}}@github.com/CennoxX/plugin_test
+          cd plugin_test
+          git add plugins.json
+          git commit -m "$(date)"
           git push
