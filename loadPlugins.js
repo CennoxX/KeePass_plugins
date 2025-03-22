@@ -48,7 +48,7 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
 	authors: (authors?.match(/\([^,]*\)/) ? authors.match(/\(and /) ? authors.split(/ \(and |\)/) : authors.split(/, /) : authors?.split(/ \(|\)|, /))?.filter(i => i),
 	language: (i.querySelector(".extmeta")? [...i.querySelector(".extmeta")?.innerHTML.matchAll(/<img[^>]+alt="([^"]+)"/g)] : [])?.map(match => match?.[1]),
 	description: description,
-	note: [...i.querySelectorAll("td")].find(i => i.innerHTML.includes("<em>Note") || i.innerHTML.includes(`<em><span style="color: #BB0000;">Warning:`))?.innerText.replace("Note: ", "").replace(" Warning: ", ""),
+	note: [...i.querySelectorAll("td")].find(i => i.innerHTML.includes("<em>Note") || i.innerHTML.includes(`<em><span style="color: #BB0000;">Warning:`))?.innerText.replace("Note:", "").replace(" Warning:", "").trim(),
 	similar: similar ? [...similar.querySelectorAll("a")].map(i => i.getAttribute("href").split("#").pop()) : [],
 	group: (el = doc.querySelector(`[href="#${i.id}"]`)) && (() => { while (el && !el.classList.contains('extindexgroup')) el = el.previousElementSibling; return el; })().innerText,
 	sourceCode: sourceCode,
