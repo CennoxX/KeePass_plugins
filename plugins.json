@@ -70,8 +70,8 @@
     "note": "KeePass 2.15 and higher has group reordering commands built-in.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip",
-    "download": "extensions/v2/databasereorder/DataBaseReorder-2.09.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip",
+    "download": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.09.zip"
   },
   {
     "id": "databasebackup",
@@ -90,8 +90,8 @@
       "simpledbbackup"
     ],
     "group": "Backup",
-    "sourceCode": "extensions/v2/databasebackup/DataBaseBackup-2.0.8.6-Source.zip",
-    "download": "extensions/v2/databasebackup/DataBaseBackup-2.0.8.6.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-2.0.8.6-Source.zip",
+    "download": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-2.0.8.6.zip"
   },
   {
     "id": "kpsimplebackup",
@@ -157,8 +157,8 @@
     "description": "This plugin can import TXT files that were exported by CodeWallet 3.\nNote that this importer is specifically for CodeWallet 3 files. KeePass 2.x already includes an importer for CodeWallet 6 files.",
     "similar": [],
     "group": "Import",
-    "sourceCode": "extensions/v2/cw3import/CodeWallet3ImportPlugin-2.09-Src.zip",
-    "download": "extensions/v2/cw3import/CodeWallet3ImportPlugin-2.10.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-2.09-Src.zip",
+    "download": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-2.10.zip"
   },
   {
     "id": "cw6tocsv",
@@ -175,8 +175,8 @@
     "note": "KeePass 2.x has a built-in importer for CodeWallet 6 files.\nHowever, the Konverter additionally supports groups and field associations.",
     "similar": [],
     "group": "Import",
-    "sourceCode": "extensions/v2/cw6import/CW6Konverter-2.1-Source.zip",
-    "download": "extensions/v2/cw6import/CW6Konverter-2.1.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-2.1-Source.zip",
+    "download": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-2.1.zip"
   },
   {
     "id": "ewalletdatalib",
@@ -191,7 +191,7 @@
     "description": "Export data from eWallet to an XML file, which can then be imported into KeePass. Please read the Readme.txt file included in the download for instructions how to install the exporter and the KeePass plugin that can import the exported XML file.",
     "similar": [],
     "group": "Import",
-    "download": "extensions/v2/ewalletdatalib/eWalletDataLiberator-0.15.zip"
+    "download": "https://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-0.15.zip"
   },
   {
     "id": "ewallettokp",
@@ -331,8 +331,8 @@
     "description": "This utility allows scripting KeePass. For details, see the KeePass Scripting Documentation.",
     "similar": [],
     "group": "Automation & Scripting",
-    "sourceCode": "extensions/v2/kpscript/KPScript-2.58-Source.zip",
-    "download": "extensions/v2/kpscript/KPScript-2.58.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-2.58-Source.zip",
+    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-2.58.zip"
   },
   {
     "id": "osk2",
@@ -347,8 +347,8 @@
     "description": "When opening a database, this plugin automatically shows an on-screen keyboard for entering the master password.\nThis plugin runs on Windows 2000 and higher. Unix-like systems are not supported.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/osk/OnScreenKeyboard2-1.3-Source.zip",
-    "download": "extensions/v2/osk/OnScreenKeyboard2-1.3.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-1.3-Source.zip",
+    "download": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-1.3.zip"
   },
   {
     "id": "passcommimport",
@@ -409,8 +409,8 @@
     "note": "The SpmImport plugin is discontinued.\nKeePass has a built-in import module for Steganos Password Manager CSV files\n(exported by version 20.0.7 or higher), i.e. no plugin is required.",
     "similar": [],
     "group": "Import",
-    "sourceCode": "extensions/v2/spmimport/SpmImport-1.2-Source.zip",
-    "download": "extensions/v2/spmimport/SpmImport-1.2.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/spmimport/SpmImport-1.2-Source.zip",
+    "download": "https://keepass.info/extensions/v2/spmimport/SpmImport-1.2.zip"
   },
   {
     "id": "keeresize",
@@ -425,7 +425,7 @@
     "description": "The KeeResize plugin makes several KeePass 2.x dialogs resizable.",
     "similar": [],
     "group": "Utilities",
-    "website": "extensions/v2/keeresize/"
+    "website": "https://keepass.info/extensions/v2/keeresize/"
   },
   {
     "id": "keetheme",
@@ -456,8 +456,8 @@
     "description": "This plugin provides various user interface options:\nGeneral:\nWhen pressing Ctrl+Backspace, delete the word to the left of the cursor.\nMain Window:\nForget last used database if it does not exist anymore. Show confirmation dialog when closing a database.\nMain Group Tree:\nCollapse all groups when opening a database. Show 'Duplicate Group' command in the group context menu.\nMain Entry List:\nFocus entry list when opening a database. Draw grid lines. Show 'Duplicate Entry' command in the entry context menu. Show 'Print Entry' command in the entry context menu.\nAdvanced:\nCustom user interface font. Note: if you want to change the font size, see the FAQ item 'How to change the GUI font (size)?'. Changing the font size using the KeeUIExt plugin may result in layout issues.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/keeuiext/KeeUIExt-1.4-Source.zip",
-    "download": "extensions/v2/keeuiext/KeeUIExt-1.4.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.4-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.4.zip"
   },
   {
     "id": "vault3importer",
@@ -547,7 +547,7 @@
     "description": "This extension allows to execute auto-type based on the current web browser URL instead of the window title.",
     "similar": [],
     "group": "Auto-Type",
-    "download": "extensions/base/keepasser/KeePasserIE_070402.zip"
+    "download": "https://keepass.info/extensions/base/keepasser/KeePasserIE_070402.zip"
   },
   {
     "id": "kpuinput",
@@ -921,8 +921,8 @@
     "note": "KeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/qualitycolumn/QualityColumn-1.3-Source.zip",
-    "download": "extensions/v2/qualitycolumn/QualityColumn-1.3.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-1.3-Source.zip",
+    "download": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-1.3.zip"
   },
   {
     "id": "qhl",
@@ -1151,8 +1151,8 @@
     "note": "If you instead want KeePass to generate one-time passwords, see the built-in\none-time password placeholders\nand the KeePassOTP, KeeOtp2,\nKeeTrayTOTP\nand TwoFactorQRCodeReader plugins.",
     "similar": [],
     "group": "Cryptography & Key Providers",
-    "sourceCode": "extensions/v2/otpkeyprov/OtpKeyProv-2.7-Source.zip",
-    "download": "extensions/v2/otpkeyprov/OtpKeyProv-2.7.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-2.7-Source.zip",
+    "download": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-2.7.zip"
   },
   {
     "id": "keechl",
@@ -1541,8 +1541,8 @@
       "kpautounlock"
     ],
     "group": "Cryptography & Key Providers",
-    "sourceCode": "extensions/v2/winkee/WinKee-2.39.1-Source.zip",
-    "download": "extensions/v2/winkee/WinKee-2.39.1.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/winkee/WinKee-2.39.1-Source.zip",
+    "download": "https://keepass.info/extensions/v2/winkee/WinKee-2.39.1.zip"
   },
   {
     "id": "kpautounlock",
@@ -1592,8 +1592,8 @@
       "audit"
     ],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/keemodifiedby/KeeModifiedBy-1.0-Source.zip",
-    "download": "extensions/v2/keemodifiedby/KeeModifiedBy-1.0.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-1.0-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-1.0.zip"
   },
   {
     "id": "kpopenid",
@@ -1699,8 +1699,8 @@
     "description": "iTans or 'indexed security tokens' are becoming standard to improve access security in online banking and similar applications.\niTanMaster provides easy and fast access to the encrypted storage of such indexed security tokens.\niTanMaster supports single, dual (e.g. Interactive Brokers) and triple token systems (e.g. Flatex AG) where the final access TAN is constructed from multiple separately indexed and then concatenated token parts.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/itanmaster/iTanMaster-2.28.0.2-Source.zip",
-    "download": "extensions/v2/itanmaster/iTanMaster-2.28.0.2.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2-Source.zip",
+    "download": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2.zip"
   },
   {
     "id": "rdcandtcato",
@@ -1731,8 +1731,8 @@
     "description": "This plugin allows to conveniently connect to a server via RDP.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/rdpplugin/RDPPlugin-7.0-Source.zip",
-    "download": "extensions/v2/rdpplugin/RDPPlugin-7.0.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-7.0-Source.zip",
+    "download": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-7.0.zip"
   },
   {
     "id": "tcatoplh",
@@ -2178,8 +2178,8 @@
     "note": "For opening/importing old files, no plugin is required.\nKeePass is fully backward compatible.",
     "similar": [],
     "group": "Export",
-    "sourceCode": "extensions/v2/keeoldfmt/KeeOldFormatExport-1.2-Source.zip",
-    "download": "extensions/v2/keeoldfmt/KeeOldFormatExport-1.2.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-1.2-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-1.2.zip"
   },
   {
     "id": "kdbxlite",
@@ -2194,8 +2194,8 @@
     "description": "This plugin creates lite database files. Every time you save a '*.kdbx' file, the plugin creates a '*.lite.kdbx' file (in the same directory) that contains everything except entry attachments.",
     "similar": [],
     "group": "Export",
-    "sourceCode": "extensions/v2/kdbxlite/KdbxLite-1.2-Source.zip",
-    "download": "extensions/v2/kdbxlite/KdbxLite-1.2.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-1.2-Source.zip",
+    "download": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-1.2.zip"
   },
   {
     "id": "secexch",
@@ -2257,8 +2257,8 @@
     "description": "This plugin adds support for exporting KeePass entries to a CSV file readable by The Vault.",
     "similar": [],
     "group": "Export",
-    "sourceCode": "extensions/v2/thevault/TheVaultExport-2.0.2-Source.zip",
-    "download": "extensions/v2/thevault/TheVaultExport-2.0.2.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/thevault/TheVaultExport-2.0.2-Source.zip",
+    "download": "https://keepass.info/extensions/v2/thevault/TheVaultExport-2.0.2.zip"
   },
   {
     "id": "mswifi",
@@ -2288,8 +2288,8 @@
     "description": "This plugin allows to automatically open additional databases when opening a database.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "extensions/v2/keeautoexec/KeeAutoExec-2.6-Source.zip",
-    "download": "extensions/v2/keeautoexec/KeeAutoExec-2.6.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-2.6-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-2.6.zip"
   },
   {
     "id": "keelocker",
@@ -2335,8 +2335,8 @@
     "description": "This plugin adds support for loading/saving files from/to servers via SCP, SFTP and FTPS.\nKeePass can handle FTP by default (using classes of the .NET framework). However, this plugin replaces the FTP handler to use WinSCP instead. So, if you have problems with the .NET FTP classes, installing IOProtocolExt might solve them.\nDue to its usage of WinSCP, the IOProtocolExt plugin only works on Windows. If you are using Linux, consider other plugins (like SftpSync) instead.",
     "similar": [],
     "group": "I/O & Synchronization",
-    "sourceCode": "extensions/v2/ioprotocolext/IOProtocolExt-1.17-Source.zip",
-    "download": "extensions/v2/ioprotocolext/IOProtocolExt-1.17.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.17-Source.zip",
+    "download": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.17.zip"
   },
   {
     "id": "sftpsync",
@@ -2488,8 +2488,8 @@
     "description": "This plugin can display passwords as QR codes.",
     "similar": [],
     "group": "Integration & Transfer",
-    "sourceCode": "extensions/v2/qrcodegen/QrCodeGenerator-2.0.12-Source.rar",
-    "download": "extensions/v2/qrcodegen/QrCodeGenerator-2.0.12.zip"
+    "sourceCode": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-2.0.12-Source.rar",
+    "download": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-2.0.12.zip"
   },
   {
     "id": "qrcodeview",
