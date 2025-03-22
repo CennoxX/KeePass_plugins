@@ -12,9 +12,7 @@ jobs:
     steps:
       - name: clone repo
         uses: actions/checkout@v4
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
       - name: install deno
         uses: denoland/setup-deno@v2
         with:
