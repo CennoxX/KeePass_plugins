@@ -27,3 +27,5 @@ jobs:
           git config --global user.email 'cennoxx@users.noreply.github.com'
           git commit -m "plugins.json updated" || echo "no changes"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
