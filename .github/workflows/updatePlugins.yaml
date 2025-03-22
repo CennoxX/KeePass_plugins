@@ -13,6 +13,8 @@ jobs:
       - name: clone repo
         uses: actions/checkout@v4
 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: install deno
         uses: denoland/setup-deno@v2
         with:
@@ -22,11 +24,11 @@ jobs:
         run: deno run -A loadPlugins.js
 
       - name: commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'CennoxX'
           git config --global user.email 'cennoxx@users.noreply.github.com'
           git commit -m "plugins.json updated" || echo "no changes"
           git remote set-url --push origin https://cennoxx:$GITHUB_TOKEN@github.com/cennoxx/plugin_test
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
