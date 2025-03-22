@@ -10,7 +10,7 @@
       "English"
     ],
     "description": "1P2KeePass\n\nThis plugin can import 1Password 1PIF files.",
-    "note": "Note:\nKeePass 2.x has a built-in import module for 1Password 1PUX files.\n",
+    "note": "KeePass 2.x has a built-in import module for 1Password 1PUX files.",
     "similar": [
       "onepif",
       "onevault"
@@ -29,7 +29,7 @@
       "English"
     ],
     "description": "OnePIF\n\nThis plugin can import 1Password 1PIF files.",
-    "note": "Note:\nKeePass 2.x has a built-in import module for 1Password 1PUX files.\n",
+    "note": "KeePass 2.x has a built-in import module for 1Password 1PUX files.",
     "similar": [
       "i1p2kp",
       "onevault"
@@ -48,7 +48,7 @@
       "English"
     ],
     "description": "OneVault\n\nThis plugin can import 1Password OPVault files.",
-    "note": "Note:\nKeePass 2.x has a built-in import module for 1Password 1PUX files.\n",
+    "note": "KeePass 2.x has a built-in import module for 1Password 1PUX files.",
     "similar": [
       "i1p2kp",
       "onepif"
@@ -67,7 +67,7 @@
       "English"
     ],
     "description": "DataBaseReorder\n\nThis plugin adds a command to reorder all groups alphabetically.\n",
-    "note": "Note:\nKeePass 2.15 and higher has group reordering commands built-in.\n",
+    "note": "KeePass 2.15 and higher has group reordering commands built-in.",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip",
@@ -84,7 +84,7 @@
       "English"
     ],
     "description": "DataBaseBackup\n\nCreates backups of modified databases.\n",
-    "note": "Note:\nDataBaseBackup does not use KeePass' I/O infrastructure,\ntherefore the plugin is incompatible with most other plugins that\nare providing support for more protocols (like IOProtocolExt).\n",
+    "note": "DataBaseBackup does not use KeePass' I/O infrastructure,\ntherefore the plugin is incompatible with most other plugins that\nare providing support for more protocols (like IOProtocolExt).",
     "similar": [
       "kpsimplebackup",
       "simpledbbackup"
@@ -172,7 +172,7 @@
       "German"
     ],
     "description": "CodeWallet 6 Konverter\n\nThis tool converts a CodeWallet 6 TXT file to a CSV file that can\nbe imported into KeePass using the\nGeneric CSV Importer.\n",
-    "note": "Note:\nKeePass 2.x has a built-in importer for CodeWallet 6 files.\nHowever, the Konverter additionally supports groups and field associations.\n",
+    "note": "KeePass 2.x has a built-in importer for CodeWallet 6 files.\nHowever, the Konverter additionally supports groups and field associations.",
     "similar": [],
     "group": "Import",
     "sourceCode": "extensions/v2/cw6import/CW6Konverter-2.1-Source.zip",
@@ -219,7 +219,7 @@
       "English"
     ],
     "description": "KeeAnywhere\n\nKeeAnywhere is a KeePass plugin that provides access to cloud storage providers\n(cloud drives) like Amazon AWS S3, Box, Dropbox, Google Drive,\nHiDrive, hubiC or OneDrive.\nThe main goal is to offer a simple UI while integrating deeply into KeePass.\nThis covers all kind of users: novices, experienced and power users.",
-    "note": "Note:\nKeePass 2.x already has built-in support for local files and files accessible\nvia standard protocols (FTP, HTTP, HTTPS, WebDAV, ...), see the help pages\n'Loading/Saving From/To URL' and\n'Synchronization' for details.\nThe KeeAnywhere plugin is only required when using online storage providers\nthat are not accessible via standard protocols.\n",
+    "note": "KeePass 2.x already has built-in support for local files and files accessible\nvia standard protocols (FTP, HTTP, HTTPS, WebDAV, ...), see the help pages\n'Loading/Saving From/To URL' and\n'Synchronization' for details.\nThe KeeAnywhere plugin is only required when using online storage providers\nthat are not accessible via standard protocols.",
     "similar": [],
     "group": "I/O & Synchronization",
     "website": "https://keeanywhere.de/"
@@ -250,7 +250,7 @@
       "English"
     ],
     "description": "KeePassSync\n\nKeePassSync is a KeePass plugin that synchronizes your database using\nFTP/SFTP or various S3-compatible online storage providers (including\nAmazon S3, Backblaze B2, Cloudflare R2, Google Cloud Services, Alibaba Cloud,\nDigital Ocean, Synology, Rclone, and more).\nThis allows two or more computers to easily keep their data in sync.",
-    "note": "Note:\nKeePass 2.x already has built-in support for local files and files accessible\nvia standard protocols (FTP, HTTP, HTTPS, WebDAV, ...), see the help pages\n'Loading/Saving From/To URL' and\n'Synchronization' for details.\nThe KeePassSync plugin is only required when using online storage providers\nthat are not accessible via standard protocols.\n",
+    "note": "KeePass 2.x already has built-in support for local files and files accessible\nvia standard protocols (FTP, HTTP, HTTPS, WebDAV, ...), see the help pages\n'Loading/Saving From/To URL' and\n'Synchronization' for details.\nThe KeePassSync plugin is only required when using online storage providers\nthat are not accessible via standard protocols.",
     "similar": [],
     "group": "I/O & Synchronization",
     "website": "https://github.com/mitchcapper/KeePassSync"
@@ -405,7 +405,7 @@
       "English"
     ],
     "description": "SpmImport\n\nThis plugin adds an import module for files created by\nSteganos Password Manager 16.\n",
-    "note": "Note:\nThe SpmImport plugin is discontinued.\nKeePass has a built-in import module for Steganos Password Manager CSV files\n(exported by version 20.0.7 or higher), i.e. no plugin is required.\n",
+    "note": "The SpmImport plugin is discontinued.\nKeePass has a built-in import module for Steganos Password Manager CSV files\n(exported by version 20.0.7 or higher), i.e. no plugin is required.",
     "similar": [],
     "group": "Import",
     "sourceCode": "extensions/v2/spmimport/SpmImport-1.2-Source.zip",
@@ -437,7 +437,7 @@
       "English"
     ],
     "description": "KeeTheme\n\nChanges the appearance of KeePass and allows you to create your own custom themes.",
-    "note": "Note:\nKeePass supports all system themes (including\ndark ones) without a plugin.\nThe KeeTheme plugin is intended for changing KeePass' appearance\nindependent of the active system theme.\n",
+    "note": "KeePass supports all system themes (including\ndark ones) without a plugin.\nThe KeeTheme plugin is intended for changing KeePass' appearance\nindependent of the active system theme.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/xatupal/KeeTheme"
@@ -709,7 +709,7 @@
       "English"
     ],
     "description": "KeePassNewKeyExport\n\nExport data with a new master key.",
-    "note": "Note:\nKeePass 2.47 and higher has a built-in option 'Use a different master key'\non the 'Options' tab page of the export dialog.\n",
+    "note": "KeePass 2.47 and higher has a built-in option 'Use a different master key'\non the 'Options' tab page of the export dialog.",
     "similar": [],
     "group": "Export",
     "website": "https://github.com/JanisEst/KeePassNewKeyExport"
@@ -916,7 +916,7 @@
       "English"
     ],
     "description": "QualityColumn\n\nAdds support for a 'Password Quality' column in the main entry list.\n",
-    "note": "Note:\nKeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.\n",
+    "note": "KeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "extensions/v2/qualitycolumn/QualityColumn-1.3-Source.zip",
@@ -933,7 +933,7 @@
       "English"
     ],
     "description": "QualityHighlighter\n\nThis plugin highlights entries based on the password quality.\nHighlighting can be turned on/off using a toolbar button.",
-    "note": "Note:\nKeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.\n",
+    "note": "KeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/sdrichter/QualityHighlighter"
@@ -965,7 +965,7 @@
       "English"
     ],
     "description": "StrengthReport\n\nCreate detailed password strength reports (multiple formats like PDF,\nCSV, ...) for all entries in a KeePass database. Various strength\nmeasuring methods are supported (including dictionary-based tests).\nReports can be customized (layout, font, size, colors, etc.).",
-    "note": "Note:\nKeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.\n",
+    "note": "KeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.",
     "similar": [],
     "group": "Utilities",
     "website": "http://dev.progterv.info/strengthreport"
@@ -1144,7 +1144,7 @@
       "English"
     ],
     "description": "OtpKeyProv\n\nOtpKeyProv is a key provider based on one-time passwords.\nAfter protecting your database using this plugin, you need to generate and\nenter one-time passwords in order to open your database.\n\nAll generator tokens that follow the OATH HOTP standard (RFC 4226) are supported.\n",
-    "note": "Note:\nIf you instead want KeePass to generate one-time passwords, see the built-in\none-time password placeholders\nand the KeePassOTP, KeeOtp2,\nKeeTrayTOTP\nand TwoFactorQRCodeReader plugins.\n",
+    "note": "If you instead want KeePass to generate one-time passwords, see the built-in\none-time password placeholders\nand the KeePassOTP, KeeOtp2,\nKeeTrayTOTP\nand TwoFactorQRCodeReader plugins.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": "extensions/v2/otpkeyprov/OtpKeyProv-2.7-Source.zip",
@@ -1178,7 +1178,7 @@
       "English"
     ],
     "description": "KeePassOTP\n\nThis plugin adds advanced support for generating one-time passwords (TOTP and HOTP).\n\nFeatures: auto-type placeholder {KPOTP},\ncolumn in the main entry list for displaying and using OTPs,\nmultiple storage approaches for OTP secrets/states (as part of an entry or\nin a separate database), and more.\nIt is compatible with various apps (Google Authenticator, Microsoft Authenticator,\nandOTP, etc.).",
-    "note": "Note:\nKeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.\n",
+    "note": "KeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.",
     "similar": [
       "keeotp",
       "keetraytotp",
@@ -1198,7 +1198,7 @@
       "English"
     ],
     "description": "KeeOtp2\n\nKeeOtp2 provides a form to display one-time passwords.\nThe TOTP secret keys are stored in a normalized format, so this plugin\nis fully compatible with the built-in OTP function (see the note below).\nIt also can be used as a GUI for the built-in OTP function.",
-    "note": "Note:\nKeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.\n",
+    "note": "KeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.",
     "similar": [
       "kpotp",
       "keetraytotp",
@@ -1219,7 +1219,7 @@
       "English"
     ],
     "description": "KeeTrayTOTP\n\nThis plugin adds advanced support for generating Time-based One-Time\nPasswords (TOTPs) from the KeePass tray icon.\nIt also provides a column in the main entry list to display and/or use TOTPs.\nTOTPs can also be sent by auto-type.\nThe plugin is compatible with Google, Dropbox, Steam, and many more services.",
-    "note": "Note:\nKeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.\n",
+    "note": "KeePass has built-in menu commands and placeholders for generating HOTPs and TOTPs:\n{HMACOTP} and\n{TIMEOTP}. The plugin adds advanced functionality.\n\nIf you instead want to protect your KeePass database using one-time passwords\n(i.e. one-time passwords need to be generated and entered in order to open\nyour database), see the OtpKeyProv plugin.",
     "similar": [
       "kpotp",
       "keeotp",
@@ -1425,7 +1425,7 @@
       "English"
     ],
     "description": "MultiCipher\n\nThis plugin allows to use two ciphers for encrypting a database file.\nSupported ciphers are AES-256, 3DES-192, ChaCha20 and Salsa20.\nFurthermore, YubiKey challenge-response authentication is supported.",
-    "note": "Note:\nKeePass has built-in support for AES-256 and ChaCha20 as single algorithms.\nSupport for YubiKey challenge-response authentication is alternatively\nprovided by the KeeChallenge plugin.\n",
+    "note": "KeePass has built-in support for AES-256 and ChaCha20 as single algorithms.\nSupport for YubiKey challenge-response authentication is alternatively\nprovided by the KeeChallenge plugin.",
     "similar": [],
     "group": "Cryptography & Key Providers",
     "website": "https://titasraha.com/multicipher/"
@@ -1709,7 +1709,7 @@
       "English"
     ],
     "description": "RDCAutoTypeAndTCATO\n\nThis plugin adds support for auto-typing into Remote Desktop Connection (RDC)\nwindows. Additionally, it allows enabling\nTwo-Channel Auto-Type Obfuscation\n(TCATO) for entries based on target applications (for example always\nenabling TCATO for browser windows).",
-    "note": "Note:\nKeePass 2.25 and higher can auto-type into RDC windows without any plugin,\ni.e. the RDCAutoTypeAndTCATO plugin is not required for this anymore,\nbut still for enabling TCATO based on target applications.\n",
+    "note": "KeePass 2.25 and higher can auto-type into RDC windows without any plugin,\ni.e. the RDCAutoTypeAndTCATO plugin is not required for this anymore,\nbut still for enabling TCATO based on target applications.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://rdc-keepass-plugin.appspot.com/"
@@ -1771,7 +1771,7 @@
       "English"
     ],
     "description": "AutoTypeCustomFieldPicker\n\nThis plugin provides support for a placeholder {PICKCUSTOMFIELD}.\nWhen auto-typing a sequence containing this placeholder, a window is displayed\nthat allows to pick a custom string field\n(whose value is then inserted at the placeholder's position).",
-    "note": "Note:\nKeePass 2.35 and higher has a built-in placeholder\n{PICKFIELD}\nthat provides the same functionality as the plugin.\n",
+    "note": "KeePass 2.35 and higher has a built-in placeholder\n{PICKFIELD}\nthat provides the same functionality as the plugin.",
     "similar": [],
     "group": "Auto-Type",
     "website": "https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker"
@@ -1922,7 +1922,7 @@
       "English"
     ],
     "description": "Character Copy\n\nCharacter Copy is a lightweight KeePass plugin that integrates into KeePass'\nentry menu and allows users to securely copy individual characters from an\nentry's protected string fields, such as the password field.",
-    "note": "Note:\nIn conjunction with auto-type, the built-in\n{PICKCHARS}\nplaceholder is more powerful and convenient.\nThe Character Copy plugin is useful for users who are not using auto-type\nor do not want to customize the auto-type sequence.\n",
+    "note": "In conjunction with auto-type, the built-in\n{PICKCHARS}\nplaceholder is more powerful and convenient.\nThe Character Copy plugin is useful for users who are not using auto-type\nor do not want to customize the auto-type sequence.",
     "similar": [],
     "group": "Integration & Transfer",
     "website": "https://github.com/SketchingDev/Character-Copy"
@@ -2043,7 +2043,7 @@
       "English"
     ],
     "description": "KeeSAPLogon\n\nThis plugin allows to conveniently logon to SAP systems.",
-    "note": "Note:\nA less convenient solution without a plugin can be found here:\n\n\nUsing KeePass Instead of SAP Logon.\n",
+    "note": "A less convenient solution without a plugin can be found here:\n\n\nUsing KeePass Instead of SAP Logon.",
     "similar": [
       "kpsaplaunch"
     ],
@@ -2171,7 +2171,7 @@
       "English"
     ],
     "description": "KeeOldFormatExport\n\nThis plugin adds support for exporting data to old KeePass file formats.\nSupported formats are KeePass KDB (1.23) and KeePass KDBX (2.19).\n",
-    "note": "Note:\nFor opening/importing old files, no plugin is required.\nKeePass is fully backward compatible.\n",
+    "note": "For opening/importing old files, no plugin is required.\nKeePass is fully backward compatible.",
     "similar": [],
     "group": "Export",
     "sourceCode": "extensions/v2/keeoldfmt/KeeOldFormatExport-1.2-Source.zip",
@@ -2235,7 +2235,7 @@
       "English"
     ],
     "description": "SimpleSelectionExport\n\nThis plugin allows you to export basic entry information to flat text files\n(for instance TXT and CSV). It is useful when you want to send a quick overview\nof an arbitrary set of entries to parties who are not using KeePass.",
-    "note": "Note:\nKeePass has a built-in command for exporting selected entries to\ncertain formats (e.g. CSV): after selecting the entries, click on\nthe menu item 'Entry' → 'Data Exchange' → 'Export Entry'.\nThe plugin provides support for additional formats.\n",
+    "note": "KeePass has a built-in command for exporting selected entries to\ncertain formats (e.g. CSV): after selecting the entries, click on\nthe menu item 'Entry' → 'Data Exchange' → 'Export Entry'.\nThe plugin provides support for additional formats.",
     "similar": [],
     "group": "Export",
     "website": "https://github.com/markjszy/SimpleSelectionExport"
@@ -2313,7 +2313,7 @@
       "English"
     ],
     "description": "KeePassTimestampChanger\n\nThis plugin provides a dialog that allows to change the timestamps\nof an entry.",
-    "note": "\nWarning:\nKeePass' synchronization depends on correct timestamps.\nWhen changing timestamps using the plugin, synchronization may not work\nas expected anymore (e.g. entries may be overwritten by older copies).\n",
+    "note": "Warning:\nKeePass' synchronization depends on correct timestamps.\nWhen changing timestamps using the plugin, synchronization may not work\nas expected anymore (e.g. entries may be overwritten by older copies).",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/JanisEst/KeePassTimestampChanger"
@@ -2345,7 +2345,7 @@
       "English"
     ],
     "description": "SftpSync\n\nThis plugin adds support for loading/saving files from/to servers via\nSFTP and SCP.",
-    "note": "Note:\nThe IOProtocolExt plugin also adds\nsupport for SFTP/SCP and additionally supports FTPS, but it only works\non Windows (in contrast to the SftpSync plugin).\n",
+    "note": "The IOProtocolExt plugin also adds\nsupport for SFTP/SCP and additionally supports FTPS, but it only works\non Windows (in contrast to the SftpSync plugin).",
     "similar": [],
     "group": "I/O & Synchronization",
     "website": "https://sourceforge.net/projects/keepass-sftp-sync/"
@@ -2451,7 +2451,7 @@
       "English"
     ],
     "description": "NotesFontSelector\n\nThis plugin allows you to select the font that is used for an entry's notes.",
-    "note": "Note:\nWithout this plugin, KeePass uses the default graphical user interface (GUI) font\nfor the notes (which is also used by most other controls).\nThis font can be changed in the operating system settings.\nFor details, see the FAQ item\n'How to change the GUI font (size)?'.\n",
+    "note": "Without this plugin, KeePass uses the default graphical user interface (GUI) font\nfor the notes (which is also used by most other controls).\nThis font can be changed in the operating system settings.\nFor details, see the FAQ item\n'How to change the GUI font (size)?'.",
     "similar": [],
     "group": "Utilities",
     "website": "https://github.com/Rookiestyle/NotesFontSelector"
