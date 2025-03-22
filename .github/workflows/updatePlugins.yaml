@@ -26,6 +26,7 @@ jobs:
           git config --global user.name 'CennoxX'
           git config --global user.email 'cennoxx@users.noreply.github.com'
           git commit -m "plugins.json updated" || echo "no changes"
+          git remote set-url --push origin https://cennoxx:$GITHUB_TOKEN@github.com/cennoxx/plugin_test
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
