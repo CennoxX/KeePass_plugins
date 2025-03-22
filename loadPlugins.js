@@ -51,8 +51,8 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
 	note: [...i.querySelectorAll("td")].find(i => i.innerHTML.includes("<em>Note") || i.innerHTML.includes(`<em><span style="color: #BB0000;">Warning:`))?.innerText.replace("Note:", "").replace(" Warning: ", "").trim(),
 	similar: similar ? [...similar.querySelectorAll("a")].map(i => i.getAttribute("href").split("#").pop()) : [],
 	group: (el = doc.querySelector(`[href="#${i.id}"]`)) && (() => { while (el && !el.classList.contains('extindexgroup')) el = el.previousElementSibling; return el; })().innerText,
-	sourceCode: sourceCode,
-	download: pluginDownload,
-	website: website
+	sourceCode: sourceCode && sourceCode.startsWith("extensions") ? document.location.origin + "/" + sourceCode : sourceCode,
+	download: pluginDownload && pluginDownload.startsWith("extensions") ? document.location.origin + "/" + pluginDownload : pluginDownload,
+	website: website && website.startsWith("extensions") ? document.location.origin + "/" + website : website,
 	}}).filter(i => i.authors && !i.id.startsWith("convertto") && i.id != "testplugin")
 await Deno.writeTextFile("plugins.json", JSON.stringify(plgs, null, 2));
