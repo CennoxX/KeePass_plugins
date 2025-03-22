@@ -20,7 +20,7 @@ jobs:
           deno-version: v2.x
 
       - name: run deno script
-        run: deno run -A loadPlugins.js
+        run: deno run --allow-net=keepass.info --allow-write loadPlugins.js
 
       - name: commit and push
         run: |
