@@ -32,8 +32,8 @@ jobs:
           git config --global user.email "cesar.bernard@gmx.de"
           git config --global user.name "CennoxX"
           git config --global credential.helper cache
-          git clone https://${{secrets.ACCESS_TOKEN}}@github.com/CennoxX/plugin_test
-          cd plugin_test
+          git clone https://${{secrets.ACCESS_TOKEN}}@github.com/CennoxX/plugin_tests
+          cd plugin_tests
           git add plugins.json
           git commit -m "$(date)"
           git push
