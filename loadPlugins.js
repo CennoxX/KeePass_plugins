@@ -6,8 +6,8 @@ var doc = new DOMParser().parseFromString(sourceText, "text/html");
 var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('img[alt="2.x"]')).map(i => {
 	var similar = [...i.querySelectorAll("td")].find(i => i.innerHTML.includes("<em>Similar plugin") || i.innerHTML.includes("<em>See also"));
 	var shortdescNode = doc.querySelector("[href='#"+i.id+"']~br");
-	var description = i.innerText.replace(i.querySelector(".extmeta")?.innerText,"").trim().replace(/\n\n+/g,"\n\n");
-	var authors = i.querySelector(".extmeta")?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.trim();
+	var description = i.querySelector("td").innerText.replace(i.querySelector(".extmeta")?.innerText,"").replace(/\n\n+/g,"\n\n").trim();
+	var authors = i.querySelector(".extmeta")?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.replace("\n"," ").trim();
 	var idx = description.split("\n").findIndex(str => str.includes('['));
 	if (idx != -1)
 		description = description.split("\n").slice(0, description.split("\n").findIndex(str => str.includes('['))-1).join("\n");
@@ -47,8 +47,8 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
 	shortdesc: shortdescNode[(shortdescNode.nextSibling.textContent.trim() ? "nextSibling" : "nextElementSibling")]?.textContent.trim(),
 	authors: (authors?.match(/\([^,]*\)/) ? authors.match(/\(and /) ? authors.split(/ \(and |\)/) : authors.split(/, /) : authors?.split(/ \(|\)|, /))?.filter(i => i),
 	language: (i.querySelector(".extmeta")? [...i.querySelector(".extmeta")?.innerHTML.matchAll(/<img[^>]+alt="([^"]+)"/g)] : [])?.map(match => match?.[1]),
-	description: description,
-	note: [...i.querySelectorAll("td")].find(i => i.innerHTML.includes("<em>Note") || i.innerHTML.includes(`<em><span style="color: #BB0000;">Warning:`))?.innerText.replace("Note:", "").replace(" Warning:", "").trim(),
+	description: description?.replace(/(?<!\n)\n(?!\n)/g, " ").replace(/\n\n/g, "\n").trim(),
+	note: [...i.querySelectorAll("td")].find(i => i.innerHTML.includes("<em>Note") || i.innerHTML.includes(`<em><span style="color: #BB0000;">Warning:`))?.innerText.replace("Note:", "").replace(" Warning: ", "").trim(),
 	similar: similar ? [...similar.querySelectorAll("a")].map(i => i.getAttribute("href").split("#").pop()) : [],
 	group: (el = doc.querySelector(`[href="#${i.id}"]`)) && (() => { while (el && !el.classList.contains('extindexgroup')) el = el.previousElementSibling; return el; })().innerText,
 	sourceCode: sourceCode,
