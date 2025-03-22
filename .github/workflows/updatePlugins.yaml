@@ -33,6 +33,7 @@ jobs:
           git config --global user.name "CennoxX"
           git config --global credential.helper cache
           git clone https://${{secrets.ACCESS_TOKEN}}@github.com/CennoxX/plugin_tests
+          cp plugins.json  plugin_tests/plugins.json
           cd plugin_tests
           git add plugins.json
           git commit -m "$(date)"
