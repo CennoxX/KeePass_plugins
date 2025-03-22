@@ -6,7 +6,7 @@ var doc = new DOMParser().parseFromString(sourceText, "text/html");
 var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('img[alt="2.x"]')).map(i => {
 	var similar = [...i.querySelectorAll("td")].find(i => i.innerHTML.includes("<em>Similar plugin") || i.innerHTML.includes("<em>See also"));
 	var shortdescNode = doc.querySelector("[href='#"+i.id+"']~br");
-	var description = i.innerText.replace(i.querySelector(".extmeta")?.innerText,"").trim().replace(/\n+/g,"\n\n");
+	var description = i.innerText.replace(i.querySelector(".extmeta")?.innerText,"").trim().replace(/\n\n+/g,"\n\n");
 	var authors = i.querySelector(".extmeta")?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.trim();
 	var idx = description.split("\n").findIndex(str => str.includes('['));
 	if (idx != -1)
