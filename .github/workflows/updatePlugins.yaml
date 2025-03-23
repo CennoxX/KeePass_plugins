@@ -24,8 +24,8 @@ jobs:
 
       - name: commit and push
         run: |
-          git config --global user.name "${GITHUB_ACTOR}"
-          git config --global user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
+          git config --global user.email "cesar.bernard@gmx.de"
+          git config --global user.name "CennoxX"
           git config --global credential.helper cache
           git clone https://${{secrets.PAT}}@github.com/${GITHUB_REPOSITORY}
           cp plugins.json  plugin_tests/plugins.json
