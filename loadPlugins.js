@@ -1,4 +1,4 @@
-import { DOMParser, Element } from "jsr:@b-fuze/deno-dom";
+import { DOMParser } from "jsr:@b-fuze/deno-dom";
 
 var source = await fetch("https://keepass.info/plugins.html");
 var sourceText = await source.text();
