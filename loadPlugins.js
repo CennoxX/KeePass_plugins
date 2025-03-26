@@ -3,9 +3,10 @@ import { DOMParser, Element } from "jsr:@b-fuze/deno-dom";
 var source = await fetch("https://keepass.info/plugins.html");
 var sourceText = await source.text();
 var doc = new DOMParser().parseFromString(sourceText, "text/html");
-var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('img[alt="2.x"]' && !i.id.startsWith("convertto") && i.id != "testplugin")).flatMap(i => {
+var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('img[alt="2.x"]') && i.getAttribute("id") != "testplugin" && !i.getAttribute("id").startsWith("convertto")).flatMap(i => {
+	var el;
 	var extMeta = i.querySelector(".extmeta");
-	var group = (el = doc.querySelector(`[href="#${i.id}"]`)) && (() => { while (el && !el.classList.contains('extindexgroup')) el = el.previousElementSibling; return el; })().innerText;
+	var group = (el = doc.querySelector(`[href="#${i.getAttribute("id")}"]`)) && (() => { while (el && !el.classList.contains('extindexgroup')) el = el.previousElementSibling; return el; })().innerText;
 	var description = i.querySelector("td").innerText.replace(extMeta?.innerText,"").replace(/\n\n+/g,"\n\n").trim();
 	var idx = description.split("\n").findIndex(str => str.includes('['));
 	if (idx != -1)
@@ -14,7 +15,7 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
     	return [...i.querySelectorAll("ul.withspc > li")].filter(i => !i.querySelector('[alt="1.x"]'))
 		.map(li => {
             	var title = li.querySelector("b,strong")?.innerText.trim();
-            	var id = i.id + title.toLowerCase().replace(/\W/g, "");
+            	var id = i.getAttribute("id") + title.toLowerCase().replace(/\W/g, "");
             	var extMeta = li.querySelector(".extmeta");
             	var authors = extMeta?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.replace("\n", " ").trim();
             	authors = (authors?.match(/\([^,]*\)/) ? authors.match(/\(and /) ? authors.split(/ \(and |\)/) : authors.split(/, /) : authors?.split(/ \(|\)|, /))?.filter(i => i);
@@ -27,9 +28,9 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
             	return {id, title, authors, language, website, description, group};
     	});
 	}
-	var id = i.id;
+	var id = i.getAttribute("id");
 	var title = i.querySelector("th").innerText.trim();
-	var shortdescNode = doc.querySelector("[href='#"+i.id+"']~br");
+	var shortdescNode = doc.querySelector("[href='#"+i.getAttribute("id")+"']~br");
 	var shortdesc = shortdescNode[(shortdescNode.nextSibling.textContent.trim() ? "nextSibling" : "nextElementSibling")]?.textContent.trim();
 	var authors = extMeta?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.replace("\n"," ").trim();
 	authors = (authors?.match(/\([^,]*\)/) ? authors.match(/\(and /) ? authors.split(/ \(and |\)/) : authors.split(/, /) : authors?.split(/ \(|\)|, /))?.filter(i => i);
