@@ -22,19 +22,14 @@ jobs:
       - name: run deno script
         run: deno run --allow-net=keepass.info --allow-write loadPlugins.js
 
-      - name: Check for changes
-        id: check_diff
-        run: |
-          git diff --exit-code plugins.json && exit 0 || echo "Changes detected"
-
       - name: commit and push
         run: |
           git config --global user.email "cesar.bernard@gmx.de"
           git config --global user.name "CennoxX"
           git config --global credential.helper cache
           git clone https://${{secrets.PAT}}@github.com/${GITHUB_REPOSITORY}
-          cp plugins.json plugin_tests/plugins.json
+          cp plugins.json  plugin_tests/plugins.json
           cd plugin_tests
           git add plugins.json
-          git commit -m "Update plugins.json [skip ci]"
-          git push
+          git commit -m "Update plugins.json [skip ci]" || true
+          git push || true
