@@ -52,7 +52,7 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
 	website = formatUrl(website);  
 	return {id, title, shortdesc, authors, language, description, note, similar, group, sourceCode, download, website}}).filter(i => i.authors);
   
-  var pat =  GITHUB_PAT = Deno.env.get("GITHUB_PAT");
+  var pat = Deno.env.get("GITHUB_PAT");
   plgs = await Promise.all(plgs.map(async(p) => {
     var repoUrl = p.website?.includes("github") ? p.website : p.sourceCode?.includes("github") ? p.sourceCode : undefined;
     if (repoUrl){
