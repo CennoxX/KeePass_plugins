@@ -17,7 +17,7 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/diimdeep/1P2KeePass/releases/download/0.2.1/0.2.1.zip",
     "website": "https://github.com/diimdeep/1P2KeePass"
   },
   {
@@ -38,7 +38,7 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/juanii/OnePIF/releases/download/0.5.2/OnePIF-0.5.2.zip",
     "website": "https://github.com/juanii/OnePIF"
   },
   {
@@ -59,7 +59,7 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/juanii/OneVault/releases/download/0.1.1/OneVault-0.1.1.zip",
     "website": "https://github.com/juanii/OneVault"
   },
   {
@@ -118,8 +118,9 @@
     ],
     "group": "Backup",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/marvinweber/KPSimpleBackup"
+    "download": "https://github.com/marvinweber/KPSimpleBackup/releases/download/v1.4.0/KPSimpleBackup-v1.4.0.zip",
+    "website": "https://github.com/marvinweber/KPSimpleBackup",
+    "updateUrl": "https://raw.githubusercontent.com/marvinweber/KPSimpleBackup/main/kpsimplebackup.version"
   },
   {
     "id": "simpledbbackup",
@@ -138,8 +139,9 @@
     ],
     "group": "Backup",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/jnko/SimpleDatabaseBackup"
+    "download": "https://raw.githubusercontent.com/jnko/SimpleDatabaseBackup/master/SimpleDatabaseBackup.plgx",
+    "website": "https://github.com/jnko/SimpleDatabaseBackup",
+    "updateUrl": "https://raw.githubusercontent.com/jnko/SimpleDatabaseBackup/master/SimpleDatabaseBackupVERSION.txt"
   },
   {
     "id": "cardfile",
@@ -155,7 +157,7 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/antboy/CardFileKPPlugin/releases/download/v1.0.0/CardFileKPPlugin.plgx",
     "website": "https://github.com/antboy/CardFileKPPlugin"
   },
   {
@@ -225,7 +227,6 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
     "website": "https://github.com/ormico/ewallet2keepass"
   },
   {
@@ -260,8 +261,9 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/dhaven/ProtonDriveSync"
+    "download": "https://github.com/dhaven/ProtonDriveSync/releases/download/0.1.4/ProtonDriveSync-0.1.4.zip",
+    "website": "https://github.com/dhaven/ProtonDriveSync",
+    "updateUrl": "https://raw.githubusercontent.com/dhaven/ProtonDriveSync/main/version_manifest.txt"
   },
   {
     "id": "keepasssync",
@@ -279,7 +281,7 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/mitchcapper/KeePassSync/releases/download/v8.0/KeePassSync.plgx",
     "website": "https://github.com/mitchcapper/KeePassSync"
   },
   {
@@ -313,8 +315,9 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/KoenZomers/KeePassOneDriveSync"
+    "download": "https://github.com/KoenZomers/KeePassOneDriveSync/releases/download/2.1.2.2/KeeOneDriveSync.plgx",
+    "website": "https://github.com/KoenZomers/KeePassOneDriveSync",
+    "updateUrl": "https://raw.githubusercontent.com/KoenZomers/KeePassOneDriveSync/master/version.txt"
   },
   {
     "id": "kpmssync",
@@ -330,8 +333,9 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Angelelz/KeePassMasterSlaveSync"
+    "download": "https://github.com/Angelelz/KeePassMasterSlaveSync/releases/download/v0.99/KeePassMasterSlaveSync.plgx",
+    "website": "https://github.com/Angelelz/KeePassMasterSlaveSync",
+    "updateUrl": "https://raw.githubusercontent.com/Angelelz/KeePassMasterSlaveSync/master/keepass.version"
   },
   {
     "id": "doubleclue",
@@ -399,7 +403,7 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/CEPOCTb/passcmdimport/releases/download/v1.0/PasscommImport.zip",
     "website": "https://github.com/CEPOCTb/passcmdimport"
   },
   {
@@ -433,8 +437,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Alezy80/SIC2KeePass"
+    "download": "https://github.com/Alezy80/SIC2KeePass/releases/download/v2.0.2.0/SafeInCloudImp.plgx",
+    "website": "https://github.com/Alezy80/SIC2KeePass",
+    "updateUrl": "https://raw.githubusercontent.com/Alezy80/SIC2KeePass/master/version_manifest.txt"
   },
   {
     "id": "spmimport",
@@ -486,7 +491,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/xatupal/KeeTheme/releases/download/v0.10.7/KeeTheme.plgx",
     "website": "https://github.com/xatupal/KeeTheme"
   },
   {
@@ -537,8 +542,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Orange-OpenSource/keepass-vault-sync-plugin"
+    "download": "https://github.com/Orange-OpenSource/keepass-vault-sync-plugin/releases/download/v1.1.1/VaultSyncPlugin.plgx",
+    "website": "https://github.com/Orange-OpenSource/keepass-vault-sync-plugin",
+    "updateUrl": "https://raw.githubusercontent.com/Orange-OpenSource/keepass-vault-sync-plugin/master/KeepassPluginVersion.txt"
   },
   {
     "id": "formfiller",
@@ -588,7 +594,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": "https://github.com/mmichaa/passafari.safariextension"
   },
   {
@@ -659,7 +664,7 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/mitchcapper/KPFloatingPanel/releases/download/7.5/KPFloatingPanel.plgx",
     "website": "https://github.com/mitchcapper/KPFloatingPanel"
   },
   {
@@ -710,8 +715,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/JanisEst/KeePassBrowserImporter"
+    "download": "https://github.com/JanisEst/KeePassBrowserImporter/releases/download/v1.0.9/KeePassBrowserImporter.plgx",
+    "website": "https://github.com/JanisEst/KeePassBrowserImporter",
+    "updateUrl": "https://raw.githubusercontent.com/JanisEst/KeePassBrowserImporter/master/keepass.version"
   },
   {
     "id": "pfpconv",
@@ -727,7 +733,7 @@
     "similar": [],
     "group": "Import & Export",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/adrium/KeepassPfpConverter/releases/download/1.8.1/PfpConverter.plgx",
     "website": "https://github.com/adrium/KeepassPfpConverter"
   },
   {
@@ -744,8 +750,9 @@
     "similar": [],
     "group": "Import & Export",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/mridentity/KeeToReady"
+    "download": "https://github.com/mridentity/KeeToReady/releases/download/v4.12.4/KeeToReady.plgx",
+    "website": "https://github.com/mridentity/KeeToReady",
+    "updateUrl": "https://raw.githubusercontent.com/mridentity/KeeToReady/master/KeeToReady/plugin.version"
   },
   {
     "id": "mskeysimport",
@@ -761,7 +768,7 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://raw.githubusercontent.com/svickn/microsoft-key-importer-plugin/master/References/KeePass.XmlSerializers.dll",
     "website": "https://github.com/svickn/microsoft-key-importer-plugin"
   },
   {
@@ -774,7 +781,7 @@
       "English"
     ],
     "website": "http://ww2.whidbey.net/whitedavidp/KeePass2KeyRing/KeePass2KeyRing.html",
-    "description": "Keyring is a password manager for Palm OS. For both KeePass 1.x and 2.x,\nthere are applications/extensions to export KeePass data to Keyring\nfiles (which can then be used on Palm OS using Keyring).\n\nKeePassToKeyring ",
+    "description": "Keyring is a password manager for Palm OS. For both KeePass 1.x and 2.x, there are applications/extensions to export KeePass data to Keyring files (which can then be used on Palm OS using Keyring).\nKeePassToKeyring",
     "group": "Export"
   },
   {
@@ -792,8 +799,9 @@
     "similar": [],
     "group": "Export",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/JanisEst/KeePassNewKeyExport"
+    "download": "https://github.com/JanisEst/KeePassNewKeyExport/releases/download/v1.1/KeePassNewKeyExport.plgx",
+    "website": "https://github.com/JanisEst/KeePassNewKeyExport",
+    "updateUrl": "https://raw.githubusercontent.com/JanisEst/KeePassNewKeyExport/master/keepass.version"
   },
   {
     "id": "partexp",
@@ -811,7 +819,7 @@
     ],
     "group": "Export",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/heinrich-ulbricht/partial-keepass-database-export/releases/download/v1.1.1/PartialKeePassDatabaseExport-v1.1.1_v2.39.1.zip",
     "website": "https://github.com/heinrich-ulbricht/partial-keepass-database-export"
   },
   {
@@ -830,8 +838,9 @@
     ],
     "group": "Export",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/lukeIam/KeePassSubsetExport"
+    "download": "https://github.com/lukeIam/KeePassSubsetExport/releases/download/0.7.0/KeePassSubsetExport.plgx",
+    "website": "https://github.com/lukeIam/KeePassSubsetExport",
+    "updateUrl": "https://raw.githubusercontent.com/lukeIam/KeePassSubsetExport/master/keepass.version"
   },
   {
     "id": "pwcounter",
@@ -861,7 +870,9 @@
     ],
     "website": "https://github.com/ligos/readablepassphrasegenerator",
     "description": "\nThe Readable Passphrase Generator plugin generates passphrases, which are (mostly)\ngrammatically correct, but nonsensical. These are easy to remember (for humans),\nbut difficult to guess (for humans and computers).\n\n",
-    "group": "Utilities"
+    "group": "Utilities",
+    "updateUrl": "https://raw.githubusercontent.com/ligos/readablepassphrasegenerator/master/trunk/readable_passphrase.version",
+    "download": "https://github.com/ligos/readablepassphrasegenerator/releases/download/release-1.4.3/ReadablePassphrase.1.4.3.plgx"
   },
   {
     "id": "ppgenwrfelware",
@@ -874,7 +885,8 @@
     ],
     "website": "https://github.com/heinrich-ulbricht/wuerfelware-passphrases-for-keepass",
     "description": "\nGenerates passphrases within KeePass.",
-    "group": "Utilities"
+    "group": "Utilities",
+    "download": "https://github.com/heinrich-ulbricht/wuerfelware-passphrases-for-keepass/releases/download/v1.0.1/wuerfelware-v1.0.1_v2.39.1.zip"
   },
   {
     "id": "ppgenkeepassdiceware",
@@ -887,7 +899,9 @@
     ],
     "website": "https://github.com/cmdwtf/KeePassDiceware",
     "description": "\nA plugin that provides a custom, configurable password generator\nimplementation that generates diceware-style passwords.",
-    "group": "Utilities"
+    "group": "Utilities",
+    "updateUrl": "https://raw.githubusercontent.com/cmdwtf/KeePassDiceware/main/.meta/version.info",
+    "download": "https://github.com/cmdwtf/KeePassDiceware/releases/download/v2.0.0/KeePassDiceware.dll"
   },
   {
     "id": "ppgenkeepassdpg",
@@ -900,7 +914,9 @@
     ],
     "website": "https://github.com/quinterojose/KeePassDPG",
     "description": "\nA plugin that allows creating easy to remember passwords based on\na word dictionary (with support for custom character substitutions,\nspecific letter capitalization, ...).\n",
-    "group": "Utilities"
+    "group": "Utilities",
+    "updateUrl": "https://raw.githubusercontent.com/quinterojose/KeePassDPG/main/plugin-version.txt",
+    "download": "https://github.com/quinterojose/KeePassDPG/releases/download/v1.3.0/KeePassDPG.plgx"
   },
   {
     "id": "pwchrem",
@@ -918,8 +934,9 @@
     ],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/tiuub/PasswordChangeReminder"
+    "download": "https://github.com/tiuub/PasswordChangeReminder/releases/download/v1.2.0/PasswordChangeReminder.plgx",
+    "website": "https://github.com/tiuub/PasswordChangeReminder",
+    "updateUrl": "https://raw.githubusercontent.com/tiuub/PasswordChangeReminder/master/VERSION"
   },
   {
     "id": "patpass",
@@ -935,7 +952,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/zedseven/PatternPass/releases/download/v1.0/PatternPass.plgx",
     "website": "https://github.com/zedseven/PatternPass"
   },
   {
@@ -954,8 +971,9 @@
     ],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/PEDCalc"
+    "download": "https://github.com/Rookiestyle/PEDCalc/releases/download/v1.14.2/PEDCalc.plgx",
+    "website": "https://github.com/Rookiestyle/PEDCalc",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/PEDCalc/master/version.info"
   },
   {
     "id": "pickcharsdef",
@@ -971,7 +989,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/xatupal/PickCharsDeferred/releases/download/v1.2/PickCharsDeferred.plgx",
     "website": "https://github.com/xatupal/PickCharsDeferred"
   },
   {
@@ -1005,8 +1023,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/aalbng/AdvancedConnectPlugin"
+    "download": "https://github.com/aalbng/AdvancedConnectPlugin/releases/download/1.0.7/AdvancedConnectPlugin.plgx",
+    "website": "https://github.com/aalbng/AdvancedConnectPlugin",
+    "updateUrl": "https://raw.githubusercontent.com/aalbng/AdvancedConnectPlugin/master/version.txt"
   },
   {
     "id": "quickconnect",
@@ -1022,8 +1041,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/cristianst85/QuickConnectPlugin"
+    "download": "https://github.com/cristianst85/QuickConnectPlugin/releases/download/0.6.1/QuickConnectPlugin-0.6.1.zip",
+    "website": "https://github.com/cristianst85/QuickConnectPlugin",
+    "updateUrl": "https://raw.githubusercontent.com/cristianst85/QuickConnectPlugin/master/VERSION"
   },
   {
     "id": "quicksearch",
@@ -1042,8 +1062,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/CennoxX/KeePass-QuickSearch/"
+    "download": "https://github.com/CennoxX/KeePass-QuickSearch/releases/download/2.43/QuickSearch.plgx",
+    "website": "https://github.com/CennoxX/KeePass-QuickSearch/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/KeePass-QuickSearch/master/QuickSearchVersion.txt"
   },
   {
     "id": "qcol",
@@ -1078,8 +1099,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/sdrichter/QualityHighlighter"
+    "download": "https://github.com/sdrichter/QualityHighlighter/releases/download/v1.3.0.1/QualityHighlighter.plgx",
+    "website": "https://github.com/sdrichter/QualityHighlighter",
+    "updateUrl": "https://raw.githubusercontent.com/sdrichter/QualityHighlighter/master/VERSION"
   },
   {
     "id": "rulebuilder",
@@ -1095,8 +1117,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/ihanson/KeePass-Rule-Builder"
+    "download": "https://github.com/ihanson/KeePass-Rule-Builder/releases/download/v3.4/RuleBuilder.dll",
+    "website": "https://github.com/ihanson/KeePass-Rule-Builder",
+    "updateUrl": "https://raw.githubusercontent.com/ihanson/KeePass-Rule-Builder/main/RuleBuilder/version.txt"
   },
   {
     "id": "strrep",
@@ -1148,7 +1171,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy/releases/download/1.0/TeamViewerAndAmmyy1.0.zip",
     "website": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy"
   },
   {
@@ -1182,8 +1205,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/fdbeirao/KeePassTrayRecentFiles"
+    "download": "https://github.com/fdbeirao/KeePassTrayRecentFiles/releases/download/0.0.2/TrayRecentFiles.plgx",
+    "website": "https://github.com/fdbeirao/KeePassTrayRecentFiles",
+    "updateUrl": "https://raw.githubusercontent.com/fdbeirao/KeePassTrayRecentFiles/master/pluginVersion"
   },
   {
     "id": "tcmount",
@@ -1235,7 +1259,7 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/markbott/CertKeyProvider/releases/download/1.0.0/CertKeyProviderPlugin.plgx",
     "website": "https://github.com/markbott/CertKeyProvider"
   },
   {
@@ -1286,7 +1310,7 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/sbidy/KeePass-KeyManager/releases/download/1.3/KeyManagerUI.plgx",
     "website": "https://github.com/sbidy/KeePass-KeyManager"
   },
   {
@@ -1303,8 +1327,9 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/BodnarSoft/KeePass-Smart-Certificate-Key-Provider"
+    "download": "https://github.com/BodnarSoft/KeePass-Smart-Certificate-Key-Provider/releases/download/v2.0.1/SmartCertificateKeyProviderPlugin.dll",
+    "website": "https://github.com/BodnarSoft/KeePass-Smart-Certificate-Key-Provider",
+    "updateUrl": "https://raw.githubusercontent.com/BodnarSoft/KeePass-Smart-Certificate-Key-Provider/master/PluginVersion.txt"
   },
   {
     "id": "otpkeyprov",
@@ -1340,8 +1365,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://brush701.github.io/keechallenge/"
+    "download": "https://github.com/brush701/keechallenge/releases/download/1.5/KeeChallenge_1.5.zip",
+    "website": "https://brush701.github.io/keechallenge/",
+    "updateUrl": "https://raw.githubusercontent.com/brush701/keechallenge/master/VERSION"
   },
   {
     "id": "kpotp",
@@ -1362,8 +1388,9 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/KeePassOTP"
+    "download": "https://github.com/Rookiestyle/KeePassOTP/releases/download/v1.10/KeePassOTP.plgx",
+    "website": "https://github.com/Rookiestyle/KeePassOTP",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/KeePassOTP/master/version.info"
   },
   {
     "id": "keeotp",
@@ -1384,8 +1411,9 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/tiuub/KeeOtp2"
+    "download": "https://github.com/tiuub/KeeOtp2/releases/download/v1.6.0/KeeOtp2.plgx",
+    "website": "https://github.com/tiuub/KeeOtp2",
+    "updateUrl": "https://raw.githubusercontent.com/tiuub/KeeOtp2/master/VERSION"
   },
   {
     "id": "keetraytotp",
@@ -1407,8 +1435,9 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/KeeTrayTOTP/KeeTrayTOTP"
+    "download": "https://github.com/KeeTrayTOTP/KeeTrayTOTP/releases/download/v0.108.0/KeeTrayTOTP.plgx",
+    "website": "https://github.com/KeeTrayTOTP/KeeTrayTOTP",
+    "updateUrl": "https://raw.githubusercontent.com/KeeTrayTOTP/KeeTrayTOTP/master/version_manifest.txt"
   },
   {
     "id": "tfqrcr",
@@ -1462,8 +1491,9 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/leosac/keepassrfid"
+    "download": "https://github.com/leosac/keepassrfid/releases/download/2.2.0/keepassrfid.plgx",
+    "website": "https://github.com/leosac/keepassrfid",
+    "updateUrl": "https://raw.githubusercontent.com/leosac/keepassrfid/master/latest-version.txt"
   },
   {
     "id": "keeperso",
@@ -1496,8 +1526,9 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/vnau/KeePass2Trezor"
+    "download": "https://github.com/vnau/KeePass2Trezor/releases/download/v1.0.4/KeePass2Trezor.zip",
+    "website": "https://github.com/vnau/KeePass2Trezor",
+    "updateUrl": "https://raw.githubusercontent.com/vnau/KeePass2Trezor/master/keepass.version"
   },
   {
     "id": "logincard",
@@ -1531,7 +1562,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": "https://github.com/digitronicnet/keepass-tokenengine-plugin",
-    "download": null,
     "website": "https://www.digitronic.net/keepass-plugin-fuer-smartlogon/"
   },
   {
@@ -1548,7 +1578,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
     "website": "https://github.com/pletexier/KeePassKeyServer"
   },
   {
@@ -1582,7 +1611,7 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/drizzt/KeePass-SerpentCipher/releases/download/v1.0/SerpentCipher-1.0.zip",
     "website": "https://github.com/drizzt/KeePass-SerpentCipher"
   },
   {
@@ -1599,8 +1628,9 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/sbennett1990/KeePass-SalsaCipher"
+    "download": "https://raw.githubusercontent.com/sbennett1990/KeePass-SalsaCipher/master/Salsa20Cipher.plgx",
+    "website": "https://github.com/sbennett1990/KeePass-SalsaCipher",
+    "updateUrl": "https://raw.githubusercontent.com/sbennett1990/KeePass-SalsaCipher/master/version-information.txt"
   },
   {
     "id": "gost",
@@ -1616,7 +1646,7 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/RiverSongFox/GostPlugin/releases/download/2.1/GostPlugin.plgx",
     "website": "https://github.com/RiverSongFox/GostPlugin"
   },
   {
@@ -1653,8 +1683,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/JanisEst/KeePassQuickUnlock"
+    "download": "https://github.com/JanisEst/KeePassQuickUnlock/releases/download/v2.4/KeePassQuickUnlock.plgx",
+    "website": "https://github.com/JanisEst/KeePassQuickUnlock",
+    "updateUrl": "https://raw.githubusercontent.com/JanisEst/KeePassQuickUnlock/master/keepass.version"
   },
   {
     "id": "lockassist",
@@ -1672,8 +1703,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/LockAssist"
+    "download": "https://github.com/Rookiestyle/LockAssist/releases/download/v3.6/LockAssist.plgx",
+    "website": "https://github.com/Rookiestyle/LockAssist",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/LockAssist/master/version.info"
   },
   {
     "id": "winhello",
@@ -1693,8 +1725,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/sirAndros/KeePassWinHello"
+    "download": "https://github.com/sirAndros/KeePassWinHello/releases/download/v3.3.1/KeePassWinHelloPlugin.plgx",
+    "website": "https://github.com/sirAndros/KeePassWinHello",
+    "updateUrl": "https://raw.githubusercontent.com/sirAndros/KeePassWinHello/master/keepass.version"
   },
   {
     "id": "winhellou",
@@ -1713,8 +1746,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Angelelz/WinHelloUnlock"
+    "download": "https://github.com/Angelelz/WinHelloUnlock/releases/download/v1.6.1/WinHelloUnlock.dll",
+    "website": "https://github.com/Angelelz/WinHelloUnlock",
+    "updateUrl": "https://raw.githubusercontent.com/Angelelz/WinHelloUnlock/master/WinHelloUnlock/keepass.version"
   },
   {
     "id": "kpprotkeystore",
@@ -1735,8 +1769,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/CSquared167/KeePassProtectedKeyStore"
+    "download": "https://github.com/CSquared167/KeePassProtectedKeyStore/releases/download/V1.2.1/KeePassProtectedKeyStore.zip",
+    "website": "https://github.com/CSquared167/KeePassProtectedKeyStore",
+    "updateUrl": "https://raw.githubusercontent.com/CSquared167/KeePassProtectedKeyStore/master/VersionInfo.txt"
   },
   {
     "id": "winkee",
@@ -1775,8 +1810,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/jeremy-bourgin/KeePassAutoUnlock"
+    "download": "https://github.com/jeremy-bourgin/KeePassAutoUnlock/releases/download/1.0.0.0/KeePassAutoUnlock.plgx",
+    "website": "https://github.com/jeremy-bourgin/KeePassAutoUnlock",
+    "updateUrl": "https://raw.githubusercontent.com/jeremy-bourgin/KeePassAutoUnlock/master/versionInfo.txt"
   },
   {
     "id": "kpcpeo",
@@ -1792,8 +1828,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/quinterojose/KeePassCPEO"
+    "download": "https://github.com/quinterojose/KeePassCPEO/releases/download/v1.5.0/KeePassCPEO.plgx",
+    "website": "https://github.com/quinterojose/KeePassCPEO",
+    "updateUrl": "https://raw.githubusercontent.com/quinterojose/KeePassCPEO/main/plugin-version.txt"
   },
   {
     "id": "keemodifiedby",
@@ -1828,8 +1865,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/khelmar/KeePassOpenId"
+    "download": "https://github.com/khelmar/KeePassOpenId/releases/download/v1.0.1.0/KeePassOpenId.zip",
+    "website": "https://github.com/khelmar/KeePassOpenId",
+    "updateUrl": "https://raw.githubusercontent.com/khelmar/KeePassOpenId/master/KeePassOpenId.version"
   },
   {
     "id": "kprdp",
@@ -1845,8 +1883,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/iSnackyCracky/KeePassRDP"
+    "download": "https://github.com/iSnackyCracky/KeePassRDP/releases/download/v2.2.2/KeePassRDP_v2.2.2.zip",
+    "website": "https://github.com/iSnackyCracky/KeePassRDP",
+    "updateUrl": "https://raw.githubusercontent.com/iSnackyCracky/KeePassRDP/master/KeePassRDP.ver"
   },
   {
     "id": "editentrygroup",
@@ -1879,8 +1918,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/georgoswonkos/ExtendSelectionPlugin"
+    "download": "https://github.com/georgoswonkos/ExtendSelectionPlugin/releases/download/1.0.1.0/ExtendSelectionPlugin-1.0.1.0.zip",
+    "website": "https://github.com/georgoswonkos/ExtendSelectionPlugin",
+    "updateUrl": "https://raw.githubusercontent.com/georgoswonkos/ExtendSelectionPlugin/main/version.txt"
   },
   {
     "id": "globalsearch",
@@ -1897,8 +1937,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/GlobalSearch"
+    "download": "https://github.com/Rookiestyle/GlobalSearch/releases/download/v1.3.2/GlobalSearch.plgx",
+    "website": "https://github.com/Rookiestyle/GlobalSearch",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/GlobalSearch/master/version.info"
   },
   {
     "id": "groupcolumn",
@@ -1914,7 +1955,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://raw.githubusercontent.com/jnash67/KeePassGroupColumn/master/GroupColumn.dll",
     "website": "https://github.com/jnash67/KeePassGroupColumn"
   },
   {
@@ -2000,8 +2041,9 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/AdvancedAutoType"
+    "download": "https://github.com/Rookiestyle/AdvancedAutoType/releases/download/v2.2/AdvancedAutoType.plgx",
+    "website": "https://github.com/Rookiestyle/AdvancedAutoType",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/AdvancedAutoType/master/version.info"
   },
   {
     "id": "atfldpick",
@@ -2018,7 +2060,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://raw.githubusercontent.com/berrnd/KeePassAutoTypeCustomFieldPicker/master/AutoTypeCustomFieldPicker.plgx",
     "website": "https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker"
   },
   {
@@ -2069,7 +2111,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/xatupal/AutoTypeSplitter/releases/download/v1.2/AutoTypeSplitter.plgx",
     "website": "https://github.com/xatupal/AutoTypeSplitter"
   },
   {
@@ -2083,7 +2125,9 @@
     ],
     "website": "https://github.com/andrew-schofield/keepass2-haveibeenpwned",
     "description": "\nThis plugin checks entries against breach lists.",
-    "group": "Utilities"
+    "group": "Utilities",
+    "updateUrl": "https://raw.githubusercontent.com/andrew-schofield/keepass2-haveibeenpwned/master/VERSION",
+    "download": "https://github.com/andrew-schofield/keepass2-haveibeenpwned/releases/download/v1.3.6/HaveIBeenPwned.plgx"
   },
   {
     "id": "breachchkhibpofflinecheck",
@@ -2096,7 +2140,9 @@
     ],
     "website": "https://github.com/mihaifm/HIBPOfflineCheck",
     "description": "\nThis plugin performs offline checks against the 'Have I Been Pwned' passwords file.",
-    "group": "Utilities"
+    "group": "Utilities",
+    "updateUrl": "https://raw.githubusercontent.com/mihaifm/HIBPOfflineCheck/master/version.txt",
+    "download": "https://github.com/mihaifm/HIBPOfflineCheck/releases/download/1.7.11/HIBPOfflineCheck.plgx"
   },
   {
     "id": "breachchkkeepasshibp",
@@ -2109,7 +2155,9 @@
     ],
     "website": "https://github.com/JanisEst/KeePassHIBP",
     "description": "\nKeePassHIBP tests your passwords against the 'Have I Been Pwned' database.\n\nThe plugin hooks into two windows in KeePass (the 'Create Master Key'\nform and the 'Edit Entry' form). When you type into the password field,\nyour input gets checked whether it has previously appeared in a data breach.",
-    "group": "Utilities"
+    "group": "Utilities",
+    "updateUrl": "https://raw.githubusercontent.com/JanisEst/KeePassHIBP/master/keepass.version",
+    "download": "https://github.com/JanisEst/KeePassHIBP/releases/download/v1.0/KeePassHIBP.plgx"
   },
   {
     "id": "breachchkhaveibeenpwnedkeepassplugin",
@@ -2122,7 +2170,9 @@
     ],
     "website": "https://github.com/kapsiR/HaveIBeenPwnedKeePassPlugin",
     "description": "\nThis plugin integrates the k-anonymity pwned password search from\n'Have I Been Pwned'.",
-    "group": "Utilities"
+    "group": "Utilities",
+    "updateUrl": "https://raw.githubusercontent.com/kapsiR/HaveIBeenPwnedKeePassPlugin/main/KeePass.version",
+    "download": "https://github.com/kapsiR/HaveIBeenPwnedKeePassPlugin/releases/download/v0.9.0/HaveIBeenPwnedPlugin.dll"
   },
   {
     "id": "chkpwbox",
@@ -2173,8 +2223,9 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/drventure/Disambiguator"
+    "download": "https://github.com/drventure/Disambiguator/releases/download/v1.0.9.0/Disambiguator-v1.0.9.0.zip",
+    "website": "https://github.com/drventure/Disambiguator",
+    "updateUrl": "https://raw.githubusercontent.com/drventure/Disambiguator/master/VERSION"
   },
   {
     "id": "coloredpw",
@@ -2190,8 +2241,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/ColoredPassword"
+    "download": "https://github.com/Rookiestyle/ColoredPassword/releases/download/v0.17/ColoredPassword.plgx",
+    "website": "https://github.com/Rookiestyle/ColoredPassword",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/ColoredPassword/master/version.info"
   },
   {
     "id": "hke",
@@ -2225,7 +2277,7 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/SketchingDev/Character-Copy/releases/download/v1.0.0/CharacterCopy.plgx",
     "website": "https://github.com/SketchingDev/Character-Copy"
   },
   {
@@ -2242,8 +2294,9 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/PasswordChangeAssistant"
+    "download": "https://github.com/Rookiestyle/PasswordChangeAssistant/releases/download/v2.17.1/PasswordChangeAssistant.plgx",
+    "website": "https://github.com/Rookiestyle/PasswordChangeAssistant",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/PasswordChangeAssistant/master/version.info"
   },
   {
     "id": "keepassrest",
@@ -2276,8 +2329,9 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/kee-org/keepassrpc/wiki"
+    "download": "https://github.com/kee-org/keepassrpc/releases/download/v2.0.2/KeePassRPC.plgx",
+    "website": "https://github.com/kee-org/keepassrpc/wiki",
+    "updateUrl": "https://raw.githubusercontent.com/kee-org/keepassrpc/master/versionInfo.txt"
   },
   {
     "id": "keepasshttp",
@@ -2293,8 +2347,9 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/pfn/keepasshttp/"
+    "download": "https://raw.githubusercontent.com/pfn/keepasshttp/master/KeePassHttp.plgx",
+    "website": "https://github.com/pfn/keepasshttp/",
+    "updateUrl": "https://raw.githubusercontent.com/pfn/keepasshttp/master/latest-version.txt"
   },
   {
     "id": "keepasscmdr",
@@ -2310,8 +2365,9 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/MircoBabin/KeePassCommander"
+    "download": "https://github.com/MircoBabin/KeePassCommander/releases/download/4.5/KeePassCommander-4.5.zip",
+    "website": "https://github.com/MircoBabin/KeePassCommander",
+    "updateUrl": "https://raw.githubusercontent.com/MircoBabin/KeePassCommander/master/assets/Release/keepass.plugin.version.txt"
   },
   {
     "id": "keepassnatmsg",
@@ -2327,7 +2383,7 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/smorks/keepassnatmsg/releases/download/v2.0.17/KeePassNatMsg.plgx",
     "website": "https://github.com/smorks/keepassnatmsg"
   },
   {
@@ -2383,8 +2439,9 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/arteeecz/KeePass-plugins"
+    "download": "https://github.com/arteeecz/KeePass-plugins/releases/download/v1.0.0.8/KPSAPLunch.plgx",
+    "website": "https://github.com/arteeecz/KeePass-plugins",
+    "updateUrl": "https://raw.githubusercontent.com/arteeecz/KeePass-plugins/main/KPSAPLunch/Info/keepass_plugin.ver"
   },
   {
     "id": "salesforce",
@@ -2455,8 +2512,9 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader/"
+    "download": "https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader/releases/download/v1.2.5.0/YetAnotherFaviconDownloader.plgx",
+    "website": "https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader/",
+    "updateUrl": "https://raw.githubusercontent.com/navossoc/KeePass-Yet-Another-Favicon-Downloader/master/VERSION"
   },
   {
     "id": "exeiconpicker",
@@ -2472,8 +2530,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Eveldee/KeePass-ExeIconPicker"
+    "download": "https://github.com/Eveldee/KeePass-ExeIconPicker/releases/download/v1.2.0.0/ExeIconPicker.plgx",
+    "website": "https://github.com/Eveldee/KeePass-ExeIconPicker",
+    "updateUrl": "https://raw.githubusercontent.com/Eveldee/KeePass-ExeIconPicker/master/Version.txt"
   },
   {
     "id": "icondashb",
@@ -2489,8 +2548,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder"
+    "download": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder/releases/download/v1.3.0/CustomIconDashboarder.plgx",
+    "website": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder",
+    "updateUrl": "https://raw.githubusercontent.com/incognito1234/KeePass-Custom-Icon-Dashboarder/master/versionInfo.txt"
   },
   {
     "id": "keeoldfmt",
@@ -2558,7 +2618,7 @@
     "similar": [],
     "group": "Export",
     "sourceCode": "https://github.com/seclave/seclave_keepassplugin",
-    "download": null,
+    "download": "https://github.com/seclave/seclave_keepassplugin/releases/download/v2.0.0/SeclavePlugin.plgx",
     "website": "https://www.seclave.se/"
   },
   {
@@ -2576,7 +2636,7 @@
     "similar": [],
     "group": "Export",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/markjszy/SimpleSelectionExport/releases/download/v0.1/SimpleSelectionExport.zip",
     "website": "https://github.com/markjszy/SimpleSelectionExport"
   },
   {
@@ -2610,8 +2670,9 @@
     "similar": [],
     "group": "Import & Export",
     "sourceCode": null,
-    "download": null,
-    "website": "https://elgesl.github.io/keepass-mswifiimport/"
+    "download": "https://raw.githubusercontent.com/elgesl/keepass-mswifiimport/master/MSWifiImportPlugin.dll",
+    "website": "https://elgesl.github.io/keepass-mswifiimport/",
+    "updateUrl": "https://raw.githubusercontent.com/elgesl/keepass-mswifiimport/master/VersionsInfo.txt"
   },
   {
     "id": "keeautoexec",
@@ -2644,8 +2705,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Gugli/KeeLocker"
+    "download": "https://github.com/Gugli/KeeLocker/releases/download/v1.6/KeeLocker.plgx",
+    "website": "https://github.com/Gugli/KeeLocker",
+    "updateUrl": "https://raw.githubusercontent.com/Gugli/KeeLocker/main/VersionInfo.txt"
   },
   {
     "id": "timech",
@@ -2662,8 +2724,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/JanisEst/KeePassTimestampChanger"
+    "download": "https://github.com/JanisEst/KeePassTimestampChanger/releases/download/v1.0.2/KeePassTimestampChanger.plgx",
+    "website": "https://github.com/JanisEst/KeePassTimestampChanger",
+    "updateUrl": "https://raw.githubusercontent.com/JanisEst/KeePassTimestampChanger/master/keepass.version"
   },
   {
     "id": "ioprotocolext",
@@ -2714,8 +2777,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/tiuub/KP2faChecker"
+    "download": "https://github.com/tiuub/KP2faChecker/releases/download/v1.1.1/KP2faChecker.plgx",
+    "website": "https://github.com/tiuub/KP2faChecker",
+    "updateUrl": "https://raw.githubusercontent.com/tiuub/KP2faChecker/master/VERSION"
   },
   {
     "id": "kpentrytemplates",
@@ -2731,7 +2795,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/mitchcapper/KPEntryTemplates/releases/download/8.0/KPEntryTemplates.plgx",
     "website": "https://github.com/mitchcapper/KPEntryTemplates"
   },
   {
@@ -2748,8 +2812,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/betonme/kpenhancedlistview"
+    "download": "https://raw.githubusercontent.com/betonme/kpenhancedlistview/master/KPEnhancedListview/Build/Release/KPEnhancedListview.plgx",
+    "website": "https://github.com/betonme/kpenhancedlistview",
+    "updateUrl": "https://raw.githubusercontent.com/betonme/kpenhancedlistview/master/KPEnhancedListview/VersionInformation.txt"
   },
   {
     "id": "kpenhentryview",
@@ -2817,8 +2882,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/Rookiestyle/NotesFontSelector"
+    "download": "https://github.com/Rookiestyle/NotesFontSelector/releases/download/v1.0.1/NotesFontSelector.plgx",
+    "website": "https://github.com/Rookiestyle/NotesFontSelector",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/NotesFontSelector/master/version.info"
   },
   {
     "id": "notessearch",
@@ -2868,8 +2934,9 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": "https://github.com/JanisEst/KeePassQRCodeView"
+    "download": "https://github.com/JanisEst/KeePassQRCodeView/releases/download/v1.1.0/KeePassQRCodeView.plgx",
+    "website": "https://github.com/JanisEst/KeePassQRCodeView",
+    "updateUrl": "https://raw.githubusercontent.com/JanisEst/KeePassQRCodeView/master/keepass.version"
   },
   {
     "id": "kppinentry",
@@ -2885,7 +2952,7 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
+    "download": "https://github.com/djherbis/keepass-pinentry/releases/download/v1.0.1/KeepassPinentry.dll",
     "website": "https://github.com/djherbis/keepass-pinentry"
   },
   {
