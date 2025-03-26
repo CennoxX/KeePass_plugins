@@ -20,7 +20,9 @@ jobs:
           deno-version: v2.x
 
       - name: run deno script
-        run: deno run --allow-net=keepass.info --allow-write loadPlugins.js
+        run: deno run --allow-net=keepass.info,api.github.com --allow-write --allow-env loadPlugins.js
+        env:
+          GITHUB_PAT: ${{secrets.PAT}}
 
       - name: commit and push
         run: |
