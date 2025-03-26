@@ -7,7 +7,7 @@
       "Dmitry Wolf"
     ],
     "language": [
-      "English"
+      "English", "German"
     ],
     "description": "This plugin can import 1Password 1PIF files.",
     "note": "KeePass 2.x has a built-in import module for 1Password 1PUX files.",
