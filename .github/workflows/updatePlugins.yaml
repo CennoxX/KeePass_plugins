@@ -33,5 +33,5 @@ jobs:
           cp plugins.json  plugin_tests/plugins.json
           cd plugin_tests
           git add plugins.json
-          git commit -m "Update plugins.json [skip ci]"
-          git push
+          git commit -m "Update plugins.json [skip ci]" || true
+          git push || true
