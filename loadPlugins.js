@@ -25,6 +25,7 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
       var idx = desc.findIndex(str => str.includes('['));
       desc = desc.slice(2, idx - 1).join("\n");
       description = desc ? desc : description;
+      description = description?.replace(/(?<!\n)\n(?!\n)/g, " ").replace(/\n\n/g, "\n").trim();
       return {id, title, authors, language, website, description, group};
     });
 	}
@@ -49,8 +50,27 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
 	var formatUrl = (url) => url && !url.startsWith("http") ? "https://keepass.info/" + url : url;
 	download = formatUrl(download);
 	sourceCode = formatUrl(sourceCode);
-	website = formatUrl(website);  
-	return {id, title, shortdesc, authors, language, description, note, similar, group, sourceCode, download, website}}).filter(i => i.authors);
+	website = formatUrl(website);
+	var forks = [...i.querySelectorAll("td b")].filter(b => b.innerText.includes("Fork")).map(b => {
+    var forkInfo = b.nextSibling?.textContent?.trim().replace("by", "").replace(":", "").trim().split(" (");
+    var forkAuthor = forkInfo[0];
+    var forkDescription = forkInfo[1] ? "\n" + forkInfo[1].replace(")","") : "";
+    var forkWebsite = b.parentElement.querySelector("a")?.getAttribute("href");
+    return {
+      id: id + "_fork",
+      title: title + " (fork)",
+      authors: [forkAuthor],
+      language,
+      description: description + forkDescription,
+      note,
+      similar,
+      group,
+      sourceCode: null,
+      download: null,
+      website: forkWebsite
+    };
+	});
+	return [{id, title, shortdesc, authors, language, description, note, similar, group, sourceCode, download, website}, ...forks]}).filter(i => i.authors);
   
   var pat = Deno.env.get("GITHUB_PAT");
   plgs = await Promise.all(plgs.map(async(p) => {
@@ -75,8 +95,8 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
             p.download = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, { headers }).then(r => r.json()).then(d => d.download_url);
         }
       }
+      p.download = p.download?.replace(/\/releases\/download\/[^/]+/, "/releases/latest/download")?.replace(/\d+\.\d+(\.\d+)?(\.\d+)?/, match => match.split(".").map((num, i) => ["{0}", "{1}", "{2}", "{3}"][i] || num).join("."));
     }
     return p;
   }));
-  
 await Deno.writeTextFile("plugins.json", JSON.stringify(plgs, null, 2));
