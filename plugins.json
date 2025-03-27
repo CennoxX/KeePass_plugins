@@ -19,7 +19,7 @@
     "sourceCode": null,
     "download": "https://github.com/diimdeep/1P2KeePass/releases/latest/download/{0}.{1}.{2}.zip",
     "website": "https://github.com/diimdeep/1P2KeePass",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "onepif",
@@ -41,7 +41,7 @@
     "sourceCode": null,
     "download": "https://github.com/juanii/OnePIF/releases/latest/download/OnePIF-{0}.{1}.{2}.zip",
     "website": "https://github.com/juanii/OnePIF",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "onevault",
@@ -63,7 +63,7 @@
     "sourceCode": null,
     "download": "https://github.com/juanii/OneVault/releases/latest/download/OneVault-{0}.{1}.{2}.zip",
     "website": "https://github.com/juanii/OneVault",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "dbreorder",
@@ -162,7 +162,7 @@
     "sourceCode": null,
     "download": "https://github.com/antboy/CardFileKPPlugin/releases/latest/download/CardFileKPPlugin.plgx",
     "website": "https://github.com/antboy/CardFileKPPlugin",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "cw3import",
@@ -287,7 +287,7 @@
     "sourceCode": null,
     "download": "https://github.com/mitchcapper/KeePassSync/releases/latest/download/KeePassSync.plgx",
     "website": "https://github.com/mitchcapper/KeePassSync",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpgsync",
@@ -303,7 +303,7 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/kp-googlesync/files/latest/download",
     "website": "https://sourceforge.net/projects/kp-googlesync/"
   },
   {
@@ -426,7 +426,7 @@
     "sourceCode": null,
     "download": "https://github.com/CEPOCTb/passcmdimport/releases/latest/download/PasscommImport.zip",
     "website": "https://github.com/CEPOCTb/passcmdimport",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "pwm2kp",
@@ -442,7 +442,7 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/pwm2keypass/files/latest/download",
     "website": "https://sourceforge.net/projects/pwm2keypass/"
   },
   {
@@ -515,7 +515,7 @@
     "sourceCode": null,
     "download": "https://github.com/xatupal/KeeTheme/releases/latest/download/KeeTheme.plgx",
     "website": "https://github.com/xatupal/KeeTheme",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keeuiext",
@@ -548,7 +548,7 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/kpvault3importer/files/latest/download",
     "website": "https://sourceforge.net/projects/kpvault3importer/"
   },
   {
@@ -668,7 +668,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/webautotype/files/latest/download",
     "website": "https://sourceforge.net/projects/webautotype/"
   },
   {
@@ -689,7 +689,7 @@
     "sourceCode": null,
     "download": "https://github.com/mitchcapper/KPFloatingPanel/releases/latest/download/KPFloatingPanel.plgx",
     "website": "https://github.com/mitchcapper/KPFloatingPanel",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kphelper",
@@ -759,7 +759,7 @@
     "sourceCode": null,
     "download": "https://github.com/adrium/KeepassPfpConverter/releases/latest/download/PfpConverter.plgx",
     "website": "https://github.com/adrium/KeepassPfpConverter",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keetoready",
@@ -846,7 +846,7 @@
     "sourceCode": null,
     "download": "https://github.com/heinrich-ulbricht/partial-keepass-database-export/releases/latest/download/PartialKeePassDatabaseExport-v{0}.{1}.{2}_v2.39.1.zip",
     "website": "https://github.com/heinrich-ulbricht/partial-keepass-database-export",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "subsetexp",
@@ -882,7 +882,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/keepasspasswordcounter/files/latest/download",
     "website": "https://sourceforge.net/projects/keepasspasswordcounter/"
   },
   {
@@ -913,7 +913,7 @@
     "description": "Generates passphrases within KeePass.",
     "group": "Utilities",
     "download": "https://github.com/heinrich-ulbricht/wuerfelware-passphrases-for-keepass/releases/latest/download/wuerfelware-v{0}.{1}.{2}_v2.39.1.zip",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "ppgenkeepassdiceware",
@@ -981,7 +981,7 @@
     "sourceCode": null,
     "download": "https://github.com/zedseven/PatternPass/releases/latest/download/PatternPass.plgx",
     "website": "https://github.com/zedseven/PatternPass",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "pedcalc",
@@ -1019,7 +1019,7 @@
     "sourceCode": null,
     "download": "https://github.com/xatupal/PickCharsDeferred/releases/latest/download/PickCharsDeferred.plgx",
     "website": "https://github.com/xatupal/PickCharsDeferred",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "propwgen",
@@ -1035,7 +1035,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/pronouncepwgen/files/latest/download",
     "website": "https://sourceforge.net/projects/pronouncepwgen/"
   },
   {
@@ -1202,7 +1202,7 @@
     "sourceCode": null,
     "download": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy/releases/latest/download/TeamViewerAndAmmyy{0}.{1}.zip",
     "website": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "titledisplay",
@@ -1291,7 +1291,7 @@
     "sourceCode": null,
     "download": "https://github.com/markbott/CertKeyProvider/releases/latest/download/CertKeyProviderPlugin.plgx",
     "website": "https://github.com/markbott/CertKeyProvider",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "multicertkeyprov",
@@ -1343,7 +1343,7 @@
     "sourceCode": null,
     "download": "https://github.com/sbidy/KeePass-KeyManager/releases/latest/download/KeyManagerUI.plgx",
     "website": "https://github.com/sbidy/KeePass-KeyManager",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "smartcert",
@@ -1489,7 +1489,7 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/twofactorqrcodereader/files/latest/download",
     "website": "https://sourceforge.net/projects/twofactorqrcodereader/"
   },
   {
@@ -1506,7 +1506,7 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/kxch/files/latest/download",
     "website": "https://sourceforge.net/projects/kxch/"
   },
   {
@@ -1645,7 +1645,7 @@
     "sourceCode": null,
     "download": "https://github.com/drizzt/KeePass-SerpentCipher/releases/latest/download/SerpentCipher-{0}.{1}.zip",
     "website": "https://github.com/drizzt/KeePass-SerpentCipher",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "salsacipher",
@@ -1681,7 +1681,7 @@
     "sourceCode": null,
     "download": "https://github.com/RiverSongFox/GostPlugin/releases/latest/download/GostPlugin.plgx",
     "website": "https://github.com/RiverSongFox/GostPlugin",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "multicipher",
@@ -1935,7 +1935,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/editentrygroup/files/latest/download",
     "website": "https://sourceforge.net/projects/editentrygroup/"
   },
   {
@@ -2111,7 +2111,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/autotypesearch/files/latest/download",
     "website": "https://sourceforge.net/projects/autotypesearch/"
   },
   {
@@ -2128,7 +2128,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/autotypeshow/files/latest/download",
     "website": "https://sourceforge.net/projects/autotypeshow/"
   },
   {
@@ -2147,7 +2147,7 @@
     "sourceCode": null,
     "download": "https://github.com/xatupal/AutoTypeSplitter/releases/latest/download/AutoTypeSplitter.plgx",
     "website": "https://github.com/xatupal/AutoTypeSplitter",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "breachchkhaveibeenpwned",
@@ -2223,7 +2223,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/checkpasswordbox/files/latest/download",
     "website": "https://sourceforge.net/projects/checkpasswordbox/"
   },
   {
@@ -2294,7 +2294,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/hotkeyenabler/files/latest/download",
     "website": "https://sourceforge.net/projects/hotkeyenabler/"
   },
   {
@@ -2314,7 +2314,7 @@
     "sourceCode": null,
     "download": "https://github.com/SketchingDev/Character-Copy/releases/latest/download/CharacterCopy.plgx",
     "website": "https://github.com/SketchingDev/Character-Copy",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "pwchange",
@@ -2421,7 +2421,7 @@
     "sourceCode": null,
     "download": "https://github.com/smorks/keepassnatmsg/releases/latest/download/KeePassNatMsg.plgx",
     "website": "https://github.com/smorks/keepassnatmsg",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "rdm",
@@ -2457,7 +2457,7 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/keesaplogon/files/latest/download",
     "website": "https://sourceforge.net/projects/keesaplogon/"
   },
   {
@@ -2494,7 +2494,7 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/salesforce-keepass/files/latest/download",
     "website": "https://sourceforge.net/projects/salesforce-keepass/"
   },
   {
@@ -2530,7 +2530,7 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/keepass-favicon/files/latest/download",
     "website": "https://sourceforge.net/projects/keepass-favicon/"
   },
   {
@@ -2657,7 +2657,7 @@
     "sourceCode": "https://github.com/seclave/seclave_keepassplugin",
     "download": "https://github.com/seclave/seclave_keepassplugin/releases/latest/download/SeclavePlugin.plgx",
     "website": "https://www.seclave.se/",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "simpleselexp",
@@ -2676,7 +2676,7 @@
     "sourceCode": null,
     "download": "https://github.com/markjszy/SimpleSelectionExport/releases/latest/download/SimpleSelectionExport.zip",
     "website": "https://github.com/markjszy/SimpleSelectionExport",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "thevault",
@@ -2799,7 +2799,7 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/keepass-sftp-sync/files/latest/download",
     "website": "https://sourceforge.net/projects/keepass-sftp-sync/"
   },
   {
@@ -2853,7 +2853,7 @@
     "sourceCode": null,
     "download": "https://github.com/mitchcapper/KPEntryTemplates/releases/latest/download/KPEntryTemplates.plgx",
     "website": "https://github.com/mitchcapper/KPEntryTemplates",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpenhlistview",
@@ -2887,7 +2887,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/kpenhentryview/files/latest/download",
     "website": "https://sourceforge.net/projects/kpenhentryview/"
   },
   {
@@ -2904,7 +2904,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
+    "download": "https://sourceforge.net/projects/kpfieldsadminconsole/files/latest/download",
     "website": "https://sourceforge.net/projects/kpfieldsadminconsole/"
   },
   {
@@ -3011,7 +3011,7 @@
     "sourceCode": null,
     "download": "https://github.com/djherbis/keepass-pinentry/releases/latest/download/KeepassPinentry.dll",
     "website": "https://github.com/djherbis/keepass-pinentry",
-    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info"
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keeagent",
