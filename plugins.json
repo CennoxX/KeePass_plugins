@@ -1006,7 +1006,7 @@
   {
     "id": "pickcharsdef",
     "title": "PickCharsDeferred",
-    "shortdesc": "Changes the behavior of",
+    "shortdesc": "Changes the behavior of {PICKCHARS}.",
     "authors": [
       "Krzysztof Łaputa"
     ],
