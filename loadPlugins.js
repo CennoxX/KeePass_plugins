@@ -1,5 +1,5 @@
 import { DOMParser } from "jsr:@b-fuze/deno-dom";
-var externalVersions = ":\n";
+var externalVersions = [];
 var source = await fetch("https://keepass.info/plugins.html");
 var sourceText = await source.text();
 var doc = new DOMParser().parseFromString(sourceText, "text/html");
@@ -102,7 +102,7 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
       }
       var version = p.download?.match(/\/releases\/download\/v?([^/]+)/)?.[1];
       if (version && !p.updateUrl){
-        externalVersions += p.id + ":" + version + "\n";
+        externalVersions.push(p.title + ":" + version);
         p.updateUrl = "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info";
       }
       p.download = p.download?.replace(/\/releases\/download\/[^/]+/, "/releases/latest/download")?.replace(/\d+\.\d+(\.\d+)?(\.\d+)?/, match => match.split(".").map((num, i) => ["{0}", "{1}", "{2}", "{3}"][i] || num).join("."));
@@ -110,4 +110,4 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
     return p;
   }));
 await Deno.writeTextFile("plugins.json", JSON.stringify(plgs, null, 2));
-await Deno.writeTextFile("mirroredVersion.info", externalVersions + ":");
+await Deno.writeTextFile("mirroredVersion.info", ":\n" + externalVersions.sort().join("\n") + "\n:");
