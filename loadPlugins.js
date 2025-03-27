@@ -50,8 +50,6 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
   var sourceCode = getLink(i, "Download source code") || getLink(i, "[Source Code]");
   var download = getLink(i, "Download plugin") || getLink(i, "[Download]");
   var website = getLink(i, "[Website") || getLink(i, "Website]");
-  if (!download && website?.includes("sourceforge.net/projects"))
-    download = website + "files/latest/download";
   var formatUrl = (url) => url && !url.startsWith("http") ? "https://keepass.info/" + url : url;
   download = formatUrl(download);
   sourceCode = formatUrl(sourceCode);
@@ -100,13 +98,24 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
             p.download = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, { headers }).then(r => r.json()).then(d => d.download_url);
         }
       }
-      var version = p.download?.match(/\/releases\/download\/v?([^/]+)/)?.[1];
+    } else if (p.website?.includes("sourceforge.net/projects")){
+      p.download = p.website + "files/latest/download";
+      var resp = await fetch(p.website + "/rss").then(response => response.text());
+      var doc = new DOMParser().parseFromString(resp, "text/html");
+      var version = (doc.querySelector('[url$=".plgx/download"]') ?? doc.querySelector('[url$=".dll/download"]') ?? doc.querySelector('[url$=".zip/download"]'))?.getAttribute("url")?.match(/(\d+(\.\d+){1,3})/)?.[1];
       if (version && !p.updateUrl){
         externalVersions.push(p.title + ":" + version);
         p.updateUrl = "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info";
       }
-      p.download = p.download?.replace(/\/releases\/download\/[^/]+/, "/releases/latest/download")?.replace(/\d+\.\d+(\.\d+)?(\.\d+)?/, match => match.split(".").map((num, i) => ["{0}", "{1}", "{2}", "{3}"][i] || num).join("."));
     }
+    var version = p.download?.match(/(\d+(\.\d+){1,3})/)?.[1];
+    if (githubRepo)
+      p.download = p.download?.replace(/\/releases\/download\/[^/]+/, "/releases/latest/download");
+    if (version && !p.updateUrl){
+      externalVersions.push(p.title + ":" + version);
+      p.updateUrl = "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info";
+    }
+    p.download = p.download?.replace(/(\d+(\.\d+){1,3})/, match => match.split(".").map((num, i) => ["{0}", "{1}", "{2}", "{3}"][i] || num).join("."));
     return p;
   }));
 await Deno.writeTextFile("plugins.json", JSON.stringify(plgs, null, 2));
