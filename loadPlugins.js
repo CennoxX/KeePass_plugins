@@ -75,9 +75,9 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
   
   var pat = Deno.env.get("GITHUB_PAT");
   plgs = await Promise.all(plgs.map(async(p) => {
-    var repoUrl = p.website?.includes("github") ? p.website : p.sourceCode?.includes("github") ? p.sourceCode : undefined;
-    if (repoUrl){
-      var repo = repoUrl.replace(/^https:\/\/(?:www\.)?github\.com\/([^/]+\/[^/]+).*$/, "$1");
+    var githubRepo = p.website?.includes("github") ? p.website : p.sourceCode?.includes("github") ? p.sourceCode : undefined;
+    if (githubRepo){
+      var repo = githubRepo.replace(/^https:\/\/(?:www\.)?github\.com\/([^/]+\/[^/]+).*$/, "$1");
       repo = repo.includes("github.io") ? repo.replace(/^https:\/\/([^.]+)\.github\.io\/([^/]+)\/?$/, "$1/$2") : repo;
       var headers = { Authorization: `Bearer ${pat}` };
       var { default_branch } = await fetch(`https://api.github.com/repos/${repo}`, { headers }).then(r => r.json());
@@ -99,11 +99,11 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
       var version = p.download?.match(/\/releases\/download\/v?([^/]+)/)?.[1];
       if (version && !p.updateUrl){
         externalVersions += p.id + ":" + version + "\n";
-        p.updateUrl = "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirrorredVersion.info";
+        p.updateUrl = "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info";
       }
       p.download = p.download?.replace(/\/releases\/download\/[^/]+/, "/releases/latest/download")?.replace(/\d+\.\d+(\.\d+)?(\.\d+)?/, match => match.split(".").map((num, i) => ["{0}", "{1}", "{2}", "{3}"][i] || num).join("."));
     }
     return p;
   }));
 await Deno.writeTextFile("plugins.json", JSON.stringify(plgs, null, 2));
-await Deno.writeTextFile("mirrorredVersion.info", externalVersions + ":");
+await Deno.writeTextFile("mirroredVersion.info", externalVersions + ":");
