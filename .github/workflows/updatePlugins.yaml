@@ -31,7 +31,9 @@ jobs:
           git config --global credential.helper cache
           git clone https://${{secrets.PAT}}@github.com/${GITHUB_REPOSITORY}
           cp plugins.json  plugin_tests/plugins.json
+          cp plugins.json  plugin_tests/mirroredVersion.info
           cd plugin_tests
           git add plugins.json
-          git commit -m "Update plugins.json [skip ci]" || true
+          git add mirroredVersion.info
+          git commit -m "Update plugins [skip ci]" || true
           git push || true
