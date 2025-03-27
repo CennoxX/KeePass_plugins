@@ -33,7 +33,9 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
   var id = i.getAttribute("id");
   var title = i.querySelector("th").innerText.trim();
   var shortdescNode = doc.querySelector("[href='#"+i.getAttribute("id")+"']~br");
-  var shortdesc = shortdescNode[(shortdescNode.nextSibling.textContent.trim() ? "nextSibling" : "nextElementSibling")]?.textContent.trim();
+  var shortdesc = "";
+  while((shortdescNode = shortdescNode?.nextSibling) && shortdescNode.nodeName != "BR") {shortdesc += shortdescNode.textContent.trim() + (shortdescNode.nodeType == Node.TEXT_NODE ?  " " : "")};
+  shortdesc = shortdesc.trim();
   var authors = extMeta?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.replace("\n"," ").trim();
   authors = (authors?.match(/\([^,]*\)/) ? authors.match(/\(and /) ? authors.split(/ \(and |\)/) : authors.split(/, /) : authors?.split(/ \(|\)|, /))?.filter(i => i);
   var language = (extMeta? [...extMeta?.innerHTML.matchAll(/<img[^>]+alt="([^"]+)"/g)] : [])?.map(match => match?.[1]);
