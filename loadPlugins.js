@@ -48,6 +48,8 @@ var plgs = [...doc.querySelectorAll(".tablebox")].filter(i => i.querySelector('i
   var sourceCode = getLink(i, "Download source code") || getLink(i, "[Source Code]");
   var download = getLink(i, "Download plugin") || getLink(i, "[Download]");
   var website = getLink(i, "[Website") || getLink(i, "Website]");
+  if (!download && website?.includes("sourceforge.net/projects"))
+    download = website + "files/latest/download";
   var formatUrl = (url) => url && !url.startsWith("http") ? "https://keepass.info/" + url : url;
   download = formatUrl(download);
   sourceCode = formatUrl(sourceCode);
