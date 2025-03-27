@@ -80,8 +80,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip",
-    "download": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.09.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "databasebackup",
@@ -101,8 +102,9 @@
     ],
     "group": "Backup",
     "sourceCode": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-2.0.8.6-Source.zip",
-    "download": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-2.0.8.6.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{0}.{1}.{2}.{3}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpsimplebackup",
@@ -178,8 +180,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-2.09-Src.zip",
-    "download": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-2.10.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "cw6tocsv",
@@ -197,8 +200,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-2.1-Source.zip",
-    "download": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-2.1.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "ewalletdatalib",
@@ -214,8 +218,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": "https://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-0.15.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "ewallettokp",
@@ -248,7 +253,6 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
     "website": "https://keeanywhere.de/"
   },
   {
@@ -304,7 +308,8 @@
     "group": "I/O & Synchronization",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/kp-googlesync/files/latest/download",
-    "website": "https://sourceforge.net/projects/kp-googlesync/"
+    "website": "https://sourceforge.net/projects/kp-googlesync/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpgsync_fork",
@@ -319,7 +324,6 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
     "website": "https://sourceforge.net/u/drdi/profile/"
   },
   {
@@ -390,8 +394,9 @@
     "similar": [],
     "group": "Automation & Scripting",
     "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-2.58-Source.zip",
-    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-2.58.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "osk2",
@@ -407,8 +412,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-1.3-Source.zip",
-    "download": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-1.3.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "passcommimport",
@@ -478,8 +484,9 @@
     "similar": [],
     "group": "Import",
     "sourceCode": "https://keepass.info/extensions/v2/spmimport/SpmImport-1.2-Source.zip",
-    "download": "https://keepass.info/extensions/v2/spmimport/SpmImport-1.2.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/spmimport/SpmImport-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keeresize",
@@ -495,7 +502,6 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
     "website": "https://keepass.info/extensions/v2/keeresize/"
   },
   {
@@ -531,8 +537,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.4-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.4.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "vault3importer",
@@ -549,7 +556,8 @@
     "group": "Import",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/kpvault3importer/files/latest/download",
-    "website": "https://sourceforge.net/projects/kpvault3importer/"
+    "website": "https://sourceforge.net/projects/kpvault3importer/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "vaultsync",
@@ -583,7 +591,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": "https://keeform.org/"
   },
   {
@@ -600,7 +607,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": "https://www.kee.pm/"
   },
   {
@@ -650,7 +656,6 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
     "website": null
   },
   {
@@ -669,7 +674,8 @@
     "group": "Auto-Type",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/webautotype/files/latest/download",
-    "website": "https://sourceforge.net/projects/webautotype/"
+    "website": "https://sourceforge.net/projects/webautotype/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpfloatingpanel",
@@ -705,7 +711,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": null
   },
   {
@@ -722,7 +727,6 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": null,
     "website": "https://websiteadvantage.com.au/Firefox-KeePass-Password-Import"
   },
   {
@@ -883,7 +887,8 @@
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/keepasspasswordcounter/files/latest/download",
-    "website": "https://sourceforge.net/projects/keepasspasswordcounter/"
+    "website": "https://sourceforge.net/projects/keepasspasswordcounter/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "ppgenreadablepassphrasegenerator",
@@ -1036,7 +1041,8 @@
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/pronouncepwgen/files/latest/download",
-    "website": "https://sourceforge.net/projects/pronouncepwgen/"
+    "website": "https://sourceforge.net/projects/pronouncepwgen/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "advconn",
@@ -1110,8 +1116,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-1.3-Source.zip",
-    "download": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-1.3.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "qhl",
@@ -1166,7 +1173,6 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
     "website": "http://dev.progterv.info/strengthreport"
   },
   {
@@ -1183,7 +1189,6 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
     "website": "http://niki.hammler.net/wiki/KeePass#TAN_Placeholder"
   },
   {
@@ -1218,7 +1223,6 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
     "website": "http://gogogadgetscott.info/keepass/titledisplay/"
   },
   {
@@ -1254,7 +1258,6 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
     "website": null
   },
   {
@@ -1272,7 +1275,6 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
     "website": null
   },
   {
@@ -1307,7 +1309,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
     "website": "https://www.creative-webdesign.de/en/software/keepass-plugins/multi-cert-keyprovider"
   },
   {
@@ -1324,7 +1325,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
     "website": "https://www.creative-webdesign.de/en/software/keepass-plugins/rsa-cert-keyprovider"
   },
   {
@@ -1378,8 +1378,9 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-2.7-Source.zip",
-    "download": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-2.7.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keechl",
@@ -1490,7 +1491,8 @@
     "group": "Integration & Transfer",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/twofactorqrcodereader/files/latest/download",
-    "website": "https://sourceforge.net/projects/twofactorqrcodereader/"
+    "website": "https://sourceforge.net/projects/twofactorqrcodereader/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keyxchanger",
@@ -1507,7 +1509,8 @@
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/kxch/files/latest/download",
-    "website": "https://sourceforge.net/projects/kxch/"
+    "website": "https://sourceforge.net/projects/kxch/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kprfid",
@@ -1541,7 +1544,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
     "website": "https://www.buergerservice.org/aktuell/20210222keeperso/"
   },
   {
@@ -1576,7 +1578,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
     "website": "https://web.archive.org/web/20141019215608/http://dk2.de/logincard-key-provider"
   },
   {
@@ -1626,7 +1627,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
     "website": "http://gogogadgetscott.info/keepass/twofishcipher/"
   },
   {
@@ -1698,7 +1698,6 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": null,
     "website": "https://titasraha.com/multicipher/"
   },
   {
@@ -1824,8 +1823,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": "https://keepass.info/extensions/v2/winkee/WinKee-2.39.1-Source.zip",
-    "download": "https://keepass.info/extensions/v2/winkee/WinKee-2.39.1.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/winkee/WinKee-{0}.{1}.{2}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpautounlock",
@@ -1882,8 +1882,9 @@
     ],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-1.0-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-1.0.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpopenid",
@@ -1936,7 +1937,8 @@
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/editentrygroup/files/latest/download",
-    "website": "https://sourceforge.net/projects/editentrygroup/"
+    "website": "https://sourceforge.net/projects/editentrygroup/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "extendsel",
@@ -2006,8 +2008,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2-Source.zip",
-    "download": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{0}.{1}.{2}.{3}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "rdcandtcato",
@@ -2024,7 +2027,6 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
     "website": "https://rdc-keepass-plugin.appspot.com/"
   },
   {
@@ -2041,8 +2043,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-7.0-Source.zip",
-    "download": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-7.0.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "tcatoplh",
@@ -2058,7 +2061,6 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
     "website": "http://niki.hammler.net/wiki/KeePass#TCATO_Placeholder"
   },
   {
@@ -2112,7 +2114,8 @@
     "group": "Auto-Type",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/autotypesearch/files/latest/download",
-    "website": "https://sourceforge.net/projects/autotypesearch/"
+    "website": "https://sourceforge.net/projects/autotypesearch/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "atshow",
@@ -2129,7 +2132,8 @@
     "group": "Auto-Type",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/autotypeshow/files/latest/download",
-    "website": "https://sourceforge.net/projects/autotypeshow/"
+    "website": "https://sourceforge.net/projects/autotypeshow/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "atsplit",
@@ -2224,7 +2228,8 @@
     "group": "Auto-Type",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/checkpasswordbox/files/latest/download",
-    "website": "https://sourceforge.net/projects/checkpasswordbox/"
+    "website": "https://sourceforge.net/projects/checkpasswordbox/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "cycleifp",
@@ -2241,7 +2246,6 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": null,
     "website": null
   },
   {
@@ -2295,7 +2299,8 @@
     "group": "Auto-Type",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/hotkeyenabler/files/latest/download",
-    "website": "https://sourceforge.net/projects/hotkeyenabler/"
+    "website": "https://sourceforge.net/projects/hotkeyenabler/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "charcopy",
@@ -2348,7 +2353,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": "https://www.smartftp.com/keepassrest"
   },
   {
@@ -2437,7 +2441,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": "https://docs.devolutions.net/rdm/commands/edit/entries/dynamic-credential-linking/"
   },
   {
@@ -2495,7 +2498,8 @@
     "group": "Integration & Transfer",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/salesforce-keepass/files/latest/download",
-    "website": "https://sourceforge.net/projects/salesforce-keepass/"
+    "website": "https://sourceforge.net/projects/salesforce-keepass/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "linuxint",
@@ -2511,7 +2515,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": null
   },
   {
@@ -2531,7 +2534,8 @@
     "group": "Import",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/keepass-favicon/files/latest/download",
-    "website": "https://sourceforge.net/projects/keepass-favicon/"
+    "website": "https://sourceforge.net/projects/keepass-favicon/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "yafd",
@@ -2604,8 +2608,9 @@
     "similar": [],
     "group": "Export",
     "sourceCode": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-1.2-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-1.2.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kdbxlite",
@@ -2621,8 +2626,9 @@
     "similar": [],
     "group": "Export",
     "sourceCode": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-1.2-Source.zip",
-    "download": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-1.2.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "secexch",
@@ -2638,7 +2644,6 @@
     "similar": [],
     "group": "Export",
     "sourceCode": null,
-    "download": null,
     "website": "https://www.secure-exchanges.com/Cybersecurity-technology.aspx#download"
   },
   {
@@ -2692,8 +2697,9 @@
     "similar": [],
     "group": "Export",
     "sourceCode": "https://keepass.info/extensions/v2/thevault/TheVaultExport-2.0.2-Source.zip",
-    "download": "https://keepass.info/extensions/v2/thevault/TheVaultExport-2.0.2.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{0}.{1}.{2}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "mswifi",
@@ -2727,8 +2733,9 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-2.6-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-2.6.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keelocker",
@@ -2781,8 +2788,9 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.17-Source.zip",
-    "download": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.17.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-{0}.{1}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "sftpsync",
@@ -2800,7 +2808,8 @@
     "group": "I/O & Synchronization",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/keepass-sftp-sync/files/latest/download",
-    "website": "https://sourceforge.net/projects/keepass-sftp-sync/"
+    "website": "https://sourceforge.net/projects/keepass-sftp-sync/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "sftpsync_fork",
@@ -2816,8 +2825,9 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
-    "website": "https://sourceforge.net/projects/keepass-sftp-sync/"
+    "download": "https://sourceforge.net/projects/keepass-sftp-sync/files/latest/download",
+    "website": "https://sourceforge.net/projects/keepass-sftp-sync/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kp2fachecker",
@@ -2888,7 +2898,8 @@
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/kpenhentryview/files/latest/download",
-    "website": "https://sourceforge.net/projects/kpenhentryview/"
+    "website": "https://sourceforge.net/projects/kpenhentryview/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "kpfieldsadmin",
@@ -2905,7 +2916,8 @@
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/kpfieldsadminconsole/files/latest/download",
-    "website": "https://sourceforge.net/projects/kpfieldsadminconsole/"
+    "website": "https://sourceforge.net/projects/kpfieldsadminconsole/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "minlock",
@@ -2921,7 +2933,6 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
     "website": "https://www.codeproject.com/articles/404071/minlock-a-keepass-2-x-plugin-to-keep-minimized-kee"
   },
   {
@@ -2957,7 +2968,6 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": null,
     "website": "https://besch-it.com/keepass-notes-search-plugin-innerhalb-der-kommentare-suchen-search-within-notes-field/"
   },
   {
@@ -2974,8 +2984,9 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-2.0.12-Source.rar",
-    "download": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-2.0.12.zip",
-    "website": null
+    "download": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-{0}.{1}.{2}.zip",
+    "website": null,
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "qrcodeview",
@@ -3027,7 +3038,6 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
     "website": "https://lechnology.com/software/keeagent/"
   }
 ]
