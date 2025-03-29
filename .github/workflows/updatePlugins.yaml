@@ -24,6 +24,11 @@ jobs:
         env:
           GITHUB_PAT: ${{secrets.PAT}}
 
+      - name: run versions script
+        run: deno run --allow-net=keepass.info,api.github.com,sourceforge.net --allow-write --allow-env loadVersions.js
+        env:
+          GITHUB_PAT: ${{secrets.PAT}}
+
       - name: commit and push
         run: |
           git config --global user.email "cesar.bernard@gmx.de"
@@ -32,7 +37,9 @@ jobs:
           git clone https://${{secrets.PAT}}@github.com/${GITHUB_REPOSITORY}
           cp plugins.json  plugin_tests/plugins.json
           cp mirroredVersion.info  plugin_tests/mirroredVersion.info
+          cp allVersion.info  plugin_tests/allVersion.info
           cd plugin_tests
+          git add allVersion.info
           git add plugins.json
           git add mirroredVersion.info
           git commit -m "Update plugins [skip ci]" || true
