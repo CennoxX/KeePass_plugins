@@ -1937,7 +1937,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/iSnackyCracky/KeePassRDP/releases/latest/download/KeePassRDP_v{mayor}.{minor}.{patch}.zip",
+    "download": "https://github.com/iSnackyCracky/KeePassRDP/releases/latest/download/KeePassRDP_v{mayor}.{minor}.zip",
     "website": "https://github.com/iSnackyCracky/KeePassRDP",
     "updateUrl": "https://raw.githubusercontent.com/iSnackyCracky/KeePassRDP/master/KeePassRDP.ver"
   },
