@@ -42,5 +42,5 @@ jobs:
           git add allVersion.info
           git add plugins.json
           git add mirroredVersion.info
-          git commit -m "Update plugins [skip ci]" || true
-          git push || true
+          git commit -m "Update plugins [skip ci]" || false
+          git push || false
