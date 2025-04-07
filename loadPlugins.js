@@ -106,7 +106,7 @@ async function enrichGitHubData(plugin) {
         plugin.website = null;
       if (plugin.sourceCode?.includes("github"))
         plugin.sourceCode = null;
-      return
+      return plugin;
     }
     var { object: { sha } } = await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`, { headers }).then(r => r.json());
     var { tree } = await fetch(`https://api.github.com/repos/${repo}/git/trees/${sha}?recursive=1`, { headers }).then(r => r.json());
