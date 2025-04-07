@@ -70,6 +70,14 @@ async function enrichGitHubData(plugin) {
     repo = repo.includes("github.io") ? repo.replace(/^https:\/\/([^.]+)\.github\.io\/([^/]+)\/?$/, "$1/$2") : repo;
     var headers = { Authorization: `Bearer ${Deno.env.get("GITHUB_PAT")}` };
     var { default_branch } = await fetch(`https://api.github.com/repos/${repo}`, { headers }).then(r => r.json());
+    if (!default_branch)
+    {
+      if (plugin.website?.includes("github"))
+        plugin.website = null;
+      if (plugin.sourceCode?.includes("github"))
+        plugin.sourceCode = null;
+      return plugin;
+    }
     var { object: { sha } } = await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`, { headers }).then(r => r.json());
     var { tree } = await fetch(`https://api.github.com/repos/${repo}/git/trees/${sha}?recursive=1`, { headers }).then(r => r.json());
     if (!plugin.download) {
