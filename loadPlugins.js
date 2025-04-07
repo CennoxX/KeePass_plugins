@@ -96,13 +96,13 @@ async function enrichPluginData(plugins, externalVersions) {
 async function enrichGitHubData(plugin) {
   var githubRepo = plugin.website?.includes("github") ? plugin.website : plugin.sourceCode?.includes("github") ? plugin.sourceCode : undefined;
   if (githubRepo) {
-    console.log(githubRepo);
     var repo = githubRepo.replace(/^https:\/\/(?:www\.)?github\.com\/([^/]+\/[^/]+).*$/, "$1");
     repo = repo.includes("github.io") ? repo.replace(/^https:\/\/([^.]+)\.github\.io\/([^/]+)\/?$/, "$1/$2") : repo;
     var headers = { Authorization: `Bearer ${Deno.env.get("GITHUB_PAT")}` };
     var { default_branch } = await fetch(`https://api.github.com/repos/${repo}`, { headers }).then(r => r.json());
-    console.log(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`);
-    var { object: { sha } } = await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`, { headers }).then(r => r.json());
+    var resp = await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`, { headers }).then(r => r.json());
+    console.log(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`, resp);
+    var { object: { sha } } = resp;
     var { tree } = await fetch(`https://api.github.com/repos/${repo}/git/trees/${sha}?recursive=1`, { headers }).then(r => r.json());
     var updateUrlPath = tree.find(i => i.path.match(/^(.*\.ver|(.*\.)?version|.*version.*\.(txt|info))$/i) || i.path.match(/Version$/))?.path;
     if (updateUrlPath) {
