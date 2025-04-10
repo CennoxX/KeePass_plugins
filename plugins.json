@@ -1323,7 +1323,7 @@
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
     "download": null,
-    "website": "https://www.creative-webdesign.de/en/software/keepass-plugins/multi-cert-keyprovider"
+    "website": "https://creativeit.eu/en/our-software/keepass-plugins/multi-cert-keyprovider-plugin/"
   },
   {
     "id": "rsacertkeyprov",
@@ -1340,7 +1340,7 @@
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
     "download": null,
-    "website": "https://www.creative-webdesign.de/en/software/keepass-plugins/rsa-cert-keyprovider"
+    "website": "https://creativeit.eu/en/our-software/keepass-plugins/rsa-cert-keyprovider-plugin/"
   },
   {
     "id": "keymgr",
