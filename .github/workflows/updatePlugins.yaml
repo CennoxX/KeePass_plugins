@@ -2,7 +2,7 @@ name: Update plugins.json
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * 5"
   workflow_dispatch:
   push:
 
@@ -42,5 +42,5 @@ jobs:
           git add allVersion.info
           git add plugins.json
           git add mirroredVersion.info
-          git commit -m "Update plugins [skip ci]" || false
-          git push || false
+          git commit -m "Update plugins [skip ci]"
+          git push
