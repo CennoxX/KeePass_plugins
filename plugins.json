@@ -2067,6 +2067,25 @@
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
+    "id": "refcheck",
+    "title": "ReferenceCheck",
+    "shortdesc": "Shows usage of field references and prevents accidental deletion.",
+    "authors": [
+      "Rookiestyle"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "description": "This plugin shows usage of field references (in the entry dialog, in an entry list column, etc.) and prevents accidental deletion of referenced entries which would break them otherwise.",
+    "similar": [],
+    "group": "Utilities",
+    "sourceCode": null,
+    "download": "https://github.com/Rookiestyle/ReferenceCheck/releases/latest/download/ReferenceCheck.plgx",
+    "website": "https://github.com/Rookiestyle/ReferenceCheck",
+    "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/ReferenceCheck/main/version.info"
+  },
+  {
     "id": "tcatoplh",
     "title": "TCATO Placeholder",
     "shortdesc": "Allows to enable/disable TCATO per auto-type sequence.",
