@@ -18,7 +18,7 @@ DataBaseReorder:2.09
 Disambiguator:1.0.9.0
 EditEntryGroup:0.3
 ExeIconPicker:1.2.0.0
-ExtendSelection:1.0.1.0
+ExtendSelection:1.0.2.0
 Favicon Downloader:1.9.0
 GlobalSearch:1.3.2
 HIBPOfflineCheck:1.7.11
@@ -97,7 +97,7 @@ QuickConnectPlugin:0.6.1
 QuickSearch:2.43
 RDPPlugin:7.0
 Readable Passphrase Generator:1.4.3
-ReferenceCheck:1.0
+ReferenceCheck:1.1
 RuleBuilder:3.4
 SafeInCloudImp:2.0.2.0
 SalesforcePlugin:1.0

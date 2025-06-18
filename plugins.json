@@ -2077,7 +2077,7 @@
       "English",
       "German"
     ],
-    "description": "This plugin shows usage of field references (in the entry dialog, in an entry list column, etc.) and prevents accidental deletion of referenced entries which would break them otherwise.",
+    "description": "This plugin shows usage of field references (in the entry dialog, in an entry list column, in an overview dialog, etc.) and prevents accidental deletion of referenced entries which would break them otherwise.",
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
