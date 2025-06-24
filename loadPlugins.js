@@ -147,7 +147,7 @@ function enrichVersionData(plugin, externalVersions) {
   var version = plugin.download?.match(/(\d+(\.\d+){1,3})/)?.[1];
   if (version){
     if (version == plugin.sourceCode?.match(/(\d+(\.\d+){1,3})/)?.[1]) {
-      plugin.sourceCode = plugin.sourceCode?.replace(version, match => match.split(".").map((num, i) => ["{mayor}", "{minor}", "{patch}", "{build}"][i] || num).join("."));
+      plugin.sourceCode = plugin.sourceCode?.replace(version, match => match.split(".").map((num, i) => ["{major}", "{minor}", "{patch}", "{build}"][i] || num).join("."));
     }
     if (!plugin.updateUrl) {
       externalVersions.push(plugin.title + ":" + version);
@@ -156,7 +156,7 @@ function enrichVersionData(plugin, externalVersions) {
     if (plugin.download?.includes("github.com")) {
       plugin.download = plugin.download?.replace(/\/releases\/download\/[^/]+/, "/releases/latest/download");
     }
-    plugin.download = plugin.download?.replace(version, match => match.split(".").map((num, i) => ["{mayor}", "{minor}", "{patch}", "{build}"][i] || num).join("."));
+    plugin.download = plugin.download?.replace(version, match => match.split(".").map((num, i) => ["{major}", "{minor}", "{patch}", "{build}"][i] || num).join("."));
   }
   return [plugin, externalVersions];
 }
