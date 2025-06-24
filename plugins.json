@@ -17,7 +17,7 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": "https://github.com/diimdeep/1P2KeePass/releases/latest/download/{mayor}.{minor}.{patch}.zip",
+    "download": "https://github.com/diimdeep/1P2KeePass/releases/latest/download/{major}.{minor}.{patch}.zip",
     "website": "https://github.com/diimdeep/1P2KeePass",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -39,7 +39,7 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": "https://github.com/juanii/OnePIF/releases/latest/download/OnePIF-{mayor}.{minor}.{patch}.zip",
+    "download": "https://github.com/juanii/OnePIF/releases/latest/download/OnePIF-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/juanii/OnePIF",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -61,7 +61,7 @@
     ],
     "group": "Import",
     "sourceCode": null,
-    "download": "https://github.com/juanii/OneVault/releases/latest/download/OneVault-{mayor}.{minor}.{patch}.zip",
+    "download": "https://github.com/juanii/OneVault/releases/latest/download/OneVault-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/juanii/OneVault",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -80,7 +80,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip",
-    "download": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-{mayor}.{minor}.zip",
+    "download": "https://keepass.info/extensions/v2/databasereorder/DataBaseReorder-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -101,8 +101,8 @@
       "simpledbbackup"
     ],
     "group": "Backup",
-    "sourceCode": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{mayor}.{minor}.{patch}.{build}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{mayor}.{minor}.{patch}.{build}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{major}.{minor}.{patch}.{build}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{major}.{minor}.{patch}.{build}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -123,7 +123,7 @@
     ],
     "group": "Backup",
     "sourceCode": null,
-    "download": "https://github.com/marvinweber/KPSimpleBackup/releases/latest/download/KPSimpleBackup-v{mayor}.{minor}.{patch}.zip",
+    "download": "https://github.com/marvinweber/KPSimpleBackup/releases/latest/download/KPSimpleBackup-v{major}.{minor}.{patch}.zip",
     "website": "https://github.com/marvinweber/KPSimpleBackup",
     "updateUrl": "https://raw.githubusercontent.com/marvinweber/KPSimpleBackup/main/kpsimplebackup.version"
   },
@@ -180,7 +180,7 @@
     "similar": [],
     "group": "Import",
     "sourceCode": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-2.09-Src.zip",
-    "download": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-{mayor}.{minor}.zip",
+    "download": "https://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -199,8 +199,8 @@
     "note": "KeePass 2.x has a built-in importer for CodeWallet 6 files.\nHowever, the Konverter additionally supports groups and field associations.",
     "similar": [],
     "group": "Import",
-    "sourceCode": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/cw6import/CW6Konverter-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -218,7 +218,7 @@
     "similar": [],
     "group": "Import",
     "sourceCode": null,
-    "download": "https://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-{mayor}.{minor}.zip",
+    "download": "https://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -270,7 +270,7 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": "https://github.com/dhaven/ProtonDriveSync/releases/latest/download/ProtonDriveSync-{mayor}.{minor}.{patch}.zip",
+    "download": "https://github.com/dhaven/ProtonDriveSync/releases/latest/download/ProtonDriveSync-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/dhaven/ProtonDriveSync",
     "updateUrl": "https://raw.githubusercontent.com/dhaven/ProtonDriveSync/main/version_manifest.txt"
   },
@@ -395,8 +395,8 @@
     "description": "This utility allows scripting KeePass. For details, see the KeePass Scripting Documentation.",
     "similar": [],
     "group": "Automation & Scripting",
-    "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -413,8 +413,8 @@
     "description": "When opening a database, this plugin automatically shows an on-screen keyboard for entering the master password.\nThis plugin runs on Windows 2000 and higher. Unix-like systems are not supported.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/osk/OnScreenKeyboard2-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -485,8 +485,8 @@
     "note": "The SpmImport plugin is discontinued.\nKeePass has a built-in import module for Steganos Password Manager CSV files\n(exported by version 20.0.7 or higher), i.e. no plugin is required.",
     "similar": [],
     "group": "Import",
-    "sourceCode": "https://keepass.info/extensions/v2/spmimport/SpmImport-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/spmimport/SpmImport-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/spmimport/SpmImport-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/spmimport/SpmImport-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -539,8 +539,8 @@
     "description": "This plugin provides various user interface options:\nGeneral:\nWhen pressing Ctrl+Backspace, delete the word to the left of the cursor.\nMain Window:\nForget last used database if it does not exist anymore. Show confirmation dialog when closing a database.\nMain Group Tree:\nCollapse all groups when opening a database. Show 'Duplicate Group' command in the group context menu.\nMain Entry List:\nFocus entry list when opening a database. Draw grid lines. Show 'Duplicate Entry' command in the entry context menu. Show 'Print Entry' command in the entry context menu.\nAdvanced:\nCustom user interface font. Note: if you want to change the font size, see the FAQ item 'How to change the GUI font (size)?'. Changing the font size using the KeeUIExt plugin may result in layout issues.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -856,7 +856,7 @@
     ],
     "group": "Export",
     "sourceCode": null,
-    "download": "https://github.com/heinrich-ulbricht/partial-keepass-database-export/releases/latest/download/PartialKeePassDatabaseExport-v{mayor}.{minor}.{patch}_v2.39.1.zip",
+    "download": "https://github.com/heinrich-ulbricht/partial-keepass-database-export/releases/latest/download/PartialKeePassDatabaseExport-v{major}.{minor}.{patch}_v2.39.1.zip",
     "website": "https://github.com/heinrich-ulbricht/partial-keepass-database-export",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -911,7 +911,7 @@
     "description": "The Readable Passphrase Generator plugin generates passphrases, which are (mostly) grammatically correct, but nonsensical. These are easy to remember (for humans), but difficult to guess (for humans and computers).",
     "group": "Utilities",
     "updateUrl": "https://raw.githubusercontent.com/ligos/readablepassphrasegenerator/master/trunk/readable_passphrase.version",
-    "download": "https://github.com/ligos/readablepassphrasegenerator/releases/latest/download/ReadablePassphrase.{mayor}.{minor}.{patch}.plgx"
+    "download": "https://github.com/ligos/readablepassphrasegenerator/releases/latest/download/ReadablePassphrase.{major}.{minor}.{patch}.plgx"
   },
   {
     "id": "ppgenwrfelware",
@@ -925,7 +925,7 @@
     "website": "https://github.com/heinrich-ulbricht/wuerfelware-passphrases-for-keepass",
     "description": "Generates passphrases within KeePass.",
     "group": "Utilities",
-    "download": "https://github.com/heinrich-ulbricht/wuerfelware-passphrases-for-keepass/releases/latest/download/wuerfelware-v{mayor}.{minor}.{patch}_v2.39.1.zip",
+    "download": "https://github.com/heinrich-ulbricht/wuerfelware-passphrases-for-keepass/releases/latest/download/wuerfelware-v{major}.{minor}.{patch}_v2.39.1.zip",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
@@ -1084,7 +1084,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/cristianst85/QuickConnectPlugin/releases/latest/download/QuickConnectPlugin-{mayor}.{minor}.{patch}.zip",
+    "download": "https://github.com/cristianst85/QuickConnectPlugin/releases/latest/download/QuickConnectPlugin-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/cristianst85/QuickConnectPlugin",
     "updateUrl": "https://raw.githubusercontent.com/cristianst85/QuickConnectPlugin/master/VERSION"
   },
@@ -1123,8 +1123,8 @@
     "note": "KeePass 2.x has a built-in command 'Password Quality' (in the main menu 'Find')\nfor showing a password quality report.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/qualitycolumn/QualityColumn-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -1215,7 +1215,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy/releases/latest/download/TeamViewerAndAmmyy{mayor}.{minor}.zip",
+    "download": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy/releases/latest/download/TeamViewerAndAmmyy{major}.{minor}.zip",
     "website": "https://github.com/EmilKmetski/KeePassTeamViewerAndAmmy",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -1392,8 +1392,8 @@
     "note": "If you instead want KeePass to generate one-time passwords, see the built-in\none-time password placeholders\nand the KeePassOTP, KeeOtp2,\nKeeTrayTOTP\nand TwoFactorQRCodeReader plugins.",
     "similar": [],
     "group": "Cryptography & Key Providers",
-    "sourceCode": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -1413,7 +1413,7 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": "https://github.com/brush701/keechallenge/releases/latest/download/KeeChallenge_{mayor}.{minor}.zip",
+    "download": "https://github.com/brush701/keechallenge/releases/latest/download/KeeChallenge_{major}.{minor}.zip",
     "website": "https://brush701.github.io/keechallenge/",
     "updateUrl": "https://raw.githubusercontent.com/brush701/keechallenge/master/VERSION"
   },
@@ -1661,7 +1661,7 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": "https://github.com/drizzt/KeePass-SerpentCipher/releases/latest/download/SerpentCipher-{mayor}.{minor}.zip",
+    "download": "https://github.com/drizzt/KeePass-SerpentCipher/releases/latest/download/SerpentCipher-{major}.{minor}.zip",
     "website": "https://github.com/drizzt/KeePass-SerpentCipher",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -1840,8 +1840,8 @@
       "kpautounlock"
     ],
     "group": "Cryptography & Key Providers",
-    "sourceCode": "https://keepass.info/extensions/v2/winkee/WinKee-{mayor}.{minor}.{patch}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/winkee/WinKee-{mayor}.{minor}.{patch}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/winkee/WinKee-{major}.{minor}.{patch}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/winkee/WinKee-{major}.{minor}.{patch}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -1899,8 +1899,8 @@
       "audit"
     ],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keemodifiedby/KeeModifiedBy-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -1936,7 +1936,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/iSnackyCracky/KeePassRDP/releases/latest/download/KeePassRDP_v{mayor}.{minor}.zip",
+    "download": "https://github.com/iSnackyCracky/KeePassRDP/releases/latest/download/KeePassRDP_v{major}.{minor}.zip",
     "website": "https://github.com/iSnackyCracky/KeePassRDP",
     "updateUrl": "https://raw.githubusercontent.com/iSnackyCracky/KeePassRDP/master/KeePassRDP.ver"
   },
@@ -1972,7 +1972,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/georgoswonkos/ExtendSelectionPlugin/releases/latest/download/ExtendSelectionPlugin-{mayor}.{minor}.{patch}.{build}.zip",
+    "download": "https://github.com/georgoswonkos/ExtendSelectionPlugin/releases/latest/download/ExtendSelectionPlugin-{major}.{minor}.{patch}.{build}.zip",
     "website": "https://github.com/georgoswonkos/ExtendSelectionPlugin",
     "updateUrl": "https://raw.githubusercontent.com/georgoswonkos/ExtendSelectionPlugin/main/version.txt"
   },
@@ -2025,8 +2025,8 @@
     "description": "iTans or 'indexed security tokens' are becoming standard to improve access security in online banking and similar applications.\niTanMaster provides easy and fast access to the encrypted storage of such indexed security tokens.\niTanMaster supports single, dual (e.g. Interactive Brokers) and triple token systems (e.g. Flatex AG) where the final access TAN is constructed from multiple separately indexed and then concatenated token parts.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{mayor}.{minor}.{patch}.{build}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{mayor}.{minor}.{patch}.{build}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{major}.{minor}.{patch}.{build}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{major}.{minor}.{patch}.{build}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2061,8 +2061,8 @@
     "description": "This plugin allows to conveniently connect to a server via RDP.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/rdpplugin/RDPPlugin-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2302,7 +2302,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": "https://github.com/drventure/Disambiguator/releases/latest/download/Disambiguator-v{mayor}.{minor}.{patch}.{build}.zip",
+    "download": "https://github.com/drventure/Disambiguator/releases/latest/download/Disambiguator-v{major}.{minor}.{patch}.{build}.zip",
     "website": "https://github.com/drventure/Disambiguator",
     "updateUrl": "https://raw.githubusercontent.com/drventure/Disambiguator/master/VERSION"
   },
@@ -2446,7 +2446,7 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": "https://github.com/MircoBabin/KeePassCommander/releases/latest/download/KeePassCommander-{mayor}.{minor}.zip",
+    "download": "https://github.com/MircoBabin/KeePassCommander/releases/latest/download/KeePassCommander-{major}.{minor}.zip",
     "website": "https://github.com/MircoBabin/KeePassCommander",
     "updateUrl": "https://raw.githubusercontent.com/MircoBabin/KeePassCommander/master/assets/Release/keepass.plugin.version.txt"
   },
@@ -2650,8 +2650,8 @@
     "note": "For opening/importing old files, no plugin is required.\nKeePass is fully backward compatible.",
     "similar": [],
     "group": "Export",
-    "sourceCode": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keeoldfmt/KeeOldFormatExport-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2668,8 +2668,8 @@
     "description": "This plugin creates lite database files. Every time you save a '*.kdbx' file, the plugin creates a '*.lite.kdbx' file (in the same directory) that contains everything except entry attachments.",
     "similar": [],
     "group": "Export",
-    "sourceCode": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/kdbxlite/KdbxLite-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2740,8 +2740,8 @@
     "description": "This plugin adds support for exporting KeePass entries to a CSV file readable by The Vault.",
     "similar": [],
     "group": "Export",
-    "sourceCode": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{mayor}.{minor}.{patch}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{mayor}.{minor}.{patch}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{major}.{minor}.{patch}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{major}.{minor}.{patch}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2776,8 +2776,8 @@
     "description": "This plugin allows to automatically open additional databases when opening a database.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2831,8 +2831,8 @@
     "description": "This plugin adds support for loading/saving files from/to servers via SCP, SFTP and FTPS.\nKeePass can handle FTP by default (using classes of the .NET framework). However, this plugin replaces the FTP handler to use WinSCP instead. So, if you have problems with the .NET FTP classes, installing IOProtocolExt might solve them.\nDue to its usage of WinSCP, the IOProtocolExt plugin only works on Windows. If you are using Linux, consider other plugins (like SftpSync) instead.",
     "similar": [],
     "group": "I/O & Synchronization",
-    "sourceCode": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-{mayor}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-{mayor}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-{major}.{minor}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -3029,8 +3029,8 @@
     "description": "This plugin can display passwords as QR codes.",
     "similar": [],
     "group": "Integration & Transfer",
-    "sourceCode": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-{mayor}.{minor}.{patch}-Source.rar",
-    "download": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-{mayor}.{minor}.{patch}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-{major}.{minor}.{patch}-Source.rar",
+    "download": "https://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-{major}.{minor}.{patch}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
