@@ -101,8 +101,8 @@
       "simpledbbackup"
     ],
     "group": "Backup",
-    "sourceCode": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{major}.{minor}.{patch}.{build}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{major}.{minor}.{patch}.{build}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{major}.{minor}.{patch}.{revision}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{major}.{minor}.{patch}.{revision}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -1972,7 +1972,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/georgoswonkos/ExtendSelectionPlugin/releases/latest/download/ExtendSelectionPlugin-{major}.{minor}.{patch}.{build}.zip",
+    "download": "https://github.com/georgoswonkos/ExtendSelectionPlugin/releases/latest/download/ExtendSelectionPlugin-{major}.{minor}.{patch}.{revision}.zip",
     "website": "https://github.com/georgoswonkos/ExtendSelectionPlugin",
     "updateUrl": "https://raw.githubusercontent.com/georgoswonkos/ExtendSelectionPlugin/main/version.txt"
   },
@@ -2025,8 +2025,8 @@
     "description": "iTans or 'indexed security tokens' are becoming standard to improve access security in online banking and similar applications.\niTanMaster provides easy and fast access to the encrypted storage of such indexed security tokens.\niTanMaster supports single, dual (e.g. Interactive Brokers) and triple token systems (e.g. Flatex AG) where the final access TAN is constructed from multiple separately indexed and then concatenated token parts.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{major}.{minor}.{patch}.{build}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{major}.{minor}.{patch}.{build}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{major}.{minor}.{patch}.{revision}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/itanmaster/iTanMaster-{major}.{minor}.{patch}.{revision}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2302,7 +2302,7 @@
     "similar": [],
     "group": "Auto-Type",
     "sourceCode": null,
-    "download": "https://github.com/drventure/Disambiguator/releases/latest/download/Disambiguator-v{major}.{minor}.{patch}.{build}.zip",
+    "download": "https://github.com/drventure/Disambiguator/releases/latest/download/Disambiguator-v{major}.{minor}.{patch}.{revision}.zip",
     "website": "https://github.com/drventure/Disambiguator",
     "updateUrl": "https://raw.githubusercontent.com/drventure/Disambiguator/master/VERSION"
   },
