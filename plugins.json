@@ -428,7 +428,7 @@
     "language": [
       "English"
     ],
-    "description": "This plugin imports Password Commander CSV files. The .NET Framework 3.5 is required.",
+    "description": "This plugin adds support for importing Password Commander CSV files.",
     "similar": [],
     "group": "Import",
     "sourceCode": null,
