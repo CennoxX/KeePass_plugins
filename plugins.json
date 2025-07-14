@@ -2964,6 +2964,23 @@
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
+    "id": "kplauncher",
+    "title": "KPLauncher",
+    "shortdesc": "Runs KeePass for a specific architecture.",
+    "authors": [
+      "Dominik Reichl"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "By default, KeePass runs natively on most operating systems (i.e. without compatibility layer and without emulation). However, there are special situations where it may be necessary to run KeePass for a different architecture (with compatibility layer or with emulation). For example, if you have an ARM64 operating system and want to use an old plugin that is available only for x64, you need to run KeePass as x64 process (with emulation). KPLauncher allows this.\nKPLauncher can run KeePass as x86 (x86-32), x64 (x86-64) or ARM64 (AArch64) process, provided that the operating system supports it.",
+    "similar": [],
+    "group": "Utilities",
+    "sourceCode": "https://keepass.info/extensions/v2/kplauncher/KPLauncher-1.0-Source.zip",
+    "download": null,
+    "website": null
+  },
+  {
     "id": "minlock",
     "title": "MinLock",
     "shortdesc": "Keeps a minimized KeePass locked.",
