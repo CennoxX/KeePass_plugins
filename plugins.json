@@ -1576,9 +1576,9 @@
     "similar": [],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": "https://github.com/vnau/KeePass2Trezor/releases/latest/download/KeePass2Trezor.zip",
+    "download": "https://github.com/elebree/KeePass2Trezor/releases/latest/download/KeePass2Trezor.zip",
     "website": "https://github.com/vnau/KeePass2Trezor",
-    "updateUrl": "https://raw.githubusercontent.com/vnau/KeePass2Trezor/master/keepass.version"
+    "updateUrl": "https://raw.githubusercontent.com/elebree/KeePass2Trezor/master/keepass.version"
   },
   {
     "id": "logincard",
