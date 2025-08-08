@@ -2,7 +2,7 @@
 1P2KeePass:0.2.1
 AdvancedAutoType:2.2
 AdvancedConnect:1.0.7
-AutoTypeSearch:1.4
+AutoTypeSearch:1.5
 AutoTypeShow:1.0
 AutoTypeSplitter:1.2
 CardFileKPPlugin:1.0.0
@@ -97,7 +97,7 @@ QuickConnectPlugin:0.6.1
 QuickSearch:2.43
 RDPPlugin:7.0
 Readable Passphrase Generator:1.4.3
-ReferenceCheck:1.4
+ReferenceCheck:1.6
 RuleBuilder:3.4
 SafeInCloudImp:2.0.2.0
 SalesforcePlugin:1.0
