@@ -2010,7 +2010,8 @@
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://raw.githubusercontent.com/jnash67/KeePassGroupColumn/master/GroupColumn.dll",
-    "website": "https://github.com/jnash67/KeePassGroupColumn"
+    "website": "https://github.com/jnash67/KeePassGroupColumn",
+    "updateUrl": "https://raw.githubusercontent.com/jnash67/KeePassGroupColumn/master/version.txt"
   },
   {
     "id": "itanmaster",
