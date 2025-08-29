@@ -2140,6 +2140,24 @@
     "website": "https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker"
   },
   {
+    "id": "atexclude",
+    "title": "AutoTypeExclude",
+    "shortdesc": "Provides a placeholder for excluding an entry from auto-type.",
+    "authors": [
+      "Michael Hüpkes"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin provides support for a placeholder to exclude an entry from auto-type based on the target window.",
+    "similar": [],
+    "group": "Auto-Type",
+    "sourceCode": null,
+    "download": "https://github.com/michue/AutoTypeExclude/releases/latest/download/AutoTypeExclude-{major}.{minor}.{patch}.zip",
+    "website": "https://github.com/michue/AutoTypeExclude",
+    "updateUrl": "https://raw.githubusercontent.com/michue/AutoTypeExclude/main/version.info"
+  },
+  {
     "id": "atsearch",
     "title": "AutoTypeSearch",
     "shortdesc": "Provides quick searching as enhancement to global auto-type.",
@@ -2938,7 +2956,7 @@
     "language": [
       "English"
     ],
-    "description": "KPEnhancedEntryView extends the details view in the KeePass main window. All fields (standard and custom strings) are shown in a grid view, field values (and names for custom strings) are in-place editable, attachments can be dragged and dropped to and from files in Windows Explorer, metadata properties are shown on a separate tab, and the original textual details view is still available on another tab.",
+    "description": "KPEnhancedEntryView extends the details view in the KeePass main window. All fields (standard and custom strings) are shown in a grid view, field values (and names for custom strings) are in-place editable, attachments can be dragged and dropped to and from files in Windows File Explorer, metadata properties are shown on a separate tab, and the original textual details view is still available on another tab.",
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
