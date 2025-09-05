@@ -974,9 +974,8 @@
     ],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/tiuub/PasswordChangeReminder/releases/latest/download/PasswordChangeReminder.plgx",
-    "website": "https://github.com/tiuub/PasswordChangeReminder",
-    "updateUrl": "https://raw.githubusercontent.com/tiuub/PasswordChangeReminder/master/VERSION"
+    "download": null,
+    "website": null
   },
   {
     "id": "patpass",
@@ -1459,9 +1458,8 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": "https://github.com/tiuub/KeeOtp2/releases/latest/download/KeeOtp2.plgx",
-    "website": "https://github.com/tiuub/KeeOtp2",
-    "updateUrl": "https://raw.githubusercontent.com/tiuub/KeeOtp2/master/VERSION"
+    "download": null,
+    "website": null
   },
   {
     "id": "keetraytotp",
@@ -2906,9 +2904,8 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/tiuub/KP2faChecker/releases/latest/download/KP2faChecker.plgx",
-    "website": "https://github.com/tiuub/KP2faChecker",
-    "updateUrl": "https://raw.githubusercontent.com/tiuub/KP2faChecker/master/VERSION"
+    "download": null,
+    "website": null
   },
   {
     "id": "kpentrytemplates",
