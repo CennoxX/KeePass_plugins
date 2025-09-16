@@ -41,6 +41,7 @@ KeeChallenge:1.5
 KeeLocker:1.6
 KeeModifiedBy:1.0
 KeeOldFormatExport:1.2
+KeeOtp2:1.6.0
 KeePass2Trezor:1.0.4
 KeePassAutoUnlock:1.0.0.0
 KeePassBrowserImporter:1.0.9
@@ -95,7 +96,7 @@ QuickConnectPlugin:0.6.1
 QuickSearch:2.43
 RDPPlugin:7.0
 Readable Passphrase Generator:1.4.3
-ReferenceCheck:1.6
+ReferenceCheck:1.7
 RuleBuilder:3.4
 SafeInCloudImp:2.0.2.0
 SalesforcePlugin:1.0

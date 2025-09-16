@@ -1458,8 +1458,9 @@
     ],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": null,
-    "website": null
+    "download": "https://sourceforge.net/projects/keeotp2/files/latest/download",
+    "website": "https://sourceforge.net/projects/keeotp2/",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "keetraytotp",
