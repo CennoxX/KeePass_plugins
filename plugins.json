@@ -1698,7 +1698,7 @@
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
     "download": null,
-    "website": null
+    "website": "https://codeberg.org/RiverFox/GostPlugin"
   },
   {
     "id": "multicipher",
@@ -2515,7 +2515,7 @@
       "English"
     ],
     "description": "This plugin allows to conveniently logon to SAP systems.",
-    "note": "A less convenient solution without a plugin can be found here:\n\n\nUsing KeePass Instead of SAP Logon.",
+    "note": "A less convenient solution without a plugin can be found here:\n\n\n\nUsing KeePass Instead of SAP Logon.",
     "similar": [
       "kpsaplaunch"
     ],
@@ -2580,6 +2580,27 @@
     "website": null
   },
   {
+    "id": "icondashb",
+    "title": "Custom Icon Dashboarder",
+    "shortdesc": "Statistics and management features for custom icons.",
+    "authors": [
+      "Jareth Lomson"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin provides statistics (e.g. numbers and lists of entries and groups that use a specific custom icon) and advanced management features (e.g. download favicon for a URL) for custom icons.",
+    "similar": [
+      "faviconimp",
+      "yafd"
+    ],
+    "group": "Utilities",
+    "sourceCode": null,
+    "download": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder/releases/latest/download/CustomIconDashboarder.plgx",
+    "website": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder",
+    "updateUrl": "https://raw.githubusercontent.com/incognito1234/KeePass-Custom-Icon-Dashboarder/master/versionInfo.txt"
+  },
+  {
     "id": "faviconimp",
     "title": "Favicon Downloader",
     "shortdesc": "Download and store website favicons.",
@@ -2591,6 +2612,7 @@
     ],
     "description": "This plugin downloads and stores favicons. A favicon is the little icon/logo used to identify many websites, typically displayed in the browser's address bar, bookmark list and on tabs.",
     "similar": [
+      "icondashb",
       "yafd"
     ],
     "group": "Import",
@@ -2611,6 +2633,7 @@
     ],
     "description": "Yet Another Favicon Downloader (YAFD for short) is a plugin for KeePass 2.x that allows you to quickly download favicons for your password entries.",
     "similar": [
+      "icondashb",
       "faviconimp"
     ],
     "group": "Import",
@@ -2636,24 +2659,6 @@
     "download": "https://github.com/Eveldee/KeePass-ExeIconPicker/releases/latest/download/ExeIconPicker.plgx",
     "website": "https://github.com/Eveldee/KeePass-ExeIconPicker",
     "updateUrl": "https://raw.githubusercontent.com/Eveldee/KeePass-ExeIconPicker/master/Version.txt"
-  },
-  {
-    "id": "icondashb",
-    "title": "Custom Icon Dashboarder",
-    "shortdesc": "Statistics and management features for custom icons.",
-    "authors": [
-      "Jareth Lomson"
-    ],
-    "language": [
-      "English"
-    ],
-    "description": "This plugin provides statistics (e.g. numbers and lists of entries and groups that use a specific custom icon) and advanced management features (e.g. download favicon for a URL) for custom icons.",
-    "similar": [],
-    "group": "Utilities",
-    "sourceCode": null,
-    "download": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder/releases/latest/download/CustomIconDashboarder.plgx",
-    "website": "https://github.com/incognito1234/KeePass-Custom-Icon-Dashboarder",
-    "updateUrl": "https://raw.githubusercontent.com/incognito1234/KeePass-Custom-Icon-Dashboarder/master/versionInfo.txt"
   },
   {
     "id": "keeoldfmt",
@@ -3014,7 +3019,7 @@
     "group": "Utilities",
     "sourceCode": null,
     "download": null,
-    "website": "https://www.codeproject.com/articles/404071/minlock-a-keepass-2-x-plugin-to-keep-minimized-kee"
+    "website": "https://www.codeproject.com/articles/MinLock-a-KeePass-2-x-Plugin-to-keep-minimized-Kee"
   },
   {
     "id": "notesfontsel",
