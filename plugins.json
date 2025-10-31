@@ -706,19 +706,19 @@
   {
     "id": "kphelper",
     "title": "KeePassHelper",
-    "shortdesc": "Browser extension that retrieves credentials from KeePass.",
+    "shortdesc": "Browser extension that stores/retrieves credentials/passkeys in/from KeePass.",
     "authors": [
       "Unixeco"
     ],
     "language": [
       "English"
     ],
-    "description": "This browser extension retrieves credentials from KeePass. It requires KeePassHttp.",
+    "description": "This browser extension stores/retrieves credentials in/from KeePass, and it adds support for passkeys stored in KeePass. KeePassHttp is required.",
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
     "download": null,
-    "website": null
+    "website": "https://webextension.org/listing/keepass-helper.html"
   },
   {
     "id": "ffimport",
@@ -2438,6 +2438,7 @@
     "title": "KeePassHttp",
     "shortdesc": "Allows KeePass to supply credentials via HTTP.",
     "authors": [
+      "Alan Płócieniak",
       "Perry Nguyen"
     ],
     "language": [
@@ -2447,9 +2448,9 @@
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
-    "download": "https://raw.githubusercontent.com/pfn/keepasshttp/master/KeePassHttp.plgx",
-    "website": "https://github.com/pfn/keepasshttp/",
-    "updateUrl": "https://raw.githubusercontent.com/pfn/keepasshttp/master/latest-version.txt"
+    "download": "https://github.com/alan-null/keepasshttp/releases/latest/download/KeePassHttp.plgx",
+    "website": "https://github.com/alan-null/keepasshttp",
+    "updateUrl": "https://raw.githubusercontent.com/alan-null/keepasshttp/master/latest-version.txt"
   },
   {
     "id": "keepasscmdr",
