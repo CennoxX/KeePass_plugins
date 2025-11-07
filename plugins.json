@@ -615,6 +615,24 @@
     "website": "https://www.kee.pm/"
   },
   {
+    "id": "chromeipass",
+    "title": "ChromeIPass",
+    "shortdesc": "Integrates KeePass and the Google Chrome browser.",
+    "authors": [
+      "Alan Płócieniak",
+      "Perry Nguyen"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This extension connects your web browser (Google Chrome) to your KeePass database (via the KeePassHttp plugin), enabling seamless, secure autofill of user names and passwords on websites you visit.",
+    "similar": [],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": null,
+    "website": "https://chromewebstore.google.com/detail/chromeipass/bocdfmfhfcobbagfcbimemeclglilcbk"
+  },
+  {
     "id": "passafari",
     "title": "Passafari",
     "shortdesc": "Integrates KeePass and the Safari browser.",
