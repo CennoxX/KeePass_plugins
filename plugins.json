@@ -379,8 +379,8 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": "https://doubleclue.com/files/DoubleClueKeePassPlugin.zip",
-    "website": "https://doubleclue.com/"
+    "download": "https://raw.githubusercontent.com/HWS-DoubleClue/IAM-Password-Manager/master/DcemDistribution/artifacts/jvm/bin/api-ms-win-core-console-l1-1-0.dll",
+    "website": "https://github.com/HWS-DoubleClue/IAM-Password-Manager"
   },
   {
     "id": "kpscript",
@@ -1585,7 +1585,7 @@
     "title": "KeePass2Trezor",
     "shortdesc": "Key provider using Trezor.",
     "authors": [
-      "vnau"
+      "elebree"
     ],
     "language": [
       "English"
@@ -1595,7 +1595,7 @@
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
     "download": "https://github.com/elebree/KeePass2Trezor/releases/latest/download/KeePass2Trezor.zip",
-    "website": "https://github.com/vnau/KeePass2Trezor",
+    "website": "https://github.com/elebree/KeePass2Trezor",
     "updateUrl": "https://raw.githubusercontent.com/elebree/KeePass2Trezor/master/keepass.version"
   },
   {
