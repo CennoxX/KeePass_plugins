@@ -536,7 +536,7 @@
     "language": [
       "English"
     ],
-    "description": "This plugin provides various user interface options:\nGeneral:\nWhen pressing Ctrl+Backspace, delete the word to the left of the cursor.\nMain Window:\nForget last used database if it does not exist anymore. Show confirmation dialog when closing a database.\nMain Group Tree:\nCollapse all groups when opening a database. Show 'Duplicate Group' command in the group context menu.\nMain Entry List:\nFocus entry list when opening a database. Draw grid lines. Show 'Duplicate Entry' command in the entry context menu. Show 'Print Entry' command in the entry context menu.\nAdvanced:\nCustom user interface font. Note: if you want to change the font size, see the FAQ item 'How to change the GUI font (size)?'. Changing the font size using the KeeUIExt plugin may result in layout issues.",
+    "description": "This plugin provides various user interface options:\nGeneral:\nWhen pressing Ctrl+Backspace, delete the word to the left of the cursor. Scroll menus with mouse wheel.\nMain Window:\nForget last used database if it does not exist anymore. Show confirmation dialog when closing a database.\nMain Group Tree:\nCollapse all groups when opening a database. Show 'Duplicate Group' command in the group context menu.\nMain Entry List:\nFocus entry list when opening a database. Draw grid lines. Show 'Duplicate Entry' command in the entry context menu. Show 'Print Entry' command in the entry context menu.\nAdvanced:\nCustom user interface font. Note: if you want to change the font size, see the FAQ item 'How to change the GUI font (size)?'. Changing the font size using the KeeUIExt plugin may result in layout issues.",
     "similar": [],
     "group": "Utilities",
     "sourceCode": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-{major}.{minor}-Source.zip",
@@ -2417,6 +2417,25 @@
     "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/PasswordChangeAssistant/master/version.info"
   },
   {
+    "id": "keepasshttp",
+    "title": "KeePassHttp",
+    "shortdesc": "Allows KeePass to supply credentials via HTTP.",
+    "authors": [
+      "Alan Płócieniak",
+      "Perry Nguyen"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "KeePassHttp provides a secure means of exposing KeePass entries via HTTP for clients to consume.\nFor example, ChromeIPass, KeePassHelper,\nDash and NotesIPass are using KeePassHttp.",
+    "similar": [],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": "https://github.com/alan-null/keepasshttp/releases/latest/download/KeePassHttp.plgx",
+    "website": "https://github.com/alan-null/keepasshttp",
+    "updateUrl": "https://raw.githubusercontent.com/alan-null/keepasshttp/master/latest-version.txt"
+  },
+  {
     "id": "keepassrest",
     "title": "KeePassRest",
     "shortdesc": "Allows KeePass to supply credentials via REST.",
@@ -2443,32 +2462,13 @@
     "language": [
       "English"
     ],
-    "description": "KeePassRPC enables secure, encrypted and bi-directional communication between KeePass and other applications via RPC.\nKee requires KeePassRPC. Upgrade instructions can be found at\nhttps://forum.kee.pm/t/upgrading-keepassrpc/22.",
+    "description": "KeePassRPC enables secure, encrypted and bi-directional communication between KeePass and other applications via RPC.\nKee requires KeePassRPC.",
     "similar": [],
     "group": "Integration & Transfer",
     "sourceCode": null,
     "download": "https://github.com/kee-org/keepassrpc/releases/latest/download/KeePassRPC.plgx",
     "website": "https://github.com/kee-org/keepassrpc/wiki",
     "updateUrl": "https://raw.githubusercontent.com/kee-org/keepassrpc/master/versionInfo.txt"
-  },
-  {
-    "id": "keepasshttp",
-    "title": "KeePassHttp",
-    "shortdesc": "Allows KeePass to supply credentials via HTTP.",
-    "authors": [
-      "Alan Płócieniak",
-      "Perry Nguyen"
-    ],
-    "language": [
-      "English"
-    ],
-    "description": "KeePassHttp provides a secure means of exposing KeePass entries via HTTP for clients to consume.\nFor example, KeePassHelper,\nDash and NotesIPass are using KeePassHttp.",
-    "similar": [],
-    "group": "Integration & Transfer",
-    "sourceCode": null,
-    "download": "https://github.com/alan-null/keepasshttp/releases/latest/download/KeePassHttp.plgx",
-    "website": "https://github.com/alan-null/keepasshttp",
-    "updateUrl": "https://raw.githubusercontent.com/alan-null/keepasshttp/master/latest-version.txt"
   },
   {
     "id": "keepasscmdr",
