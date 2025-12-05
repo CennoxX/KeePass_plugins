@@ -55,7 +55,7 @@ KeePassHttp:2.2.0.0
 KeePassMasterSlaveSync:0.99
 KeePassNatMsg:2.0.17
 KeePassNewKeyExport:1.1
-KeePassOTP:1.10.2
+KeePassOTP:1.11
 KeePassOneDriveSync:2.1.2.2
 KeePassOpenId:1.0.1.0
 KeePassPfpConverter:1.8.1
@@ -98,7 +98,7 @@ QualityHighlighter:1.3.0.1
 QuickConnectPlugin:0.6.1
 QuickSearch:2.43
 RDPPlugin:7.0
-Readable Passphrase Generator:1.4.3
+Readable Passphrase Generator:1.5.1
 ReferenceCheck:1.7
 RuleBuilder:3.4
 SafeInCloudImp:2.0.2.0
