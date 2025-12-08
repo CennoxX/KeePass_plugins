@@ -108,6 +108,7 @@ async function enrichGitHubData(plugin) {
         plugin.sourceCode = null;
       return plugin;
     }
+    console.log(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`);
     var { object: { sha } } = await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`, { headers }).then(r => r.json());
     var { tree } = await fetch(`https://api.github.com/repos/${repo}/git/trees/${sha}?recursive=1`, { headers }).then(r => r.json());
     var updateUrlPath = tree.find(i => i.path.match(/^(.*\.ver|(.*\.)?version|.*version.*\.(txt|info))$/i) || i.path.match(/Version$/))?.path;
