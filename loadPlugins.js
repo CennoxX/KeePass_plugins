@@ -96,7 +96,7 @@ async function enrichPluginData(plugins, externalVersions) {
 async function enrichGitHubData(plugin) {
   var githubRepo = plugin.website?.includes("github") ? plugin.website : plugin.sourceCode?.includes("github") ? plugin.sourceCode : undefined;
   if (githubRepo) {
-    var repo = githubRepo.replace(/^https:\/\/(?:www\.)?github\.com\/([^/]+\/[^/]+).*$/, "$1");
+    var repo = githubRepo.replace(/^https:\/\/(?:www\.)?github\.com\/([^/]+\/[^/#]+).*$/, "$1");
     repo = repo.includes("github.io") ? repo.replace(/^https:\/\/([^.]+)\.github\.io\/([^/]+)\/?$/, "$1/$2") : repo;
     var headers = { Authorization: `Bearer ${Deno.env.get("GITHUB_PAT")}` };
     var { default_branch } = await fetch(`https://api.github.com/repos/${repo}`, { headers }).then(r => r.json());
