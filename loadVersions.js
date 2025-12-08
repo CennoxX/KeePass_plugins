@@ -79,6 +79,7 @@ async function enrichGitHubData(plugin) {
       return plugin;
     }
     var x = await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`, { headers }).then(r => r.json());
+    console.log(`https://api.github.com/repos/${repo}/git/refs/heads/${default_branch}`);
     console.log(x);
     var { object: { sha } } = x;
     var { tree } = await fetch(`https://api.github.com/repos/${repo}/git/trees/${sha}?recursive=1`, { headers }).then(r => r.json());
