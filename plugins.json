@@ -2382,7 +2382,7 @@
   {
     "id": "charcopy",
     "title": "Character Copy",
-    "shortdesc": "Allows copying individual characters from entry strings.",
+    "shortdesc": "Copies specific characters of an entry string.",
     "authors": [
       "Sketching Dev"
     ],
@@ -2391,11 +2391,34 @@
     ],
     "description": "Character Copy is a lightweight KeePass plugin that integrates into KeePass' entry menu and allows users to securely copy individual characters from an entry's protected string fields, such as the password field.",
     "note": "In conjunction with auto-type, the built-in\n{PICKCHARS}\nplaceholder is more powerful and convenient.\nThe Character Copy plugin is useful for users who are not using auto-type\nor do not want to customize the auto-type sequence.",
-    "similar": [],
+    "similar": [
+      "pickcharsplus"
+    ],
     "group": "Integration & Transfer",
     "sourceCode": null,
     "download": "https://github.com/SketchingDev/Character-Copy/releases/latest/download/CharacterCopy.plgx",
     "website": "https://github.com/SketchingDev/Character-Copy",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
+  },
+  {
+    "id": "pickcharsplus",
+    "title": "PickCharsPlus",
+    "shortdesc": "Displays specific characters of an entry string.",
+    "authors": [
+      "Martin Rose"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin allows to display specific characters of an entry string. For phone-based security checks asking for specific characters, the plugin can display phonetics.",
+    "note": "In conjunction with auto-type, the built-in\n{PICKCHARS}\nplaceholder is more powerful and convenient.\nThe PickCharsPlus plugin is useful for users who are not using auto-type\nor do not want to customize the auto-type sequence.",
+    "similar": [
+      "charcopy"
+    ],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": "https://github.com/mar7t1n/KeePassPickCharsPlus/releases/latest/download/PickCharsPlus.dll",
+    "website": "https://github.com/mar7t1n/KeePassPickCharsPlus",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {

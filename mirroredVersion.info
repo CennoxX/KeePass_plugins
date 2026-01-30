@@ -29,7 +29,7 @@ KeePassNatMsg:2.0.17
 KeePassPfpConverter:1.8.1
 KeePassPinEntry:1.0.1
 KeePassSync:8.0
-KeeTheme:0.10.8
+KeeTheme:1.0.2
 KeeUIExt:1.5
 Key Xchanger:0.3.3
 KeyManager:1.3
@@ -42,6 +42,7 @@ PasscommImport:1.0
 Password Counter:0.1
 PatternPass:1.0
 PickCharsDeferred:1.2
+PickCharsPlus:1.1
 Pronounceable Password Generator:1.0.4
 QrCodeGenerator:2.0.12
 QualityColumn:1.3
