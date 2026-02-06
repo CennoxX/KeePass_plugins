@@ -977,6 +977,20 @@
     "download": "https://github.com/quinterojose/KeePassDPG/releases/latest/download/KeePassDPG.plgx"
   },
   {
+    "id": "ppgenmarktwain",
+    "title": "MarkTwain",
+    "authors": [
+      "Ted Driver"
+    ],
+    "language": [
+      "English"
+    ],
+    "website": "https://github.com/tdriver/MarkTwain",
+    "description": "Generates passwords as described by XKCD (consisting of words, digits and symbols).",
+    "group": "Utilities",
+    "download": "https://raw.githubusercontent.com/tdriver/MarkTwain/main/output/MarkTwain.dll"
+  },
+  {
     "id": "pwchrem",
     "title": "PasswordChangeReminder",
     "shortdesc": "Reminds you to change entry passwords.",
