@@ -1,6 +1,6 @@
 :
 1P2KeePass:0.2.1
-AdvancedAutoType:2.2
+AdvancedAutoType:2.3
 AdvancedConnect:1.0.7
 AutoTypeExclude:0.2.1
 AutoTypeSearch:1.6
@@ -12,7 +12,7 @@ Character Copy:1.0.0
 CheckPasswordBox:0.2
 CodeWallet 3 Import:2.10
 CodeWallet 6 Konverter:2.1
-ColoredPassword:1.0
+ColoredPassword:1.1
 Custom Icon Dashboarder:1.3.0
 DataBaseBackup:2.0.8.6
 DataBaseReorder:2.09
@@ -47,7 +47,7 @@ KeePass2Trezor:1.0.4
 KeePassAutoUnlock:1.0.0.0
 KeePassBrowserImporter:1.0.9
 KeePassCPEO:1.5.0
-KeePassCommander:4.5
+KeePassCommander:4.6
 KeePassDPG:1.3.0
 KeePassDiceware:2.1.0
 KeePassHIBP:1.0
@@ -55,13 +55,12 @@ KeePassHttp:2.2.0.0
 KeePassMasterSlaveSync:0.99
 KeePassNatMsg:2.0.17
 KeePassNewKeyExport:1.1
-KeePassOTP:1.11
+KeePassOTP:1.12
 KeePassOneDriveSync:2.1.2.2
 KeePassOpenId:1.0.1.0
 KeePassPfpConverter:1.8.1
 KeePassPinEntry:1.0.1
 KeePassProtectedKeyStore:1.3.0
-KeePassQRCodeView:1.1.0
 KeePassQuickUnlock:2.4
 KeePassRDP:2.3
 KeePassRFID:2.2.0
@@ -76,8 +75,8 @@ KeeTrayTOTP:0.108.0
 KeeUIExt:1.5
 Key Xchanger:0.3.3
 KeyManager:1.3
-LockAssist:3.8.3
-NotesFontSelector:1.0.1
+LockAssist:3.9
+NotesFontSelector:1.1
 On-Screen Keyboard 2:1.3
 OnePIF:0.5.2
 OneVault:0.1.1
