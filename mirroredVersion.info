@@ -42,7 +42,7 @@ PasscommImport:1.0
 Password Counter:0.1
 PatternPass:1.0
 PickCharsDeferred:1.2
-PickCharsPlus:1.1
+PickCharsPlus:1.2.1
 Pronounceable Password Generator:1.0.4
 QrCodeGenerator:2.0.12
 QualityColumn:1.3
