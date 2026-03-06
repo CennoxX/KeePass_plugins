@@ -1,6 +1,6 @@
 :
 1P2KeePass:0.2.1
-AdvancedAutoType:2.3
+AdvancedAutoType:2.3.1
 AdvancedConnect:1.0.7
 AutoTypeExclude:0.2.1
 AutoTypeSearch:1.6
@@ -33,7 +33,7 @@ KPFieldsAdminConsole:0.2.0
 KPFloatingPanel:7.5
 KPGoogleSync:3.0.1
 KPSAPLaunch:1.0.0.8
-KPScript:2.60
+KPScript:2.61
 KPSimpleBackup:1.4.0
 KdbxLite:1.2
 KeeAutoExec:2.6
@@ -50,7 +50,7 @@ KeePassCommander:4.6
 KeePassDPG:1.3.0
 KeePassDiceware:2.1.0
 KeePassHIBP:1.0
-KeePassHttp:2.2.0.0
+KeePassHttp:2.3.1.0
 KeePassMasterSlaveSync:0.99
 KeePassNatMsg:2.0.17
 KeePassNewKeyExport:1.1
