@@ -1,7 +1,7 @@
 :
 1P2KeePass:0.2.1
-AutoTypeSearch:1.6
-AutoTypeShow:1.0
+AutoTypeSearch:1.7
+AutoTypeShow:1.1
 AutoTypeSplitter:1.2
 CardFileKPPlugin:1.0.0
 CertKeyProvider:1.0.0
@@ -58,7 +58,7 @@ TeamViewerAndAmmyy:1.0
 TheVaultExport:2.0.2
 TwoFactorQRCodeReader:0.3
 Vault3Importer:0.1
-WebAutoType:6.9.1
+WebAutoType:6.9.3
 WinKee:2.39.1
 Würfelware:1.0.1
 eWallet Data Liberator:0.15

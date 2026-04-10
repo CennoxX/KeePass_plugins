@@ -3,8 +3,8 @@
 AdvancedAutoType:2.3.1
 AdvancedConnect:1.0.7
 AutoTypeExclude:0.2.1
-AutoTypeSearch:1.6
-AutoTypeShow:1.0
+AutoTypeSearch:1.7
+AutoTypeShow:1.1
 AutoTypeSplitter:1.2
 CardFileKPPlugin:1.0.0
 CertKeyProvider:1.0.0
@@ -100,7 +100,7 @@ QuickSearch:2.44
 RDPPlugin:7.0
 Readable Passphrase Generator:1.5.1
 ReferenceCheck:1.7
-RuleBuilder:3.4
+RuleBuilder:3.5
 SafeInCloudImp:2.0.2.0
 SalesforcePlugin:1.0
 Seclave Plugin:2.0.0
@@ -116,7 +116,7 @@ TrayRecentFiles:0.0.2
 TwoFactorQRCodeReader:0.3
 Vault3Importer:0.1
 VaultSync:1.1.1
-WebAutoType:6.9.1
+WebAutoType:6.9.3
 WinHelloUnlock:1.6.1
 WinKee:2.39.1
 Word Sequencer:0.1.1
