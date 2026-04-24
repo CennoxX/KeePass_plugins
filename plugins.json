@@ -2129,11 +2129,33 @@
       "English"
     ],
     "description": "This plugin adds support for a placeholder that allows to enable/disable TCATO, i.e. TCATO can be enabled/disabled per auto-type sequence.",
-    "similar": [],
+    "similar": [
+      "tgltcato"
+    ],
     "group": "Auto-Type",
     "sourceCode": null,
     "download": null,
     "website": "http://niki.hammler.net/wiki/KeePass#TCATO_Placeholder"
+  },
+  {
+    "id": "tgltcato",
+    "title": "ToggleableTCATO",
+    "shortdesc": "Allows to enable/disable TCATO while performing auto-type.",
+    "authors": [
+      "Carrie Forle"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin adds support for a placeholder that allows to enable/disable TCATO while performing auto-type (i.e. in the middle of an auto-type sequence).",
+    "similar": [
+      "tcatoplh"
+    ],
+    "group": "Auto-Type",
+    "sourceCode": null,
+    "download": "https://github.com/CarrieForle/ToggleableTCATOKeePass/releases/latest/download/ToggleableTCATO.plgx",
+    "website": "https://github.com/CarrieForle/ToggleableTCATOKeePass",
+    "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
   {
     "id": "advautotype",
@@ -3055,7 +3077,7 @@
     "description": "By default, KeePass runs natively on most operating systems (i.e. without compatibility layer and without emulation). However, there are special situations where it may be necessary to run KeePass for a different architecture (with compatibility layer or with emulation). For example, if you have an ARM64 operating system and want to use an old plugin that is available only for x64, you need to run KeePass as x64 process (with emulation). KPLauncher allows this.\nKPLauncher can run KeePass as x86 (x86-32), x64 (x86-64) or ARM64 (AArch64) process, provided that the operating system supports it.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/kplauncher/KPLauncher-1.0-Source.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/kplauncher/KPLauncher-1.1-Source.zip",
     "download": null,
     "website": null
   },
