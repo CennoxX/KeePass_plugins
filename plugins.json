@@ -732,11 +732,32 @@
       "English"
     ],
     "description": "This browser extension stores/retrieves credentials in/from KeePass, and it adds support for passkeys stored in KeePass. KeePassHttp is required.",
-    "similar": [],
+    "similar": [
+      "kppasskey"
+    ],
     "group": "Integration & Transfer",
     "sourceCode": null,
     "download": null,
     "website": "https://webextension.org/listing/keepass-helper.html"
+  },
+  {
+    "id": "kppasskey",
+    "title": "KeePassPasskey",
+    "shortdesc": "Stores/retrieves passkeys in/from KeePass.",
+    "authors": [
+      "Uwe Kögel"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin turns KeePass into a native Windows 11 passkey provider. Websites and apps that support passkeys work automatically — no browser extension required.",
+    "similar": [
+      "kphelper"
+    ],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": null,
+    "website": null
   },
   {
     "id": "ffimport",
@@ -1434,7 +1455,8 @@
     "title": "KeeChallenge",
     "shortdesc": "Key provider based on challenge-response.",
     "authors": [
-      "Ben Rush"
+      "Ben Rush",
+      "Troy Dhayer"
     ],
     "language": [
       "English"
@@ -1445,9 +1467,9 @@
     ],
     "group": "Cryptography & Key Providers",
     "sourceCode": null,
-    "download": "https://github.com/brush701/keechallenge/releases/latest/download/KeeChallenge_{major}.{minor}.zip",
-    "website": "https://brush701.github.io/keechallenge/",
-    "updateUrl": "https://raw.githubusercontent.com/brush701/keechallenge/master/VERSION"
+    "download": "https://github.com/tdhayer/KeeChallenge-Modern/releases/latest/download/KeeChallenge-Modern-v{major}.{minor}.{patch}.zip",
+    "website": "https://github.com/tdhayer/KeeChallenge-Modern",
+    "updateUrl": "https://raw.githubusercontent.com/tdhayer/KeeChallenge-Modern/master/VERSION"
   },
   {
     "id": "kpotp",
