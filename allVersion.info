@@ -12,6 +12,7 @@ Character Copy:1.0.0
 CheckPasswordBox:0.2
 CodeWallet 3 Import:2.10
 CodeWallet 6 Konverter:2.1
+ColoredPassword:1.1.2
 Custom Icon Dashboarder:1.3.0
 DataBaseBackup:2.0.8.6
 DataBaseReorder:2.09
@@ -33,11 +34,11 @@ KPFieldsAdminConsole:0.2.0
 KPFloatingPanel:7.5
 KPGoogleSync:3.0.1
 KPSAPLaunch:1.0.0.8
-KPScript:2.61
+KPScript:2.61.1
 KPSimpleBackup:1.4.0
 KdbxLite:1.2
 KeeAutoExec:2.6
-KeeChallenge:2.0.3
+KeeChallenge:2.0.4
 KeeLocker:1.6
 KeeModifiedBy:1.0
 KeeOldFormatExport:1.2

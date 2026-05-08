@@ -395,8 +395,8 @@
     "description": "This utility allows scripting KeePass. For details, see the KeePass Scripting Documentation.",
     "similar": [],
     "group": "Automation & Scripting",
-    "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}.{patch}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}.{patch}.zip",
     "website": null,
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info"
   },
@@ -2415,7 +2415,7 @@
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
-    "download": "https://github.com/Rookiestyle/ColoredPassword/releases/download/Bugfix/ColoredPassword.plgx",
+    "download": "https://github.com/Rookiestyle/ColoredPassword/releases/latest/download/ColoredPassword.plgx",
     "website": "https://github.com/Rookiestyle/ColoredPassword",
     "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/ColoredPassword/master/version.info"
   },
