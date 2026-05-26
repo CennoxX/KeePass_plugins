@@ -23,7 +23,7 @@ jobs:
           deno-version: v2.x
 
       - name: run deno script
-        run: deno run --allow-net=keepass.info,api.github.com,raw.githubusercontent.com,sourceforge.net --allow-write --allow-env loadPlugins.js
+        run: deno run --allow-net=keepass.info,api.github.com,raw.githubusercontent.com,sourceforge.net --allow-write --allow-env .github/scripts/loadPlugins.js
         env:
           GITHUB_PAT: ${{secrets.PAT}}
 
