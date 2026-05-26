@@ -105,6 +105,7 @@ RuleBuilder:3.5
 SafeInCloudImp:2.0.2.0
 SalesforcePlugin:1.0
 Seclave Plugin:2.0.0
+SentenceToPassword:1.0.0
 Serpent Cipher:1.0
 SftpSync (fork):1.1
 SftpSync:1.1
