@@ -1,12 +1,11 @@
 import { DOMParser } from "jsr:@b-fuze/deno-dom";
 
 async function main() {
-  var externalVersions = [];
   var sourceText = await fetch("https://keepass.info/plugins.html").then(i => i.text());
   var doc = new DOMParser().parseFromString(sourceText, "text/html");
   var plugins = extractPlugins(doc);
-  plugins = await enrichPluginData(plugins, externalVersions);
-  await writeOutputFiles(plugins, externalVersions);
+  plugins = await enrichPluginData(plugins);
+  await Deno.writeTextFile("plugins.json", JSON.stringify(plugins, null, 2));
 }
 
 function extractPlugins(doc) {
@@ -52,19 +51,19 @@ function extractPlugins(doc) {
 function getPluginLists(node, id, description, group){
   return [...node.querySelectorAll("ul.withspc > li")].filter(i => !i.querySelector('[alt="1.x"]'))
     .map(li => {
-    var title = li.querySelector("b,strong")?.innerText.trim();
-    var listId = id + title.toLowerCase().replace(/\W/g, "");
-    var extMeta = li.querySelector(".extmeta");
-    var authors = extMeta?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.replace("\n", " ").trim();
-    authors = (authors?.match(/\([^,]*\)/) ? authors.match(/\(and /) ? authors.split(/ \(and |\)/) : authors.split(/, /) : authors?.split(/ \(|\)|, /))?.filter(i => i);
-    var language = [...(extMeta?.innerHTML.matchAll(/<img[^>]+alt="([^"]+)"/g) || [])].map(match => match?.[1]);
-    var website = [...li.childNodes].find(c => c.textContent?.includes("[Website") || c.textContent?.includes("Website]"))?.getAttribute("href");
-    var desc = li.innerText.replace(extMeta?.innerText, "").split("\n");
-    var idx = desc.findIndex(str => str.includes('['));
-    desc = desc.slice(2, idx - 1).join("\n");
-    description = desc ? desc : description;
-    description = description?.replace(/(?<!\n)\n(?!\n)/g, " ").replace(/\n\n/g, "\n").trim();
-    return {id: listId, title, authors, language, website, description, group};
+      var title = li.querySelector("b,strong")?.innerText.trim();
+      var listId = id + title.toLowerCase().replace(/\W/g, "");
+      var extMeta = li.querySelector(".extmeta");
+      var authors = extMeta?.innerText.match(/Authors?:(.*?)\. Language/s)?.[1]?.replace("\n", " ").trim();
+      authors = (authors?.match(/\([^,]*\)/) ? authors.match(/\(and /) ? authors.split(/ \(and |\)/) : authors.split(/, /) : authors?.split(/ \(|\)|, /))?.filter(i => i);
+      var language = [...(extMeta?.innerHTML.matchAll(/<img[^>]+alt="([^"]+)"/g) || [])].map(match => match?.[1]);
+      var website = [...li.childNodes].find(c => c.textContent?.includes("[Website") || c.textContent?.includes("Website]"))?.getAttribute("href");
+      var desc = li.innerText.replace(extMeta?.innerText, "").split("\n");
+      var idx = desc.findIndex(str => str.includes('['));
+      desc = desc.slice(2, idx - 1).join("\n");
+      description = desc ? desc : description;
+      description = description?.replace(/(?<!\n)\n(?!\n)/g, " ").replace(/\n\n/g, "\n").trim();
+      return {id: listId, title, authors, language, website, description, group};
   });
 }
 
@@ -80,15 +79,15 @@ function getForks(node, id, title, language, description, note, similar, group, 
   });
 }
 
-async function enrichPluginData(plugins, externalVersions) {
+async function enrichPluginData(plugins) {
   return await Promise.all(plugins.map(async (plugin) => {
     if (plugin.website?.includes("github") || plugin.sourceCode?.includes("github")) {
       plugin = await enrichGitHubData(plugin);
     } 
     else if (plugin.website?.includes("sourceforge.net/projects")) {
-      [plugin, externalVersions] = await enrichSourceForgeData(plugin, externalVersions);
+      plugin = await enrichSourceForgeData(plugin);
     }
-    [plugin, externalVersions] = enrichVersionData(plugin, externalVersions);
+    plugin = await enrichVersionData(plugin);
     return plugin;
   }));
 }
@@ -129,42 +128,40 @@ async function enrichGitHubData(plugin) {
   return plugin;
 }
 
-async function enrichSourceForgeData(plugin, externalVersions) {
+async function enrichSourceForgeData(plugin) {
   if (plugin.website?.includes("sourceforge.net/projects")) {
     plugin.download = plugin.website + "files/latest/download";
     var resp = await fetch(plugin.website + "/rss").then(response => response.text());
     var doc = new DOMParser().parseFromString(resp, "text/html");
     var version = (doc.querySelector('[url$=".plgx/download"]') ?? doc.querySelector('[url$=".dll/download"]') ?? doc.querySelector('[url$=".zip/download"]'))?.getAttribute("url")?.match(/(\d+(\.\d+){1,3})/)?.[1];
-    if (version && !plugin.updateUrl) {
-      externalVersions.push(plugin.title + ":" + version);
-      plugin.updateUrl = "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info";
+    if (version) {
+      plugin.version = version;
     }
   }
-  return [plugin, externalVersions]
+  return plugin;
 }
 
-function enrichVersionData(plugin, externalVersions) {
+async function enrichVersionData(plugin) {
   var version = plugin.download?.match(/(\d+(\.\d+){1,3})/)?.[1];
-  if (version){
+  if (version) {
+    plugin.version ??= version;
     if (version == plugin.sourceCode?.match(/(\d+(\.\d+){1,3})/)?.[1]) {
       plugin.sourceCode = plugin.sourceCode?.replace(version, match => match.split(".").map((num, i) => ["{major}", "{minor}", "{patch}", "{revision}"][i] || num).join("."));
-    }
-    if (!plugin.updateUrl) {
-      externalVersions.push(plugin.title + ":" + version);
-      plugin.updateUrl = "https://raw.githubusercontent.com/CennoxX/plugin_tests/main/mirroredVersion.info";
     }
     if (plugin.download?.includes("github.com")) {
       plugin.download = plugin.download?.replace(/\/releases\/download\/[^/]+/, "/releases/latest/download");
     }
     plugin.download = plugin.download?.replace(version, match => match.split(".").map((num, i) => ["{major}", "{minor}", "{patch}", "{revision}"][i] || num).join("."));
+    return plugin;
   }
-  return [plugin, externalVersions];
-}
-
-
-async function writeOutputFiles(plugins, externalVersions) {
-  await Deno.writeTextFile("plugins.json", JSON.stringify(plugins, null, 2));
-  await Deno.writeTextFile("mirroredVersion.info", ":\n" + externalVersions.sort().join("\n") + "\n:");
+  if (plugin.updateUrl) {
+    var text = await fetch(plugin.updateUrl).then(r => r.text());
+    var match = text.match(/([^:\n]+)\s*:\s*(\d+(?:\.\d+){1,3})/)?.[2];
+    if (match) {
+      plugin.version = match;
+    }
+  }
+  return plugin;
 }
 
 main().catch(console.error);
