@@ -1930,7 +1930,7 @@
     "download": "https://github.com/CSquared167/KeePassProtectedKeyStore/releases/latest/download/KeePassProtectedKeyStore.zip",
     "website": "https://github.com/CSquared167/KeePassProtectedKeyStore",
     "updateUrl": "https://raw.githubusercontent.com/CSquared167/KeePassProtectedKeyStore/master/VersionInfo.txt",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   {
     "id": "winkee",
