@@ -32,5 +32,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add plugins.json
-          git diff --cached --quiet || git commit -m "Update plugins [skip ci]"
+          git commit -m "Update plugins [skip ci]"
           git push
