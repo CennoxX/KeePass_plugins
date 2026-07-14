@@ -345,10 +345,10 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": "https://github.com/KoenZomers/KeePassOneDriveSync/releases/latest/download/KeeOneDriveSync.plgx",
+    "download": "https://github.com/KoenZomers/KeePassOneDriveSync/releases/latest/download/KeePassOneDriveSync-{major}.{minor}.{patch}.{revision}.zip",
     "website": "https://github.com/KoenZomers/KeePassOneDriveSync",
     "updateUrl": "https://raw.githubusercontent.com/KoenZomers/KeePassOneDriveSync/master/version.txt",
-    "version": "2.1.2.2"
+    "version": "3.2.0.0"
   },
   {
     "id": "kpmssync",
