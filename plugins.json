@@ -348,7 +348,7 @@
     "download": "https://github.com/KoenZomers/KeePassOneDriveSync/releases/latest/download/KeeOneDriveSync-{major}.{minor}.{patch}.{revision}.plgx",
     "website": "https://github.com/KoenZomers/KeePassOneDriveSync",
     "updateUrl": "https://raw.githubusercontent.com/KoenZomers/KeePassOneDriveSync/master/version.txt",
-    "version": "3.2.1.0"
+    "version": "3.3.2.0"
   },
   {
     "id": "kpmssync",
@@ -1138,7 +1138,7 @@
     "download": "https://github.com/aalbng/AdvancedConnectPlugin/releases/latest/download/AdvancedConnectPlugin.plgx",
     "website": "https://github.com/aalbng/AdvancedConnectPlugin",
     "updateUrl": "https://raw.githubusercontent.com/aalbng/AdvancedConnectPlugin/master/version.txt",
-    "version": "1.0.8"
+    "version": "1.0.11"
   },
   {
     "id": "quickconnect",
@@ -1179,7 +1179,7 @@
     "download": "https://github.com/CennoxX/KeePass-QuickSearch/releases/latest/download/QuickSearch.plgx",
     "website": "https://github.com/CennoxX/KeePass-QuickSearch/",
     "updateUrl": "https://raw.githubusercontent.com/CennoxX/KeePass-QuickSearch/master/QuickSearchVersion.txt",
-    "version": "2.44"
+    "version": "2.45"
   },
   {
     "id": "qcol",
