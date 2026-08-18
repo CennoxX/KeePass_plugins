@@ -2529,7 +2529,7 @@
     "sourceCode": null,
     "download": "https://github.com/mar7t1n/KeePassPickCharsPlus/releases/latest/download/PickCharsPlus.dll",
     "website": "https://github.com/mar7t1n/KeePassPickCharsPlus",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   {
     "id": "pwchange",
@@ -2718,6 +2718,24 @@
     "download": "https://sourceforge.net/projects/salesforce-keepass/files/latest/download",
     "website": "https://sourceforge.net/projects/salesforce-keepass/",
     "version": "1.0"
+  },
+  {
+    "id": "otsecshare",
+    "title": "OneTimeSecretShare",
+    "shortdesc": "Share a password via OneTime Secret.",
+    "authors": [
+      "David S"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin allows to share the password of a KeePass entry as a one-time, self-destructing link via OneTime Secret.",
+    "similar": [],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": "https://github.com/davidsiv/KeePass-OneTimeSecretShare/releases/latest/download/OneTimeSecretShare.plgx",
+    "website": "https://github.com/davidsiv/KeePass-OneTimeSecretShare",
+    "version": "2.8.26.08"
   },
   {
     "id": "keebuntu",
