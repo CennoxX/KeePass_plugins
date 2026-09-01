@@ -1861,7 +1861,7 @@
     "download": "https://github.com/Rookiestyle/LockAssist/releases/latest/download/LockAssist.plgx",
     "website": "https://github.com/Rookiestyle/LockAssist",
     "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/LockAssist/master/version.info",
-    "version": "3.9.1"
+    "version": "3.10"
   },
   {
     "id": "winhello",
@@ -2889,7 +2889,7 @@
     "group": "Export",
     "sourceCode": null,
     "download": null,
-    "website": "https://www.secure-exchanges.com/Cybersecurity-technology.aspx#download"
+    "website": "https://www.secure-exchanges.com/downloads"
   },
   {
     "id": "seclave",
