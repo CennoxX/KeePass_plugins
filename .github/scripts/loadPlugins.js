@@ -5,6 +5,8 @@ async function main() {
   var doc = new DOMParser().parseFromString(sourceText, "text/html");
   var plugins = extractPlugins(doc);
   plugins = await enrichPluginData(plugins);
+  if (!plugins.length)
+    throw new Error("No plugins found.");
   await Deno.writeTextFile("plugins.json", JSON.stringify(plugins, null, 2));
 }
 
@@ -164,4 +166,4 @@ async function enrichVersionData(plugin) {
   return plugin;
 }
 
-main().catch(console.error);
+main();
