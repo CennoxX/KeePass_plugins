@@ -272,8 +272,10 @@
     "similar": [],
     "group": "I/O & Synchronization",
     "sourceCode": null,
-    "download": null,
-    "website": null
+    "download": "https://github.com/dhaven/ProtonDriveSync/releases/latest/download/ProtonDriveSync-{major}.{minor}.{patch}.zip",
+    "website": "https://github.com/dhaven/ProtonDriveSync",
+    "updateUrl": "https://raw.githubusercontent.com/dhaven/ProtonDriveSync/main/version_manifest.txt",
+    "version": "0.1.4"
   },
   {
     "id": "keepasssync",
@@ -547,6 +549,25 @@
     "download": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-{major}.{minor}.zip",
     "website": null,
     "version": "1.6"
+  },
+  {
+    "id": "keeunicodeurl",
+    "title": "KeeUnicodeURL",
+    "shortdesc": "Adds features related to IDN/Punycode domains.",
+    "authors": [
+      "Artyom Zhurkin"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin adds features related to IDN/Punycode domains: an editable Unicode URL field in the entry dialog and a Unicode URL column in the main entry list.",
+    "similar": [],
+    "group": "Utilities",
+    "sourceCode": null,
+    "download": "https://github.com/ArtyoZ/KeeUnicodeURL/releases/latest/download/KeeUnicodeURL.plgx",
+    "website": "https://github.com/ArtyoZ/KeeUnicodeURL",
+    "updateUrl": "https://raw.githubusercontent.com/ArtyoZ/KeeUnicodeURL/main/KeeUnicodeURL-version.txt",
+    "version": "1.0.0"
   },
   {
     "id": "vault3importer",
@@ -2734,7 +2755,7 @@
     "download": "https://github.com/davidsiv/KeePass-OneTimeSecretShare/releases/latest/download/OneTimeSecretShare.plgx",
     "website": "https://github.com/davidsiv/KeePass-OneTimeSecretShare",
     "updateUrl": "https://raw.githubusercontent.com/davidsiv/KeePass-OneTimeSecretShare/main/version.txt",
-    "version": "2.11.26.09"
+    "version": "2.14.26.09"
   },
   {
     "id": "keebuntu",
@@ -2840,7 +2861,7 @@
     "sourceCode": null,
     "download": "https://github.com/zeynelozturk/KeepassFaviconExtractor/releases/latest/download/KeepassFaviconExtractor-{major}.{minor}.{patch}.{revision}.zip",
     "website": "https://github.com/zeynelozturk/KeepassFaviconExtractor",
-    "version": "1.0.0.3"
+    "version": "1.1.1.0"
   },
   {
     "id": "exeiconpicker",
