@@ -567,7 +567,7 @@
     "download": "https://github.com/ArtyoZ/KeeUnicodeURL/releases/latest/download/KeeUnicodeURL.plgx",
     "website": "https://github.com/ArtyoZ/KeeUnicodeURL",
     "updateUrl": "https://raw.githubusercontent.com/ArtyoZ/KeeUnicodeURL/main/KeeUnicodeURL-version.txt",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   {
     "id": "vault3importer",
