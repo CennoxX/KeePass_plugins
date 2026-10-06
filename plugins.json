@@ -1928,6 +1928,25 @@
     "version": "1.6.1"
   },
   {
+    "id": "kppasskeykp",
+    "title": "KeePassPasskeyKeyProvider",
+    "shortdesc": "Key provider based on passkeys.",
+    "authors": [
+      "Grigory Ermolaev"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin allows you to protect your database with a passkey (hardware FIDO2 security key, phone/tablet via QR code or Windows Hello).\nIt uses the Windows WebAuthn API and the HMAC-Secret/PRF extension. No drivers, third-party libraries or administrator rights required.",
+    "similar": [],
+    "group": "Cryptography & Key Providers",
+    "sourceCode": null,
+    "download": "https://github.com/brlumen/KeePassPasskeyKeyProvider/releases/latest/download/KeePassPasskeyKeyProvider.dll",
+    "website": "https://github.com/brlumen/KeePassPasskeyKeyProvider",
+    "updateUrl": "https://raw.githubusercontent.com/brlumen/KeePassPasskeyKeyProvider/master/keepass.version",
+    "version": "1.0.1"
+  },
+  {
     "id": "kpprotkeystore",
     "title": "KeePassProtectedKeyStore",
     "shortdesc": "Creates and uses protected key stores.",
