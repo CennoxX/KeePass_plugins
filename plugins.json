@@ -659,6 +659,26 @@
     "website": "https://chromewebstore.google.com/detail/chromeipass/bocdfmfhfcobbagfcbimemeclglilcbk"
   },
   {
+    "id": "kpferry",
+    "title": "KeePassFerry",
+    "shortdesc": "Connects KeePass to Google Chrome and Microsoft Edge.",
+    "authors": [
+      "KeePassFerry developers"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "description": "KeePassFerry connects KeePass to Google Chrome and Microsoft Edge on Windows. It fills and saves logins (including multi-step logins), fills time-based one-time passwords (TOTPs) and can set up 2FA from a QR code directly into the matching entry, and supports passkeys stored in KeePass entries. The browser talks to KeePass via native messaging and a named pipe that only the current Windows user can open (no WebSocket, no network port). The channel is end-to-end encrypted and paired once with a code confirmed in KeePass.",
+    "similar": [],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": "https://github.com/KeePassFerry/KeePassFerry/releases/latest/download/KeePassFerry-Extension-{major}.{minor}.{patch}.zip",
+    "website": "https://github.com/KeePassFerry/KeePassFerry",
+    "updateUrl": "https://raw.githubusercontent.com/KeePassFerry/KeePassFerry/main/version.txt",
+    "version": "1.0.8"
+  },
+  {
     "id": "passafari",
     "title": "Passafari",
     "shortdesc": "Integrates KeePass and the Safari browser.",
@@ -728,26 +748,6 @@
     "version": "6.9.3"
   },
   {
-    "id": "kpfloatingpanel",
-    "title": "KPFloatingPanel",
-    "shortdesc": "Displays an always on top KeePass floating panel.",
-    "authors": [
-      "Alexander Alexeev",
-      "s2",
-      "Mitch Capper"
-    ],
-    "language": [
-      "English"
-    ],
-    "description": "This KeePass plugin shows an always on top KeePass floating panel. It allows you to use your passwords (auto-type, copy to clipboard) without opening the KeePass window.",
-    "similar": [],
-    "group": "Integration & Transfer",
-    "sourceCode": null,
-    "download": "https://github.com/mitchcapper/KPFloatingPanel/releases/latest/download/KPFloatingPanel.plgx",
-    "website": "https://github.com/mitchcapper/KPFloatingPanel",
-    "version": "7.5"
-  },
-  {
     "id": "kphelper",
     "title": "KeePassHelper",
     "shortdesc": "Browser extension that stores/retrieves credentials/passkeys in/from KeePass.",
@@ -784,6 +784,26 @@
     "sourceCode": null,
     "download": null,
     "website": null
+  },
+  {
+    "id": "kpfloatingpanel",
+    "title": "KPFloatingPanel",
+    "shortdesc": "Displays an always on top KeePass floating panel.",
+    "authors": [
+      "Alexander Alexeev",
+      "s2",
+      "Mitch Capper"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This KeePass plugin shows an always on top KeePass floating panel. It allows you to use your passwords (auto-type, copy to clipboard) without opening the KeePass window.",
+    "similar": [],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": "https://github.com/mitchcapper/KPFloatingPanel/releases/latest/download/KPFloatingPanel.plgx",
+    "website": "https://github.com/mitchcapper/KPFloatingPanel",
+    "version": "7.5"
   },
   {
     "id": "ffimport",
@@ -1555,7 +1575,7 @@
     "download": "https://github.com/Rookiestyle/KeePassOTP/releases/latest/download/KeePassOTP.plgx",
     "website": "https://github.com/Rookiestyle/KeePassOTP",
     "updateUrl": "https://raw.githubusercontent.com/Rookiestyle/KeePassOTP/master/version.info",
-    "version": "1.12"
+    "version": "1.13"
   },
   {
     "id": "keeotp",
@@ -2126,6 +2146,22 @@
     "website": "https://github.com/georgoswonkos/ExtendSelectionPlugin",
     "updateUrl": "https://raw.githubusercontent.com/georgoswonkos/ExtendSelectionPlugin/main/version.txt",
     "version": "1.0.2.0"
+  },
+  {
+    "id": "fluentpass",
+    "title": "FluentPass",
+    "shortdesc": "Provides a Fluent Design System graphical user interface.",
+    "authors": [
+      "Shangxin Yang"
+    ],
+    "language": [],
+    "description": "This plugin brings a Fluent Design System (Mica/Acrylic) graphical user interface to KeePass 2.x. It provides smooth scrolling, responsive fuzzy search, full keyboard navigation, dark/light theme switching, and more, without changing the core security boundaries of KeePass.",
+    "similar": [],
+    "group": "Utilities",
+    "sourceCode": null,
+    "download": "https://github.com/YoungSx/fluentpass/releases/latest/download/FluentPass.dll",
+    "website": "https://github.com/YoungSx/fluentpass",
+    "version": "1.5.1"
   },
   {
     "id": "globalsearch",
@@ -2724,6 +2760,26 @@
     "shortdesc": "Integration with SAP GUI and NWBC.",
     "authors": [
       "David S"
+    ],
+    "language": [
+      "English"
+    ],
+    "description": "This plugin provides an integration with SAP GUI and NetWeaver Business Client (NWBC).",
+    "similar": [
+      "keesaplogon"
+    ],
+    "group": "Integration & Transfer",
+    "sourceCode": null,
+    "download": "https://github.com/arteeecz/KeePass-plugins/releases/latest/download/KPSAPLunch.plgx",
+    "website": "https://github.com/arteeecz/KeePass-plugins",
+    "updateUrl": "https://raw.githubusercontent.com/arteeecz/KeePass-plugins/main/KPSAPLunch/Info/keepass_plugin.ver",
+    "version": "1.0.0.8"
+  },
+  {
+    "id": "kpsaplaunch_fork",
+    "title": "KPSAPLaunch (fork)",
+    "authors": [
+      "Abdullah Güneş"
     ],
     "language": [
       "English"
