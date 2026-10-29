@@ -6,7 +6,7 @@ It collects the plugin information from the official [KeePass plugin page](https
 ---
 
 ## Output
-The result is a single file, [plugins.json](plugins.json), containing all plugins in a normalized, machine-readable format.
+The result is a single file, [plugins.json](https://raw.githubusercontent.com/CennoxX/KeePass_plugins/refs/heads/main/plugins.json), containing all plugins in a normalized, machine-readable format.
 
 ---
 
