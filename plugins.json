@@ -676,7 +676,7 @@
     "download": "https://github.com/KeePassFerry/KeePassFerry/releases/latest/download/KeePassFerry-Extension-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/KeePassFerry/KeePassFerry",
     "updateUrl": "https://raw.githubusercontent.com/KeePassFerry/KeePassFerry/main/version.txt",
-    "version": "1.0.8"
+    "version": "1.0.12"
   },
   {
     "id": "passafari",
@@ -2161,7 +2161,7 @@
     "sourceCode": null,
     "download": "https://github.com/YoungSx/fluentpass/releases/latest/download/FluentPass.dll",
     "website": "https://github.com/YoungSx/fluentpass",
-    "version": "1.5.1"
+    "version": "1.6.1"
   },
   {
     "id": "globalsearch",
@@ -3027,7 +3027,7 @@
     "sourceCode": "https://github.com/seclave/seclave_keepassplugin",
     "download": "https://github.com/seclave/seclave_keepassplugin/releases/latest/download/SeclavePlugin.plgx",
     "website": "https://www.seclave.se/",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   {
     "id": "simpleselexp",
