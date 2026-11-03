@@ -676,7 +676,7 @@
     "download": "https://github.com/KeePassFerry/KeePassFerry/releases/latest/download/KeePassFerry-Extension-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/KeePassFerry/KeePassFerry",
     "updateUrl": "https://raw.githubusercontent.com/KeePassFerry/KeePassFerry/main/version.txt",
-    "version": "1.0.12"
+    "version": "1.0.17"
   },
   {
     "id": "passafari",
@@ -1398,7 +1398,7 @@
     "language": [
       "English"
     ],
-    "description": "Plugins to mount TrueCrypt/VeraCrypt volumes conveniently.",
+    "description": "Plugins to mount TrueCrypt/VeraCrypt volumes conveniently.\nFor TrueCrypt:",
     "similar": [],
     "group": "Utilities",
     "sourceCode": null,
@@ -2161,7 +2161,7 @@
     "sourceCode": null,
     "download": "https://github.com/YoungSx/fluentpass/releases/latest/download/FluentPass.dll",
     "website": "https://github.com/YoungSx/fluentpass",
-    "version": "1.6.1"
+    "version": "1.6.2"
   },
   {
     "id": "globalsearch",
