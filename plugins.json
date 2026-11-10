@@ -342,13 +342,34 @@
       "English"
     ],
     "description": "This plugin allows synchronizing multiple local databases with multiple databases stored in OneDrive.",
-    "similar": [],
+    "similar": [
+      "keelivesync"
+    ],
     "group": "I/O & Synchronization",
     "sourceCode": null,
     "download": "https://github.com/KoenZomers/KeePassOneDriveSync/releases/latest/download/KeeOneDriveSync-{major}.{minor}.{patch}.{revision}.plgx",
     "website": "https://github.com/KoenZomers/KeePassOneDriveSync",
     "updateUrl": "https://raw.githubusercontent.com/KoenZomers/KeePassOneDriveSync/master/version.txt",
     "version": "3.3.4.0"
+  },
+  {
+    "id": "keelivesync",
+    "title": "KeeLiveSync",
+    "shortdesc": "Synchronize using OneDrive.",
+    "authors": [
+      "Michael Kaufmann"
+    ],
+    "language": [],
+    "description": "This plugin opens a database stored in OneDrive instantly from a local copy, keeps it in sync in the background and merges changes made by other people or devices.",
+    "similar": [
+      "kpodsync"
+    ],
+    "group": "I/O & Synchronization",
+    "sourceCode": null,
+    "download": "https://github.com/KeeLiveSync/KeeLiveSync/releases/latest/download/KeeLiveSync.dll",
+    "website": "https://github.com/KeeLiveSync/KeeLiveSync",
+    "updateUrl": "https://raw.githubusercontent.com/KeeLiveSync/KeeLiveSync/main/version.txt",
+    "version": "0.4.1"
   },
   {
     "id": "kpmssync",
@@ -400,10 +421,10 @@
     "description": "This utility allows scripting KeePass. For details, see the KeePass Scripting Documentation.",
     "similar": [],
     "group": "Automation & Scripting",
-    "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}.{patch}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}.{patch}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/kpscript/KPScript-{major}.{minor}.zip",
     "website": null,
-    "version": "2.61.1"
+    "version": "2.62"
   },
   {
     "id": "osk2",
@@ -524,8 +545,11 @@
       "English"
     ],
     "description": "Changes the appearance of KeePass and allows you to create your own custom themes.",
-    "note": "KeePass supports all system themes (including\ndark ones) without a plugin.\nThe KeeTheme plugin is intended for changing KeePass' appearance\nindependent of the active system theme.",
-    "similar": [],
+    "note": "KeePass supports all system themes (including\ndark ones) without a plugin.\nThe KeeTheme plugin is intended for changing KeePass' appearance independent of\nthe active system theme.",
+    "similar": [
+      "fluentpass",
+      "fluenttheme"
+    ],
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://github.com/xatupal/KeeTheme/releases/latest/download/KeeTheme.plgx",
@@ -663,7 +687,7 @@
     "title": "KeePassFerry",
     "shortdesc": "Connects KeePass to Google Chrome and Microsoft Edge.",
     "authors": [
-      "KeePassFerry developers"
+      "Michael Kaufmann"
     ],
     "language": [
       "English",
@@ -676,7 +700,7 @@
     "download": "https://github.com/KeePassFerry/KeePassFerry/releases/latest/download/KeePassFerry-Extension-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/KeePassFerry/KeePassFerry",
     "updateUrl": "https://raw.githubusercontent.com/KeePassFerry/KeePassFerry/main/version.txt",
-    "version": "1.0.17"
+    "version": "1.0.31"
   },
   {
     "id": "passafari",
@@ -745,7 +769,7 @@
     "sourceCode": null,
     "download": "https://sourceforge.net/projects/webautotype/files/latest/download",
     "website": "https://sourceforge.net/projects/webautotype/",
-    "version": "6.9.3"
+    "version": "6.9.4"
   },
   {
     "id": "kphelper",
@@ -1393,7 +1417,7 @@
     "shortdesc": "Mounts TrueCrypt/VeraCrypt volumes.",
     "authors": [
       "Patrick Schaller (TrueCrypt)",
-      "Frédéric Bourqui (fork for VeraCrypt)"
+      "Frédéric Bourqui (fork for VeraCrypt),\nF2NA50OC1 (fork for VeraCrypt)"
     ],
     "language": [
       "English"
@@ -1551,7 +1575,7 @@
     "download": "https://github.com/tdhayer/KeeChallenge-Modern/releases/latest/download/KeeChallenge-Modern-v{major}.{minor}.{patch}.zip",
     "website": "https://github.com/tdhayer/KeeChallenge-Modern",
     "updateUrl": "https://raw.githubusercontent.com/tdhayer/KeeChallenge-Modern/master/VERSION",
-    "version": "2.0.8"
+    "version": "2.0.9"
   },
   {
     "id": "kpotp",
@@ -2156,12 +2180,38 @@
     ],
     "language": [],
     "description": "This plugin brings a Fluent Design System (Mica/Acrylic) graphical user interface to KeePass 2.x. It provides smooth scrolling, responsive fuzzy search, full keyboard navigation, dark/light theme switching, and more, without changing the core security boundaries of KeePass.",
-    "similar": [],
+    "similar": [
+      "keetheme",
+      "fluenttheme"
+    ],
     "group": "Utilities",
     "sourceCode": null,
     "download": "https://github.com/YoungSx/fluentpass/releases/latest/download/FluentPass.dll",
     "website": "https://github.com/YoungSx/fluentpass",
-    "version": "1.6.2"
+    "version": "1.7.1"
+  },
+  {
+    "id": "fluenttheme",
+    "title": "FluentTheme",
+    "shortdesc": "Provides a Fluent Design System graphical user interface.",
+    "authors": [
+      "Günther Schoder"
+    ],
+    "language": [
+      "English",
+      "German"
+    ],
+    "description": "This plugin provides a Fluent Design System look for KeePass 2.x, including light/dark mode, Windows accent color, entry details as cards, display of time-based one-time passwords (TOTPs) and expiry hints.",
+    "similar": [
+      "keetheme",
+      "fluentpass"
+    ],
+    "group": "Utilities",
+    "sourceCode": null,
+    "download": "https://github.com/WestMc002/KeePass-Fluent-Theme/releases/latest/download/FluentTheme.dll",
+    "website": "https://github.com/WestMc002/KeePass-Fluent-Theme",
+    "updateUrl": "https://raw.githubusercontent.com/WestMc002/KeePass-Fluent-Theme/main/keepass.version",
+    "version": "1.3.2026.1110"
   },
   {
     "id": "globalsearch",
@@ -2936,7 +2986,7 @@
     "sourceCode": null,
     "download": "https://github.com/zeynelozturk/KeepassFaviconExtractor/releases/latest/download/KeepassFaviconExtractor-{major}.{minor}.{patch}.{revision}.zip",
     "website": "https://github.com/zeynelozturk/KeepassFaviconExtractor",
-    "version": "1.1.1.0"
+    "version": "1.1.5.0"
   },
   {
     "id": "exeiconpicker",
@@ -3027,7 +3077,7 @@
     "sourceCode": "https://github.com/seclave/seclave_keepassplugin",
     "download": "https://github.com/seclave/seclave_keepassplugin/releases/latest/download/SeclavePlugin.plgx",
     "website": "https://www.seclave.se/",
-    "version": "2.0.1"
+    "version": "3.0.0"
   },
   {
     "id": "simpleselexp",
@@ -3321,7 +3371,7 @@
     "description": "By default, KeePass runs natively on most operating systems (i.e. without compatibility layer and without emulation). However, there are special situations where it may be necessary to run KeePass for a different architecture (with compatibility layer or with emulation). For example, if you have an ARM64 operating system and want to use an old plugin that is available only for x64, you need to run KeePass as x64 process (with emulation). KPLauncher allows this.\nKPLauncher can run KeePass as x86 (x86-32), x64 (x86-64) or ARM64 (AArch64) process, provided that the operating system supports it.",
     "similar": [],
     "group": "Utilities",
-    "sourceCode": "https://keepass.info/extensions/v2/kplauncher/KPLauncher-1.1-Source.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/kplauncher/KPLauncher-1.2-Source.zip",
     "download": null,
     "website": null
   },
