@@ -700,7 +700,7 @@
     "download": "https://github.com/KeePassFerry/KeePassFerry/releases/latest/download/KeePassFerry-Extension-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/KeePassFerry/KeePassFerry",
     "updateUrl": "https://raw.githubusercontent.com/KeePassFerry/KeePassFerry/main/version.txt",
-    "version": "1.0.31"
+    "version": "1.0.40"
   },
   {
     "id": "passafari",
@@ -2188,7 +2188,7 @@
     "sourceCode": null,
     "download": "https://github.com/YoungSx/fluentpass/releases/latest/download/FluentPass.dll",
     "website": "https://github.com/YoungSx/fluentpass",
-    "version": "1.7.1"
+    "version": "1.8.1"
   },
   {
     "id": "fluenttheme",
@@ -2211,7 +2211,7 @@
     "download": "https://github.com/WestMc002/KeePass-Fluent-Theme/releases/latest/download/FluentTheme.dll",
     "website": "https://github.com/WestMc002/KeePass-Fluent-Theme",
     "updateUrl": "https://raw.githubusercontent.com/WestMc002/KeePass-Fluent-Theme/main/keepass.version",
-    "version": "1.3.2026.1110"
+    "version": "1.13.2026.1116"
   },
   {
     "id": "globalsearch",
@@ -3111,10 +3111,10 @@
     "description": "This plugin adds support for exporting KeePass entries to a CSV file readable by The Vault.",
     "similar": [],
     "group": "Export",
-    "sourceCode": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{major}.{minor}.{patch}-Source.zip",
-    "download": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{major}.{minor}.{patch}.zip",
+    "sourceCode": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{major}.{minor}-Source.zip",
+    "download": "https://keepass.info/extensions/v2/thevault/TheVaultExport-{major}.{minor}.zip",
     "website": null,
-    "version": "2.0.2"
+    "version": "2.7"
   },
   {
     "id": "mswifi",
