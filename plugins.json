@@ -554,7 +554,7 @@
     "sourceCode": null,
     "download": "https://github.com/xatupal/KeeTheme/releases/latest/download/KeeTheme.plgx",
     "website": "https://github.com/xatupal/KeeTheme",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   {
     "id": "keeuiext",
@@ -700,7 +700,7 @@
     "download": "https://github.com/KeePassFerry/KeePassFerry/releases/latest/download/KeePassFerry-Extension-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/KeePassFerry/KeePassFerry",
     "updateUrl": "https://raw.githubusercontent.com/KeePassFerry/KeePassFerry/main/version.txt",
-    "version": "1.0.40"
+    "version": "1.0.41"
   },
   {
     "id": "passafari",
@@ -1417,7 +1417,7 @@
     "shortdesc": "Mounts TrueCrypt/VeraCrypt volumes.",
     "authors": [
       "Patrick Schaller (TrueCrypt)",
-      "Frédéric Bourqui (fork for VeraCrypt),\nF2NA50OC1 (fork for VeraCrypt)"
+      "Frédéric Bourqui (fork for VeraCrypt),\nNicholas Bissell (fork for VeraCrypt),\nF2NA50OC1 (fork for VeraCrypt)"
     ],
     "language": [
       "English"
@@ -2211,7 +2211,7 @@
     "download": "https://github.com/WestMc002/KeePass-Fluent-Theme/releases/latest/download/FluentTheme.dll",
     "website": "https://github.com/WestMc002/KeePass-Fluent-Theme",
     "updateUrl": "https://raw.githubusercontent.com/WestMc002/KeePass-Fluent-Theme/main/keepass.version",
-    "version": "1.13.2026.1116"
+    "version": "1.37.2026.1122"
   },
   {
     "id": "globalsearch",
@@ -2401,7 +2401,7 @@
     "download": "https://github.com/michue/AutoTypeExclude/releases/latest/download/AutoTypeExclude-{major}.{minor}.{patch}.zip",
     "website": "https://github.com/michue/AutoTypeExclude",
     "updateUrl": "https://raw.githubusercontent.com/michue/AutoTypeExclude/main/version.info",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   {
     "id": "atsearch",
@@ -3077,7 +3077,8 @@
     "sourceCode": "https://github.com/seclave/seclave_keepassplugin",
     "download": "https://github.com/seclave/seclave_keepassplugin/releases/latest/download/SeclavePlugin.plgx",
     "website": "https://www.seclave.se/",
-    "version": "3.0.0"
+    "updateUrl": "https://raw.githubusercontent.com/seclave/seclave_keepassplugin/main/version.txt",
+    "version": "3.0.1"
   },
   {
     "id": "simpleselexp",
